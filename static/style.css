@@ -1,0 +1,36 @@
+body {
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    font-family: Arial;
+    text-align: center;
+    padding: 22px;
+    padding-top: calc(50vh - 11em);
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h3 {
+    color: #055170;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    color: #61828d;
+    margin-top: 0.5em;
+}
+
+.logo-bussola {
+    width: 4em;
+    margin-top: -4px;
+}
