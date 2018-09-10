@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d . --remove node_modules/**/*",
-    "deploy:copy": "rm -rf dist/ && mkdir dist && cp index.html dist/index.html && cp -r static/ dist/static/",
-    "deploy:gh": "gh-pages -d dist" 
+    "build": "rm -rf dist/ && mkdir dist && cp index.html dist/index.html && cp -r static/ dist/static/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
