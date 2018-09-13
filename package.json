@@ -28,10 +28,10 @@
     "gh-pages": "^1.2.0"
   },
   "dependencies": {
+    "markdown": "^0.5.0",
     "next": "^6.1.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "serve": "^10.0.1",
-    "styled-components": "^3.4.6"
+    "serve": "^10.0.1"
   }
 }
