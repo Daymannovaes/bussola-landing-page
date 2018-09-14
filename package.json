@@ -4,10 +4,14 @@
   "description": "Landing Page for the Bussola School",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist/ && mkdir dist && cp index.html dist/index.html && cp -r static/ dist/static/ && cp CNAME dist/CNAME",
+    "build": "npm run build:next && npm run build:move",
+    "build:next": "next build && next export -o dist",
+    "build:move": "cp CNAME dist/CNAME && cp .nojekyll dist/.nojekyll",
+    "serve": "serve -l 3000 dist",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "repository": {
     "type": "git",
@@ -21,6 +25,14 @@
   },
   "homepage": "https://bussola.school",
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "serve": "^10.0.1"
+  },
+  "dependencies": {
+    "markdown": "^0.5.0",
+    "next": "^6.1.2",
+    "next-ga": "^2.3.1",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
   }
 }
