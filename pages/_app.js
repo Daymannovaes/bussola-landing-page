@@ -27,6 +27,8 @@ class MyApp extends App {
                 <link rel="canonical" href="https://bussola.school"/>
                 <link rel="shortcut icon"  type="image/svg" href="https://bussola.school/static/logo.png"/>
 
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"/>
+
                 <style>{`
                     body {
                         margin: 0;

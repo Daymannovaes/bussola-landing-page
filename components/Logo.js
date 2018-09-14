@@ -3,8 +3,11 @@ export default ({ absolute }) => (
         <style jsx>{`
             object {
                 height: 6em;
+                font-size: initial;
                 position: ${absolute ? 'absolute' : 'initial'};
                 ${absolute ? 'margin-top: -4px;' : ''}
+                ${absolute ? 'top: 0;' : ''}
+                ${absolute ? 'left: 0;' : ''}
             }
         `}</style>
 
