@@ -9,6 +9,7 @@ export default ({ children }) => (
             main {
                 background: ${colors.gray};
                 font-size: 1.5em;
+                color: ${colors.lightblue};
                 text-align: center;
                 font-family: 'Open Sans', sans-serif;
             }

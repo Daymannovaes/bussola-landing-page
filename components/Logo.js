@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from './Link';
 
 export default ({ absolute }) => (
     <div>
@@ -16,17 +16,15 @@ export default ({ absolute }) => (
                 ${absolute ? 'left: 0;' : ''}
             }
 
-            a {
+            div :global(a) {
                 display: inline-block;
             }
         `}</style>
 
-        <Link href="/" prefetch>
-            <a>
-                <object data="/static/logo.svg" type="image/svg+xml">
-                    <img src="/static/logo.png" alt="" />
-                </object>
-            </a>
+        <Link href="/" nostyle>
+            <object data="/static/logo.svg" type="image/svg+xml">
+                <img src="/static/logo.png" alt="" />
+            </object>
         </Link>
     </div>
 );
