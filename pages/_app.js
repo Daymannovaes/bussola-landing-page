@@ -2,12 +2,22 @@ import React from 'react'
 import App, { Container } from 'next/app';
 import Router from "next/router";
 import Head from 'next/head';
+
 import withGA from "next-ga";
+import nprogress from "nprogress";
 
 import Logo from '../components/Logo';
 import LayoutMain from '../components/LayoutMain';
 
 class MyApp extends App {
+    constructor(props) {
+        super(props);
+
+        Router.onRouteChangeStart = () => nprogress.start();
+        Router.onRouteChangeComplete = () => nprogress.done();
+        Router.onRouteChangeError = () => nprogress.done();
+    }
+
     render () {
         const { Component, pageProps } = this.props;
 
@@ -28,6 +38,9 @@ class MyApp extends App {
                 <link rel="shortcut icon"  type="image/svg" href="https://bussola.school/static/logo.png"/>
 
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"/>
+
+                {/* Import CSS for nprogress */}
+                <link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
 
                 <style>{`
                     body {
