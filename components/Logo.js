@@ -11,8 +11,8 @@ export default ({ absolute }) => (
             }
         `}</style>
 
-        <object data="static/logo.svg" type="image/svg+xml">
-            <img src="static/logo.png" alt="" />
+        <object data="/static/logo.svg" type="image/svg+xml">
+            <img src="/static/logo.png" alt="" />
         </object>
     </div>
 );
