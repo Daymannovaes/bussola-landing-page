@@ -19,15 +19,15 @@ export default () => (
 
         Welcome to next.js!
 
-        <Link href="/about">
+        <Link href="/about" prefetch>
             <a>About</a>
         </Link>
 
-        <Link href="/contact">
+        <Link href="/contact" prefetch>
             <a>Contact</a>
         </Link>
 
-        <Link href="/login">
+        <Link href="/login" prefetch>
             <a>Login</a>
         </Link>
     </div>

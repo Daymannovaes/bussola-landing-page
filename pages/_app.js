@@ -1,9 +1,11 @@
 import React from 'react'
 import App, { Container } from 'next/app';
+import Router from "next/router";
 import Head from 'next/head';
+import withGA from "next-ga";
 
 import Logo from '../components/Logo';
-import LayoutMain from '../container/LayoutMain';
+import LayoutMain from '../components/LayoutMain';
 
 class MyApp extends App {
     render () {
@@ -33,4 +35,4 @@ class MyApp extends App {
     }
 }
 
-export default MyApp;
+export default withGA("UA-79934445-2", Router)(MyApp);

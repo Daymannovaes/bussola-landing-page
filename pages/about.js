@@ -15,15 +15,15 @@ export default () => (
 
         <h1>About Page</h1>
 
-        <Link href="/">
+        <Link href="/" prefetch>
             <a>Home</a>
         </Link>
 
-        <Link href="/contact">
+        <Link href="/contact" prefetch>
             <a>Contact</a>
         </Link>
 
-        <Link href="/login">
+        <Link href="/login" prefetch>
             <a>Login</a>
         </Link>
     </div>
