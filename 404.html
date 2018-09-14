@@ -1,2 +1,7 @@
+<h1>Page Not Found</h1>
 
-<h2> error </h2>
+<h2>Can't find page <span id="path" style="color: gray;"></span></h2>
+
+<script>
+document.getElementById("path").innerHTML = document.location.pathname;
+</script>
