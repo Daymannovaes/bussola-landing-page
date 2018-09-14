@@ -26,6 +26,13 @@ class MyApp extends App {
 
                 <link rel="canonical" href="https://bussola.school"/>
                 <link rel="shortcut icon"  type="image/svg" href="https://bussola.school/static/logo.png"/>
+
+                <style>{`
+                    body {
+                        margin: 0;
+                        padding: 0;
+                    }
+                `}</style>
             </Head>
 
             <LayoutMain>

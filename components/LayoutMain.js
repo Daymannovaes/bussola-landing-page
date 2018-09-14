@@ -1,10 +1,12 @@
-import Logo from '../components/Logo';
+import Logo from './Logo';
+import Flex from './Flex';
 
 export default ({ children }) => (
-    <div>
-        <Logo />
-        <h1>layout main</h1>
+    <main>
+        <Logo absolute />
 
-        {children}
-    </div>
+        <Flex>
+            {children}
+        </Flex>
+    </main>
 );
