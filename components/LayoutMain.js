@@ -19,7 +19,7 @@ export default ({ children }) => (
                 margin: ${PADDING_UNIT}px 0;
             }
 
-            main :global(h1) {
+            main :global(h1), main :global(h2) {
                 text-transform: uppercase;
                 font-weight: 900;
                 color: ${colors.deepblue};
