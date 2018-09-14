@@ -1,26 +1,22 @@
 import Link from 'next/link'
 
 export default () => (
-    <div>>
+    <div>
         <style jsx>{`
-            article {
-                background: gray;
-            }
             div {
                 border: 2px solid red;
                 padding: 12px;
             }
-            h1 { color: blue }
 
             a {
-                margin: 12px;
+                padding: 12px;
             }
         `}</style>
 
-        Welcome to next.js!
+        <h1>About Page</h1>
 
-        <Link href="/about">
-            <a>About</a>
+        <Link href="/">
+            <a>Home</a>
         </Link>
 
         <Link href="/contact">

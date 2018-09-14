@@ -4,7 +4,7 @@ const md = require('./content.json');
 module.exports = {
   exportPathMap: async function (defaultPathMap) {
       console.log(md);
-      return Object.assign({}, {
+      return Object.assign({}, defaultPathMap, {
           '/about': { page: '/', query: { title: 'About Page', content: markdown.toHTML(md.content) } }
       });
   }
