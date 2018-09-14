@@ -8,10 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:next && npm run build:move",
     "build:next": "next build && next export -o dist",
-    "build:move": "cp CNAME dist/CNAME",
+    "build:move": "cp CNAME dist/CNAME && cp .nojekyll dist/.nojekyll",
     "serve": "serve -l 3000 dist",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "repository": {
     "type": "git",
