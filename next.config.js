@@ -4,8 +4,8 @@ const { promisify } = require('util');
 const PAGES_DIR = './pages';
 function getPages() {
     const files = readdirSync(PAGES_DIR);
-    console.log(files);
-    return files;
+    return files
+        .filter(file => file.match(/\.js$/));
 }
 
 module.exports = {

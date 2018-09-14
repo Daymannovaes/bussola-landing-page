@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '../components/Link'
 
 export default () => (
     <div>
@@ -23,11 +23,21 @@ export default () => (
                     font-size: 0.7em;
                 }
             }
+
+            h4 {
+                font-weight: 100;
+                margin: 0;
+                margin-top: 3em;
+            }
         `}</style>
 
         <h1>Bussola<span>.school</span></h1>
         <h3>
             Escola de desenvolvimento pessoal
         </h3>
+
+        <h4>
+            <Link href="/about">Quero saber mais</Link>
+        </h4>
     </div>
 );

@@ -18,7 +18,6 @@ export default class ErrorPage extends Component {
 
     static getPages() {
         return pages
-            .filter(page => page.match(/\.js$/))
             .filter(page => !page.match(/404/))
             .filter(page => !page.match(/^_/))
             .map(page => page.replace(/\.js$/, ''))
