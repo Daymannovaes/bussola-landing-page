@@ -1,4 +1,5 @@
 import Link from '../components/Link'
+import { PADDING_UNIT } from '../config/style-guide';
 
 export default () => (
     <div>
@@ -28,6 +29,10 @@ export default () => (
                 font-weight: 100;
                 margin: 0;
                 margin-top: 3em;
+            }
+
+            div :global(a) {
+                padding: ${PADDING_UNIT}px ${PADDING_UNIT * 2}px;
             }
         `}</style>
 

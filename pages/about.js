@@ -8,7 +8,7 @@ export default () => (
             }
         `}</style>
 
-        <h1>About Page</h1>
+        <h1>Bussola.school</h1>
 
         <MailChimp />
     </div>

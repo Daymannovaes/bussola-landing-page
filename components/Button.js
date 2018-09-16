@@ -1,4 +1,4 @@
-import { colors } from '../config/style-guide';
+import { colors, BORDER_RADIUS } from '../config/style-guide';
 
 export default ({ children }) => (
     <React.Fragment>
@@ -6,7 +6,7 @@ export default ({ children }) => (
             .button {
                 color: white;
                 background: ${colors.midblue};
-                border-radius: 3px;
+                border-radius: ${BORDER_RADIUS}px;
                 font-weight: bold;
                 font-size: 0.6em;
                 border: 0;
