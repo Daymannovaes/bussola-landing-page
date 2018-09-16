@@ -59,11 +59,11 @@ export default class ErrorPage extends Component {
                 }
             `}</style>
 
-            <h1>Page not found</h1>
+            <h1>Página não encontrada</h1>
 
-            <h3>We couldn't find the page <span>{this.state.path}</span></h3>
+            <h3>Não conseguimos encontra a página <span>{this.state.path}</span></h3>
             <ul>
-                <li>Try one of these</li>
+                <li>Tente alguma dessas</li>
                 {this.state.pages.map((page, i) => (
                     <li key={i}>
                         <Link href={page.url}>/{page.title}</Link>
