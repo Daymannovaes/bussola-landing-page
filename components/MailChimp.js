@@ -1,10 +1,13 @@
 import Button from './Button';
+import AnimateForever from './AnimateForever';
 import { colors, PADDING_UNIT, BORDER_RADIUS } from '../config/style-guide';
 
 export default ({
     text = 'Cadastre-se para receber na íntegra as novidades!',
     placeholder ='digite seu email aqui',
-    id = "signup"
+    id = "signup",
+    buttonAnimationDelay = 10000,
+    inputRef
 }) => (
     <div id={`form-${id}`}>
         <style jsx>{`
@@ -32,7 +35,7 @@ export default ({
                 margin-top: ${7 * PADDING_UNIT}px;
             }
 
-            .mc-field-group  > :global(*) {
+            .mc-field-group  :global(input), .mc-field-group :global(button) {
                 padding: 0 ${2 * PADDING_UNIT}px;
                 min-height: ${6 * PADDING_UNIT}px;
             }
@@ -42,8 +45,15 @@ export default ({
                 <label htmlFor="mce-EMAIL">{text}</label>
 
                 <div className="mc-field-group">
-                    <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" placeholder={placeholder} />
-                    <Button defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</Button>
+                    <AnimateForever delay="1000" animateInterval={3 * buttonAnimationDelay}>
+                        <div>
+                            <input ref={inputRef} type="email" name="EMAIL" className="required email" id="mce-EMAIL" placeholder={placeholder} />
+                        </div>
+                    </AnimateForever>
+
+                    <AnimateForever animateInterval={buttonAnimationDelay} delay={buttonAnimationDelay}>
+                        <Button defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</Button>
+                    </AnimateForever>
                 </div>
                 <div id="mce-responses" className="clear">
                     <div className="response" id="mce-error-response" style={{display: 'none'}} />

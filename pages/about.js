@@ -1,15 +1,27 @@
+import React, { Component } from 'react';
 import MailChimp from '../components/MailChimp';
 
-export default () => (
-    <div>
-        <style jsx>{`
-            h1 {
-                display: initial;
-            }
-        `}</style>
+export default class AboutPage extends Component {
+    constructor(props) {
+        super(props);
 
-        <h1>Bussola.school</h1>
+        this.inputRef = React.createRef();
+    }
+    componentDidMount() {
+        this.inputRef.current && this.inputRef.current.focus();
+    }
 
-        <MailChimp />
-    </div>
-);
+    render() {
+        return <div>
+            <style jsx>{`
+                h1 {
+                    display: initial;
+                }
+            `}</style>
+
+            <h1>Bussola.school</h1>
+
+            <MailChimp inputRef={this.inputRef} animate />
+        </div>
+    }
+};
