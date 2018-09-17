@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MailChimp from '../components/MailChimp';
+import ResponsiveTitle from '../components/ResponsiveTitle';
 
 export default class AboutPage extends Component {
     constructor(props) {
@@ -19,7 +20,7 @@ export default class AboutPage extends Component {
                 }
             `}</style>
 
-            <h1>Bussola.school</h1>
+            <ResponsiveTitle>Bussola<span className="hide-xs">.school</span></ResponsiveTitle>
 
             <MailChimp inputRef={this.inputRef} animate />
         </div>

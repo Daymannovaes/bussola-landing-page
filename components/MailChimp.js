@@ -39,6 +39,11 @@ export default ({
                 padding: 0 ${2 * PADDING_UNIT}px;
                 min-height: ${6 * PADDING_UNIT}px;
             }
+
+            .mc-field-group > :global(*) {
+                margin-top: ${PADDING_UNIT}px;
+                margin-bottom: ${PADDING_UNIT}px;
+            }
         `}</style>
         <form action="https://dayman.us12.list-manage.com/subscribe/post?u=52f6e7a33b2d54479c5fc54ee&id=b3accd19af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
             <div id="mc_embed_signup_scroll">
