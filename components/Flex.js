@@ -1,13 +1,13 @@
 import { PADDING_UNIT } from '../config/style-guide';
 
-export default ({ children }) => (
-    <div>
+export default ({ children, container }) => (
+    <div className="flex">
         <style jsx>{`
             div {
                 margin: 0;
-                padding: 0 ${ 4 * PADDING_UNIT }px;
 
-                min-height: 100vh;
+                ${container ? 'min-height: 100vh' : ''};
+                flex-grow: ${container ? '0' : '1'};
 
                 display: flex;
                 flex-flow: column;

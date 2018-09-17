@@ -1,19 +1,17 @@
 import Link from './Link';
+import { PADDING_UNIT, LOGO_HEIGHT } from '../config/style-guide';
 
 export default ({ absolute }) => (
-    <div>
+    <div className="logo">
         <style jsx>{`
             object {
-                height: 6em;
+                height: ${LOGO_HEIGHT}em;
                 font-size: initial;
                 pointer-events: none;
             }
 
             div {
-                position: ${absolute ? 'absolute' : 'initial'};
-                ${absolute ? 'margin-top: -4px;' : ''}
-                ${absolute ? 'top: 0;' : ''}
-                ${absolute ? 'left: 0;' : ''}
+                flex-grow: 0;
             }
 
             div :global(a) {

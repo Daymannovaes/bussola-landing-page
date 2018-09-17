@@ -1,7 +1,7 @@
 import Logo from './Logo';
 import Flex from './Flex';
 
-import { colors, PADDING_UNIT } from '../config/style-guide';
+import { colors, PADDING_UNIT, LOGO_HEIGHT } from '../config/style-guide';
 
 export default ({ children }) => (
     <main>
@@ -10,6 +10,7 @@ export default ({ children }) => (
                 background: ${colors.gray};
                 font-size: 1.5em;
                 color: ${colors.lightblue};
+                padding: ${ 4 * PADDING_UNIT }px;
                 text-align: center;
                 font-family: 'Open Sans', sans-serif;
             }
@@ -30,11 +31,20 @@ export default ({ children }) => (
                 font-weight: 100;
                 color: ${colors.lightblue};
             }
-        `}</style>
-        <Logo absolute />
 
-        <Flex>
-            {children}
+            .container-body {
+                margin-top: -${LOGO_HEIGHT/2}em;
+            }
+        `}</style>
+
+        <Flex container>
+            <Logo />
+
+            <Flex>
+                <div className="container-body">
+                    {children}
+                </div>
+            </Flex>
         </Flex>
     </main>
 );
