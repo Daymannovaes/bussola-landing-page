@@ -15,10 +15,14 @@ export default ({ children, noprefetch, nostyle, ...rest }) => (
             a.styled-link:hover {
                 background: #e9e8e8;
             }
+
+            a.nostyled-link {
+                text-decoration: none;
+            }
         `}</style>
 
         <Link prefetch={!noprefetch}  {...rest}>
-            <a className={nostyle ? '' : 'styled-link'}>
+            <a className={nostyle ? 'nostyled-link' : 'styled-link'}>
                 {children}
             </a>
         </Link>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import HeadShake from 'react-reveal/HeadShake';
-import { colors, BORDER_RADIUS } from '../config/style-guide';
+import { colors, PADDING_UNIT, BORDER_RADIUS } from '../config/style-guide';
 
 export default class Button extends Component {
     constructor(props) {
@@ -39,7 +39,13 @@ export default class Button extends Component {
                     border-bottom: 6px solid ${colors.deepblue};
                     transition: 80ms all;
 
+                    padding: ${PADDING_UNIT}px ${2 * PADDING_UNIT}px;
+
                     display: inherit;
+                }
+
+                button :global(a) {
+                    color: white;
                 }
 
                 button:hover {
