@@ -40,6 +40,7 @@
     "nprogress": "^0.2.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-reveal": "^1.2.2"
+    "react-reveal": "^1.2.2",
+    "react-svg": "^6.0.18"
   }
 }
