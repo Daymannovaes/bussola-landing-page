@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`link.spec.js snapchot 1`] = `
+<a
+  className="jsx-1049726718 styled-link"
+  href="/about"
+  onClick={[Function]}
+>
+  About
+</a>
+`;
