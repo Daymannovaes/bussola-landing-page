@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MailChimp from '../components/MailChimp';
 import ResponsiveTitle from '../components/ResponsiveTitle';
+import { LOGO_HEIGHT } from '../config/style-guide';
 
 export default class AboutPage extends Component {
     constructor(props) {
@@ -17,6 +18,10 @@ export default class AboutPage extends Component {
             <style jsx>{`
                 h1 {
                     display: initial;
+                }
+
+                div {
+                    margin-top: -${LOGO_HEIGHT/2}em;
                 }
             `}</style>
 

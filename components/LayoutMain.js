@@ -31,10 +31,6 @@ export default ({ children }) => (
                 font-weight: 100;
                 color: ${colors.lightblue};
             }
-
-            .container-body {
-                margin-top: -${LOGO_HEIGHT/2}em;
-            }
         `}</style>
 
         <Flex container>

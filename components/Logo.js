@@ -1,7 +1,7 @@
 import Link from './Link';
 import { PADDING_UNIT, LOGO_HEIGHT } from '../config/style-guide';
 
-export default ({ absolute }) => (
+export default () => (
     <div className="logo">
         <style jsx>{`
             object {

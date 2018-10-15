@@ -1,6 +1,6 @@
 import Link from '../components/Link'
 import ResponsiveTitle from '../components/ResponsiveTitle'
-import { PADDING_UNIT } from '../config/style-guide';
+import { PADDING_UNIT, LOGO_HEIGHT } from '../config/style-guide';
 
 export default () => (
     <div>
@@ -19,6 +19,10 @@ export default () => (
 
             div :global(a) {
                 padding: ${PADDING_UNIT}px ${PADDING_UNIT * 2}px;
+            }
+
+            div {
+                margin-top: -${LOGO_HEIGHT/2}em;
             }
         `}</style>
 
