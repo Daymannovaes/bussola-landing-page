@@ -14,7 +14,14 @@ describe('link.spec.js', () => {
 
         let tree = component.toJSON();
         expect(tree).toMatchSnapshot();
-        console.log(tree);
         expect(tree.props.className).toContain('styled-link');
+    });
+
+    it('styled', () => {
+        const tree = renderer.create(<Link href="/about">About</Link>).toJSON();
+        const treeNoStyle = renderer.create(<Link nostyle href="/about">About</Link>).toJSON();
+
+        expect(tree.props.className).toContain('styled-link');
+        expect(treeNoStyle.props.className).toContain('nostyled-link');
     });
 });
