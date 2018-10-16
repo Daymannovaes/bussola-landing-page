@@ -1,5 +1,5 @@
 import ReactSVG from 'react-svg';
-import { colors, PADDING_UNIT, BORDER_RADIUS } from '../config/style-guide';
+import { colors, PADDING_UNIT, BORDER_RADIUS, POST_ASSET_WIDTH } from '../config/style-guide';
 
 export default ({ src, ...props }) => (
     <div className="svg">
@@ -9,6 +9,7 @@ export default ({ src, ...props }) => (
                 margin-top: ${6 * PADDING_UNIT}px;
                 padding: ${2 * PADDING_UNIT}px;
                 border-radius: ${BORDER_RADIUS}px;
+                max-width: ${POST_ASSET_WIDTH}px !important;
 
                 transition: 200ms background;
             }

@@ -1,6 +1,7 @@
 export const PADDING_UNIT = 6;
 export const BORDER_RADIUS = 6;
 export const POST_WIDTH = 740;
+export const POST_ASSET_WIDTH = 960;
 export const LOGO_HEIGHT = 8; // em unit
 
 export const colors = {

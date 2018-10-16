@@ -1,7 +1,7 @@
 import Logo from './Logo';
 import Flex from './Flex';
 
-import { colors, PADDING_UNIT, POST_WIDTH } from '../config/style-guide';
+import { colors, PADDING_UNIT, POST_WIDTH, POST_ASSET_WIDTH } from '../config/style-guide';
 
 export default ({ children }) => (
     <section>
@@ -16,12 +16,17 @@ export default ({ children }) => (
                 line-height: 1.6;
                 letter-spacing: -.004em;
 
-                max-width: ${POST_WIDTH}px;
                 margin: 0 auto;
                 padding-left: ${4 * PADDING_UNIT}px;
                 padding-right: ${4 * PADDING_UNIT}px;
 
                 font-size: 0.9em;
+            }
+
+            section article :global(> *) {
+                max-width: ${POST_WIDTH}px;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             section :global(ul) {
@@ -36,9 +41,20 @@ export default ({ children }) => (
             section :global(h2), section :global(h3), section :global(h4) {
                 text-shadow: initial;
                 text-transform: initial;
+                max-width: ${POST_ASSET_WIDTH}px !important;
                 font-weight: 900;
                 margin-top: ${6 * PADDING_UNIT}px;
+            }
+
+            section :global(h3), section :global(h4) {
                 margin-bottom: -${3 * PADDING_UNIT}px;
+                padding: ${2 * PADDING_UNIT}px ${4 * PADDING_UNIT}px;
+                border-bottom: 4px dotted #00000020;
+                transition: 200ms all;
+            }
+
+            section :global(h3:hover), section :global(h4:hover) {
+                border-bottom: 4px dotted #00000050;
             }
         `}</style>
 
