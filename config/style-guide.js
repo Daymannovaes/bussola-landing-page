@@ -4,6 +4,9 @@ export const POST_WIDTH = 740;
 export const POST_ASSET_WIDTH = 960;
 export const LOGO_HEIGHT = 8; // em unit
 
+export const POST_SECTION_PADDING = 4 * PADDING_UNIT;
+export const MAIN_PADDING = 4 * PADDING_UNIT;
+
 export const colors = {
     gray: '#efefef',
     lightwhite: '#fafaff',

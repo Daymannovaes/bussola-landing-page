@@ -1,7 +1,7 @@
 import Logo from './Logo';
 import Flex from './Flex';
 
-import { colors, PADDING_UNIT, POST_WIDTH, POST_ASSET_WIDTH } from '../config/style-guide';
+import { colors, PADDING_UNIT, POST_SECTION_PADDING, POST_WIDTH, POST_ASSET_WIDTH } from '../config/style-guide';
 
 export default ({ children }) => (
     <section>
@@ -17,8 +17,8 @@ export default ({ children }) => (
                 letter-spacing: -.004em;
 
                 margin: 0 auto;
-                padding-left: ${4 * PADDING_UNIT}px;
-                padding-right: ${4 * PADDING_UNIT}px;
+                padding-left: ${POST_SECTION_PADDING}px
+                padding-right: ${POST_SECTION_PADDING}px;
 
                 font-size: 0.9em;
             }
