@@ -14,6 +14,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist --dotfiles"
   },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Daymannovaes/bussola-landing-page.git"
@@ -26,6 +30,7 @@
   },
   "homepage": "https://bussola.school",
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "eslint": "^5.5.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -34,6 +39,7 @@
     "eslint-plugin-react": "^7.11.1",
     "gh-pages": "^1.2.0",
     "jest": "^23.6.0",
+    "pre-commit": "^1.2.2",
     "react-test-renderer": "^16.5.2",
     "serve": "^10.0.1"
   },
@@ -42,6 +48,7 @@
     "next": "^6.1.2",
     "next-ga": "^2.3.1",
     "nprogress": "^0.2.0",
+    "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-reveal": "^1.2.2",

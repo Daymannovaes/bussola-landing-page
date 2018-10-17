@@ -1,11 +1,16 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import Logo from './Logo';
 import Flex from './Flex';
 
-import { colors, PADDING_UNIT, LOGO_HEIGHT, MAIN_PADDING } from '../config/style-guide';
+import {
+    colors, PADDING_UNIT, MAIN_PADDING,
+} from '../config/style-guide';
 
-export default ({ children }) => (
+const LayoutMain = ({ children }) => (
     <main>
-        <style jsx>{`
+        <style jsx>
+            {`
             main {
                 background: ${colors.gray};
                 font-size: 1.5em;
@@ -31,7 +36,8 @@ export default ({ children }) => (
                 font-weight: 100;
                 color: ${colors.lightblue};
             }
-        `}</style>
+        `}
+        </style>
 
         <Flex container>
             <Logo />
@@ -44,3 +50,9 @@ export default ({ children }) => (
         </Flex>
     </main>
 );
+
+LayoutMain.propTypes = {
+    children: PropTypes.node.isRequired,
+};
+
+export default LayoutMain;

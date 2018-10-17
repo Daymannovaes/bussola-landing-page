@@ -1,63 +1,44 @@
-import React, { Component } from 'react';
-import HeadShake from 'react-reveal/HeadShake';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { colors, PADDING_UNIT, BORDER_RADIUS } from '../config/style-guide';
 
-export default class Button extends Component {
-    constructor(props) {
-        super(props);
+const Button = ({ children }) => (
+    <button>
+        <style jsx>
+            {`
+        button {
+            color: white;
+            background: ${colors.midblue};
+            border-radius: ${BORDER_RADIUS}px;
+            font-weight: bold;
+            font-size: 0.6em;
+            border: 0;
+            border-bottom: 6px solid ${colors.deepblue};
+            transition: 80ms all;
 
-        this.state = { animate: false };
-        this.animateInterval = Math.max(5 * 1000, props.animateInterval || 0);
-    }
+            padding: ${PADDING_UNIT}px ${2 * PADDING_UNIT}px;
 
-    componentDidMount() {
-        this.setState({ animate: true });
+            display: inherit;
+        }
 
-        this.props.animateForever && this.animateForever();
-    }
+        button :global(a) {
+            color: white;
+        }
 
-    animateForever = () => {
-        setTimeout(() => this.setState({ animate: false }), this.animateInterval/2);
+        button:hover {
+            border-width: 4px;
+        }
 
-        clearTimeout(this.animateTimeout);
-        this.animateTimeout = setTimeout(() => {
-            this.setState({ animate: true });
-            this.animateForever();
-        }, this.animateInterval);
-    }
+        button:active, button:focus {
+            border-width: 0px;
+        }
+    `}
+        </style>
 
-    render() {
-        return <button>
-            <style jsx>{`
-                button {
-                    color: white;
-                    background: ${colors.midblue};
-                    border-radius: ${BORDER_RADIUS}px;
-                    font-weight: bold;
-                    font-size: 0.6em;
-                    border: 0;
-                    border-bottom: 6px solid ${colors.deepblue};
-                    transition: 80ms all;
+        {children}
+    </button>
+);
 
-                    padding: ${PADDING_UNIT}px ${2 * PADDING_UNIT}px;
-
-                    display: inherit;
-                }
-
-                button :global(a) {
-                    color: white;
-                }
-
-                button:hover {
-                    border-width: 4px;
-                }
-
-                button:active, button:focus {
-                    border-width: 0px;
-                }
-            `}</style>
-
-            {this.props.children}
-        </button>
-    }
-}
+Button.propTypes = {
+    children: PropTypes.node.isRequired,
+};

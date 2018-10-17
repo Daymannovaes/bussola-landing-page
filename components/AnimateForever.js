@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import HeadShake from 'react-reveal/HeadShake';
-import { colors, BORDER_RADIUS } from '../config/style-guide';
 
 export default class AnimateForever extends Component {
     constructor(props) {
@@ -21,15 +21,31 @@ export default class AnimateForever extends Component {
 
     animateForever = () => {
         this.setState({ animate: true });
-        setTimeout(() => this.setState({ animate: false }), this.animateInterval/2);
+        setTimeout(() => this.setState({ animate: false }), this.animateInterval / 2);
 
         clearTimeout(this.animateTimeout);
         this.animateTimeout = setTimeout(this.animateForever.bind(this), this.animateInterval);
     }
 
     render() {
-        return <HeadShake when={this.state.animate}>
-            {this.props.children}
-        </HeadShake>
+        const { animate } = this.state;
+        const { children } = this.props;
+
+        return (
+            <HeadShake when={animate}>
+                {children}
+            </HeadShake>
+        );
     }
 }
+
+AnimateForever.propTypes = {
+    animateInterval: PropTypes.number,
+    delay: PropTypes.number,
+    children: PropTypes.node.isRequired,
+};
+
+AnimateForever.defaultProps = {
+    animateInterval: 0,
+    delay: 0,
+};

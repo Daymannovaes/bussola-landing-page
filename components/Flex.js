@@ -1,8 +1,10 @@
-import { PADDING_UNIT } from '../config/style-guide';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default ({ children, container }) => (
+const Flex = ({ children, container }) => (
     <div className="flex">
-        <style jsx>{`
+        <style jsx>
+            {`
             div {
                 margin: 0;
 
@@ -14,8 +16,20 @@ export default ({ children, container }) => (
                 align-items: center;
                 justify-content: center;
             }
-        `}</style>
+        `}
+        </style>
 
         {children}
     </div>
 );
+
+Flex.propTypes = {
+    children: PropTypes.node.isRequired,
+    container: PropTypes.bool,
+};
+
+Flex.defaultProps = {
+    container: false,
+};
+
+export default Flex;

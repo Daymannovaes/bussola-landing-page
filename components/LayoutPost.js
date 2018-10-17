@@ -1,11 +1,14 @@
-import Logo from './Logo';
-import Flex from './Flex';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import { colors, PADDING_UNIT, POST_SECTION_PADDING, POST_WIDTH, POST_ASSET_WIDTH } from '../config/style-guide';
+import {
+    colors, PADDING_UNIT, POST_SECTION_PADDING, POST_WIDTH, POST_ASSET_WIDTH,
+} from '../config/style-guide';
 
-export default ({ children }) => (
+const LayoutPost = ({ children }) => (
     <section>
-        <style jsx>{`
+        <style jsx>
+            {`
             :global(main) {
                 background: ${colors.lightwhite} !important;
             }
@@ -56,10 +59,17 @@ export default ({ children }) => (
             section :global(h3:hover), section :global(h4:hover) {
                 border-bottom: 4px dotted #00000050;
             }
-        `}</style>
+        `}
+        </style>
 
         <article>
             {children}
         </article>
     </section>
 );
+
+LayoutPost.propTypes = {
+    children: PropTypes.node.isRequired,
+};
+
+export default LayoutPost;

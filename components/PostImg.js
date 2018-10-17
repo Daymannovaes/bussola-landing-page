@@ -2,9 +2,10 @@ import React from 'react';
 
 import { BORDER_RADIUS, POST_ASSET_WIDTH } from '../config/style-guide';
 
-export default ({ ...props }) => (
+export default ({ src, alt, ...props }) => (
     <p>
-        <style jsx>{`
+        <style jsx>
+            {`
             p {
                 max-width: ${POST_ASSET_WIDTH}px !important;
             }
@@ -13,8 +14,9 @@ export default ({ ...props }) => (
                 width: 100%;
                 border-radius: ${BORDER_RADIUS}px;
             }
-        `}</style>
+        `}
+        </style>
 
-        <img {...props} />
+        <img src={src} alt={alt || src} {...props} />
     </p>
 );

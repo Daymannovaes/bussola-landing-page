@@ -1,8 +1,10 @@
+import React from 'react';
 import Svg from './Svg';
 
 export default ({ src, ...props }) => (
     <React.Fragment>
-        <style jsx>{`
+        <style jsx>
+            {`
             :global(g[id$="group"] path) {
                 transition: 200ms all;
             }
@@ -10,7 +12,8 @@ export default ({ src, ...props }) => (
             :global(g[id$="group"]:hover path) {
                 fill-opacity: 0.9;
             }
-        `}</style>
+        `}
+        </style>
 
         <Svg src={src} {...props} />
     </React.Fragment>

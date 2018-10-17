@@ -1,11 +1,15 @@
+import React from 'react';
 import ReactSVG from 'react-svg';
-import { colors, PADDING_UNIT, MAIN_PADDING, POST_SECTION_PADDING, BORDER_RADIUS, POST_ASSET_WIDTH } from '../config/style-guide';
+import {
+    colors, PADDING_UNIT, MAIN_PADDING, POST_SECTION_PADDING, BORDER_RADIUS, POST_ASSET_WIDTH,
+} from '../config/style-guide';
 
 const SVG_PADDING = 2 * PADDING_UNIT;
 
 export default ({ src, ...props }) => (
     <div className="svg">
-        <style jsx>{`
+        <style jsx>
+            {`
             div {
                 margin: 0 auto;
                 margin-top: ${6 * PADDING_UNIT}px;
@@ -35,7 +39,8 @@ export default ({ src, ...props }) => (
                     width: initial;
                 }
             }
-        `}</style>
+        `}
+        </style>
 
         <ReactSVG src={src} {...props} />
     </div>

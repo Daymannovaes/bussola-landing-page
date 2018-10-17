@@ -6,7 +6,7 @@ import Tip from '../components/Tip';
 import Diagrama from '../components/texto-1-diagrama';
 
 export default () => (
-    <LayoutPost className="text-container">
+    <LayoutPost>
         <h2>Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?</h2>
 
         <h3>Porque não temos motivação?</h3>
@@ -126,7 +126,7 @@ export default () => (
 
         <PostImg src="/static/texto-1-grafico-motivacao.jpg" />
 
-        <p>Quanto mais difícil a tarefa, mais motivação e força de vontade precisamos para realizá-la. Podemos tentar aumentar nossa força de vontade, ou tentar simplificar a tarefa, qual é mais fácil?</p>
+        <p>Quanto mais difícil a tarefa, mais motivação e força de vontade precisamos para realizá-la. É o que diz o gráfico acima, para conseguirmos agir nós podemos mexer no eixo vertical, ou seja, tentar aumentar nossa força de vontade, ou mexer no eixo horizontal, simplificando as tarefas. Qual eixo é mais fácil de mexer?</p>
 
         <h4>Aplicando o método das micro-tarefas em outros contextos da vida</h4>
 
@@ -188,9 +188,15 @@ export default () => (
 
         <h3>Como redefinir meu contexto atual de vida</h3>
 
-        <p>Sabe aquele raro momento em que estamos sendo super produtivos? Progredindo super rápido nas nossas tarefas? Até que chegamos naquela tarefa que agarra tudo. Ficamos horas ou até mesmo dia até conseguir passar dessa barreira que impede nosso progresso. Ficamos frustrados, ansiosos, </p>
+        <p>Sabe aquele raro momento em que estamos sendo super produtivos? Progredindo super rápido nas nossas tarefas? Até que chegamos naquela tarefa que agarra tudo. Ficamos horas ou até mesmo dia até conseguir passar dessa barreira que impede nosso progresso.</p>
+
+        <p>Ficamos frustrados, ansiosos e sonhando com o momento que conseguiremos sentir aquela sensação boa de progresso novamente. Dependendo do tipo da atividade, algumas pessoas chamam isso de "bloqueio criativo". Tipo quando eu demorei mais de 30 minutos para escrever esse único parágrafo.</p>
+
+        <p>Esse momento é parecido com </p>
 
 
         <p>Recontextualização</p> <div>Quando você não souber o que fazer, a sua tarefa atual é descobrir o que fazer.</div> <div>Quando você não souber o seu objetivo de vida, seu objetivo atual é descobrir seu objetivo de vida.</div> <div>Quando você não souber o seu próximo passo, ou seu passo atual é descobrir o próximo passo.</div> <div>Quando você não souber para onde ir ou qual o seu caminho, seu objetivo é descobrir qual é o seu caminho.</div>
+
+        <p>Resumo. Duas coisas compõe motivação, sensação de progresso e sensação de proposito. Duas tecnicas para ter mais progresso: decompor em micro-tarefas, mudar de contexto quando necessário.</p>
     </LayoutPost>
 );

@@ -1,9 +1,11 @@
+import React from 'react';
 import Link from './Link';
-import { PADDING_UNIT, LOGO_HEIGHT } from '../config/style-guide';
+import { LOGO_HEIGHT } from '../config/style-guide';
 
 export default () => (
     <div className="logo">
-        <style jsx>{`
+        <style jsx>
+            {`
             object {
                 height: ${LOGO_HEIGHT}em;
                 font-size: initial;
@@ -17,7 +19,8 @@ export default () => (
             div :global(a) {
                 display: inline-block;
             }
-        `}</style>
+        `}
+        </style>
 
         <Link href="/" nostyle>
             <object data="/static/logo.svg" type="image/svg+xml">
@@ -26,4 +29,3 @@ export default () => (
         </Link>
     </div>
 );
-

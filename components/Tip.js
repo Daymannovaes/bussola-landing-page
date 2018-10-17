@@ -1,9 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { colors, PADDING_UNIT, BORDER_RADIUS } from '../config/style-guide';
 
-export default ({ children }) => (
+const Tip = ({ children }) => (
     <p>
-        <style jsx>{`
+        <style jsx>
+            {`
             p {
                 border-left: ${PADDING_UNIT}px solid #e0e0e0;
                 padding: ${2 * PADDING_UNIT}px ${4 * PADDING_UNIT}px;
@@ -15,8 +17,15 @@ export default ({ children }) => (
             p:hover {
                 background: ${colors.transparent.light};
             }
-        `}</style>
+        `}
+        </style>
 
         <i>{children}</i>
     </p>
 );
+
+Tip.propTypes = {
+    children: PropTypes.node.isRequired,
+};
+
+export default Tip;

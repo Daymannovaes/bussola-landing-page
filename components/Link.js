@@ -1,11 +1,14 @@
+import React from 'react';
 import Link from 'next/link';
-import css from 'styled-jsx/css';
 
 import { colors } from '../config/style-guide';
 
-export default ({ children, noprefetch, nostyle, ...rest }) => (
+export default ({
+    children, noprefetch, nostyle, ...rest
+}) => (
     <React.Fragment>
-        <style jsx>{`
+        <style jsx>
+            {`
             a.styled-link {
                 color: ${colors.lightblue};
                 text-transform: uppercase;
@@ -19,9 +22,10 @@ export default ({ children, noprefetch, nostyle, ...rest }) => (
             a.nostyled-link {
                 text-decoration: none;
             }
-        `}</style>
+        `}
+        </style>
 
-        <Link prefetch={!noprefetch}  {...rest}>
+        <Link prefetch={!noprefetch} {...rest}>
             <a className={nostyle ? 'nostyled-link' : 'styled-link'}>
                 {children}
             </a>
