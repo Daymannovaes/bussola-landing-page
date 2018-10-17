@@ -1,14 +1,17 @@
+import React from 'react';
 import Button from '../components/Button';
 import Link from '../components/Link';
 
 export default () => (
     <div>
-        <style jsx>{`
+        <style jsx>
+            {`
             h4 {
                 margin-top: 3em;
                 font-weight: 100;
             }
-        `}</style>
+        `}
+        </style>
 
         <h1>Inscrição confirmada, obrigado!</h1>
 

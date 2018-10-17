@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import getConfig from 'next/config';
 
-import Link from '../components/Link'
+import Link from '../components/Link';
 import { colors, PADDING_UNIT } from '../config/style-guide';
 
-const { publicRuntimeConfig: { pages = [] }} = getConfig();
+const { publicRuntimeConfig: { pages = [] } } = getConfig();
 
 export default class ErrorPage extends Component {
     constructor(props) {
@@ -12,7 +12,7 @@ export default class ErrorPage extends Component {
 
         this.state = {
             path: '',
-            pages: ErrorPage.getPages()
+            filteredPages: ErrorPage.getPages(),
         };
     }
 
@@ -28,9 +28,13 @@ export default class ErrorPage extends Component {
     componentDidMount() {
         this.setState({ path: document.location.pathname });
     }
+
     render() {
-        return (<div>
-            <style jsx>{`
+        const { path, filteredPages } = this.state;
+        return (
+            <div>
+                <style jsx>
+                    {`
                 span {
                     color: ${colors.deepblue};
                 }
@@ -57,19 +61,27 @@ export default class ErrorPage extends Component {
                 li :global(a) {
                     padding: ${PADDING_UNIT}px ${PADDING_UNIT * 2}px;
                 }
-            `}</style>
+            `}
+                </style>
 
-            <h1>Página não encontrada</h1>
+                <h1>Página não encontrada</h1>
 
-            <h3>Não conseguimos encontra a página <span>{this.state.path}</span></h3>
-            <ul>
-                <li>Tente alguma dessas</li>
-                {this.state.pages.map((page, i) => (
-                    <li key={i}>
-                        <Link href={page.url}>/{page.title}</Link>
-                    </li>
-                ))}
-            </ul>
-        </div>);
+                <h3>
+Não conseguimos encontra a página
+                    <span>{path}</span>
+                </h3>
+                <ul>
+                    <li>Tente alguma dessas</li>
+                    {filteredPages.map(page => (
+                        <li key={page.url}>
+                            <Link href={page.url}>
+/
+                                {page.title}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        );
     }
-};
+}

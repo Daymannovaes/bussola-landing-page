@@ -9,25 +9,33 @@ export default class AboutPage extends Component {
 
         this.inputRef = React.createRef();
     }
+
     componentDidMount() {
         this.inputRef.current && this.inputRef.current.focus();
     }
 
     render() {
-        return <div>
-            <style jsx>{`
+        return (
+            <div>
+                <style jsx>
+                    {`
                 h1 {
                     display: initial;
                 }
 
                 div {
-                    margin-top: -${LOGO_HEIGHT/2}em;
+                    margin-top: -${LOGO_HEIGHT / 2}em;
                 }
-            `}</style>
+            `}
+                </style>
 
-            <ResponsiveTitle>Bussola<span className="hide-xs">.school</span></ResponsiveTitle>
+                <ResponsiveTitle>
+Bussola
+                    <span className="hide-xs">.school</span>
+                </ResponsiveTitle>
 
-            <MailChimp inputRef={this.inputRef} animate />
-        </div>
+                <MailChimp inputRef={this.inputRef} animate />
+            </div>
+        );
     }
-};
+}

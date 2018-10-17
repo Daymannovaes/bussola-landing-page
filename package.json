@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "next",
     "test": "NODE_ENV=test jest",
+    "lint:components": "eslint components/",
+    "lint:pages": "eslint pages/",
+    "lint": "npm run lint:components && npm run lint:pages",
     "test:watch": "NODE_ENV=test jest --watch",
     "build": "npm run build:next && npm run build:move",
     "build:next": "next build && next export -o dist",

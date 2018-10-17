@@ -1,10 +1,12 @@
-import Link from '../components/Link'
-import ResponsiveTitle from '../components/ResponsiveTitle'
+import React from 'react';
+import Link from '../components/Link';
+import ResponsiveTitle from '../components/ResponsiveTitle';
 import { PADDING_UNIT, LOGO_HEIGHT } from '../config/style-guide';
 
 export default () => (
     <div>
-        <style jsx>{`
+        <style jsx>
+            {`
             @media only screen and (max-width: 270px) {
                 h3 {
                     font-size: 0.7em;
@@ -22,11 +24,15 @@ export default () => (
             }
 
             div {
-                margin-top: -${LOGO_HEIGHT/2}em;
+                margin-top: -${LOGO_HEIGHT / 2}em;
             }
-        `}</style>
+        `}
+        </style>
 
-        <ResponsiveTitle>Bussola<span className="hide-xs">.school</span></ResponsiveTitle>
+        <ResponsiveTitle>
+Bussola
+            <span className="hide-xs">.school</span>
+        </ResponsiveTitle>
 
         <h3>
             Escola de desenvolvimento pessoal
