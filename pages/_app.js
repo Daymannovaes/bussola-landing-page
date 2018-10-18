@@ -23,7 +23,7 @@ class MyApp extends App {
         return (
             <Container>
                 <Head>
-                    <meta charset="utf-8" />
+                    <meta charSet="utf-8" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
                     <title>Bussola.school - Desenvolvimento Pessoal</title>
@@ -35,7 +35,7 @@ class MyApp extends App {
                     <meta property="og:description" content="Bussola.school - Desenvolvimento Pessoal" />
 
                     <link rel="canonical" href="https://bussola.school" />
-                    <link rel="shortcut icon" type="image/svg" href="https://bussola.school/static/logo.png" />
+                    <link rel="shortcut icon" type="image/svg" href="https://bussola.school/static/icon.png" />
 
                     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
 

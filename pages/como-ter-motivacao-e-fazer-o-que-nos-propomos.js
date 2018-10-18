@@ -3,11 +3,12 @@ import React from 'react';
 
 import LayoutPost from '../components/LayoutPost';
 import PostImg from '../components/PostImg';
+import MailChimp from '../components/MailChimp';
 import Tip from '../components/Tip';
 import Diagrama from '../components/texto-1-diagrama';
 
 export default () => (
-    <LayoutPost>
+    <LayoutPost title="Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?">
         <h2>Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?</h2>
 
         <h3>Porque não temos motivação?</h3>
@@ -46,7 +47,13 @@ export default () => (
 
         <p>Mais fácil essa né? Bom, talvez não tão fácil, principalmente a parte de “descansar tranquilo”, mas com certeza essa sensação de <strong>conquista</strong> acontece mais facilmente do que a de "estou cumprindo meu <strong>propósito"</strong>.</p>
 
-        <p>Em um mundo ideal, gostaríamos de que tudo pudesse nos dar essas duas sensações. Porém elas acontecem pouco. Consigo pensar em alguns prováveis momentos em que você experimentou ambas: quando viu seu nome na lista de aprovados da faculdade, quando foi aceito naquele emprego ou estágio que queria ou quando recebeu a nota final de uma matéria e viu que foi aprovado.</p>
+        <p>Em um mundo ideal, gostaríamos de que tudo pudesse nos dar essas duas sensações. Porém elas acontecem pouco. Consigo pensar em alguns prováveis momentos em que você experimentou ambas:</p>
+
+        <ul>
+            <li>Quando viu seu nome na lista de aprovados da faculdade</li>
+            <li>Quando foi aceito naquele emprego ou estágio que queria</li>
+            <li>Quando recebeu a nota final de uma matéria e viu que foi aprovado</li>
+        </ul>
 
         <p>Nesses três exemplos, é possível que a sensação de propósito não esteja tão presente, ou não seja tão perceptível. Mas a questão é que essas conquistas não são quaisquer conquistas. São conquistas que fazem parte de um caminho que você projetou para a sua vida, e concluí-las traz esse <strong>significado</strong> a mais.</p>
 
@@ -104,7 +111,8 @@ export default () => (
         <p>E fazendo isso novamente com cada tarefa:</p>
 
         <p><strong>1. Limpar a cozinha:</strong></p>
-        <ul>
+
+        <ul className="LayoutPost-clear">
             <li>1.1. Lavar as louças</li>
             <li>1.2. Limpar o fogão</li>
             <li>1.3. Organizar os armários</li>
@@ -191,13 +199,70 @@ export default () => (
 
         <p>Sabe aquele raro momento em que estamos sendo super produtivos? Progredindo super rápido nas nossas tarefas? Até que chegamos naquela tarefa que agarra tudo. Ficamos horas ou até mesmo dia até conseguir passar dessa barreira que impede nosso progresso.</p>
 
-        <p>Ficamos frustrados, ansiosos e sonhando com o momento que conseguiremos sentir aquela sensação boa de progresso novamente. Dependendo do tipo da atividade, algumas pessoas chamam isso de "bloqueio criativo". Tipo quando eu demorei mais de 30 minutos para escrever esse único parágrafo.</p>
+        <p>Ficamos frustrados, ansiosos e sonhando com o momento que conseguiremos sentir aquela sensação boa de progresso novamente. Dependendo do tipo da atividade, algumas pessoas chamam isso de "bloqueio criativo". Tipo eu, quando demorei mais de 30 minutos para escrever esse único parágrafo.</p>
 
-        <p>Esse momento é parecido com </p>
+        <p>Esse momento é parecido com quando temos preguiça, mas não é exatamente igual. Observe que quando uma tarefa é muito grande, mas temos habilidade suficiente para realizar (como por exemplo lavar a louça no domingo), geralmente o que sentimos é preguiça, e a solução para isso é a decomposição em micro-tarefas.</p>
 
+        <p>O problema aqui é quando simplesmente não sabemos como quebrar a tarefa em tarefas menores, porque não temos a mínima ideia de como resolver a tarefa.</p>
 
-        <p>Recontextualização</p> <div>Quando você não souber o que fazer, a sua tarefa atual é descobrir o que fazer.</div> <div>Quando você não souber o seu objetivo de vida, seu objetivo atual é descobrir seu objetivo de vida.</div> <div>Quando você não souber o seu próximo passo, ou seu passo atual é descobrir o próximo passo.</div> <div>Quando você não souber para onde ir ou qual o seu caminho, seu objetivo é descobrir qual é o seu caminho.</div>
+        <p>Lembro-me da primeira vez que minha mãe me pediu para eu ajudá-la com a limpeza da casa. Ela me pediu para eu limpar o banheiro, e me deu os materiais de limpeza. Eu, como criança distraída que sempre fui, fiquei sentado no chão do banheiro por quase meia hora, encarando os materiais de limpeza, sem saber o que fazer.</p>
 
-        <p>Resumo. Duas coisas compõe motivação, sensação de progresso e sensação de proposito. Duas tecnicas para ter mais progresso: decompor em micro-tarefas, mudar de contexto quando necessário.</p>
+        <p>Se eu não tivesse minha mãe na época para me dizer exatamente o que fazer, eu não saberia como prosseguir. Porém, se eu conhecesse a técnica da recontextualização, eu saberia como <strong>proativamente</strong> progredir na tarefa.</p>
+
+        <p>Nesse exemplo, meu objetivo era: <strong>limpar o banheiro</strong>. Coisa que eu não sabia fazer, nem dividir em tarefas menores. Se eu mudasse de contexto para: "<strong>aprender</strong> a como limpar o banheiro", eu já conseguiria definir algumas tarefas, como:</p>
+
+        <ul>
+            <li>Achar um vídeo tutorial na internet sobre como lavar banheiro</li>
+            <li>Assistir o vídeo</li>
+            <li>Caso não achar o vídeo, pedir ajuda à minha mãe</li>
+        </ul>
+
+        <p>Claro que esse exemplo é muito bobo, mas a ideia é a mesma para qualquer tipo de tarefa. Quando não conseguimos mais progredir, devemos mudar de contexto, definir novas micro-tarefas, e ir progredindo e gradualmente completar a tarefa anterior.</p>
+
+        <h4>Aplicando a recontextualização em outros contextos da vida</h4>
+
+        <Tip>Quando você não souber como progredir na sua próxima tarefa, sua tarefa atual passa a ser "<strong>descobrir</strong> como resolver a próxima tarefa".</Tip>
+
+        <p>Num contexto de faculdade, quando você não sabe como progredir em uma matéria ou em um trabalho, redefina suas tarefas para algo como:</p>
+
+        <ul>
+            <li>Pedir ajuda à três professores pessoalmente</li>
+            <li>Tentar marcar uma monitoria com aquele aluno inteligente da sala</li>
+            <li>Abordar algum veterano, ou profissional da área, pedindo ajuda</li>
+        </ul>
+
+        <p>E caso você chegue ao ponto de novamente não saber como progredir em algumas das tarefas do novo contexto, aplique o mesmo método novamente.</p>
+
+        <p>Suponha que você não conheça nenhum veterano ou profissional da área para te ajudar, pare e reflita "como faço para conhecer algum profissional da área?", mude de contexto novamente e defina novas tarefas, como:</p>
+
+        <ul>
+            <li>Procurar grupos profissionais de Facebook e pedir ajuda lá</li>
+            <li>Perguntar meus pais se não têm algum amigo da área</li>
+            <li>Ir na próxima feira ou evento da minha área, e conhecer pessoas lá</li>
+        </ul>
+
+        <p>E assim por diante. Claro que, dependendo da dificuldade da tarefa, esse método pode se extender tanto que pode tornar a resolução muito demorada. Mas é melhor demorar para resolver, do que ficar parado sem saber o que fazer, certo?</p>
+
+        <p>E lembra do diagrama? Lembra que o círculo do propósito é o mais difícil de mover e de aproximar dos outros dois? Não deixe que a dificuldade te impeça de progredir nisso. Você pode sim encontrar um <strong>significado a mais</strong> em todas as áreas e obrigações da sua vida.</p>
+
+        <Tip>Quando você não souber o seu próximo passo, o seu passo atual é descobrir o próximo passo.</Tip>
+
+        <h3>O que eu faço agora?</h3>
+
+        <Diagrama src="/static/texto-1-diagrama-tarefas-6.svg" />
+
+        <p>Resumindo tudo que discutimos até agora, ficamos com o seguinte:</p>
+
+        <ul>
+            <li>Nossa motivação é composta de duas coisas: a sensação de progresso e a sensação de propósito.</li>
+            <li>Para conseguir progredir em qualquer coisa, precisamos também de duas coisas: decompor e recontextualizar.</li>
+            <li>Definir propósito é muito difícil, mas podemos usar as técnicas de progresso para conseguir progredir nisso também.</li>
+        </ul>
+
+        <p>Se você ficou interessado no assunto e quer ter mais contato com esse tipo de conteúdo, deixa seu email aí, que vou te avisar do próximo assunto.</p>
+
+        <MailChimp text="" />
+
+        <p>Espero que eu tenha te ajudado nesse breve período que passamos juntos, e espero também que você consiga aproximar seus três círculos do diagrama. Qualquer coisa, deixa um comentário aí em baixo e vamos conversando :)</p>
     </LayoutPost>
 );

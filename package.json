@@ -6,15 +6,15 @@
   "scripts": {
     "dev": "next",
     "test": "NODE_ENV=test jest",
-    "lint:components": "eslint components/",
-    "lint:pages": "eslint pages/",
-    "lint": "npm run lint:components && npm run lint:pages",
     "test:watch": "NODE_ENV=test jest --watch",
+    "lint": "npm run lint:components && npm run lint:pages",
+    "lint:pages": "eslint pages/",
+    "lint:components": "eslint components/",
     "build": "npm run build:next && npm run build:move",
     "build:next": "next build && next export -o dist",
     "build:move": "cp CNAME dist/CNAME && cp .nojekyll dist/.nojekyll && cp dist/404/index.html dist/404.html",
     "serve": "serve -l 3000 dist",
-    "predeploy": "npm run build",
+    "predeploy": "npm run lint && npm run test && npm run build",
     "deploy": "gh-pages -d dist --dotfiles"
   },
   "pre-commit": [

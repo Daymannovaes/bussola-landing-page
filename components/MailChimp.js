@@ -8,6 +8,7 @@ import { colors, PADDING_UNIT, BORDER_RADIUS } from '../config/style-guide';
 
 const MailChimp = ({
     text,
+    buttonText,
     placeholder,
     id,
     buttonAnimationDelay,
@@ -56,14 +57,14 @@ const MailChimp = ({
                 <label htmlFor="mce-EMAIL">{text}</label>
 
                 <div className="mc-field-group">
-                    <AnimateForever delay="1000" animateInterval={3 * buttonAnimationDelay}>
+                    <AnimateForever delay={1000} animateInterval={3 * buttonAnimationDelay}>
                         <div>
                             <input ref={inputRef} type="email" name="EMAIL" className="required email" id="mce-EMAIL" placeholder={placeholder} />
                         </div>
                     </AnimateForever>
 
                     <AnimateForever animateInterval={buttonAnimationDelay} delay={buttonAnimationDelay}>
-                        <Button defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</Button>
+                        <Button defaultValue={buttonText} name="subscribe" id="mc-embedded-subscribe">{buttonText}</Button>
                     </AnimateForever>
                 </div>
                 <div id="mce-responses" className="clear">
@@ -79,17 +80,20 @@ const MailChimp = ({
 
 MailChimp.propTypes = {
     text: PropTypes.string,
+    buttonText: PropTypes.string,
     placeholder: PropTypes.string,
     id: PropTypes.string,
     buttonAnimationDelay: PropTypes.number,
-    inputRef: PropTypes.element.isRequired,
+    inputRef: PropTypes.object, // eslint-disable-line react/forbid-prop-types
 };
 
 MailChimp.defaultProps = {
     text: 'Cadastre-se para receber na íntegra as novidades!',
+    buttonText: 'Inscrever',
     placeholder: 'digite seu email aqui',
     id: 'signup',
     buttonAnimationDelay: 10000,
+    inputRef: React.createRef(),
 };
 
 export default MailChimp;

@@ -1,12 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Head from 'next/head';
 
 import {
     colors, PADDING_UNIT, POST_SECTION_PADDING, POST_WIDTH, POST_ASSET_WIDTH,
 } from '../config/style-guide';
 
-const LayoutPost = ({ children }) => (
+const LayoutPost = ({ children, title }) => (
     <section>
+        <Head>
+            <title>{title} - Bussola.school</title>
+        </Head>
+
         <style jsx>
             {`
             :global(main) {
@@ -32,7 +37,7 @@ const LayoutPost = ({ children }) => (
                 margin-right: auto;
             }
 
-            section :global(ul) {
+            section :global(ul.LayoutPost-clear) {
                 list-style: none;
             }
 
@@ -70,6 +75,7 @@ const LayoutPost = ({ children }) => (
 
 LayoutPost.propTypes = {
     children: PropTypes.node.isRequired,
+    title: PropTypes.string.isRequired,
 };
 
 export default LayoutPost;
