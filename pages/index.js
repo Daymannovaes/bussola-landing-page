@@ -29,10 +29,7 @@ export default () => (
         `}
         </style>
 
-        <ResponsiveTitle>
-Bussola
-            <span className="hide-xs">.school</span>
-        </ResponsiveTitle>
+        <ResponsiveTitle>Bussola<span className="hide-xs">.school</span></ResponsiveTitle>
 
         <h3>
             Escola de desenvolvimento pessoal

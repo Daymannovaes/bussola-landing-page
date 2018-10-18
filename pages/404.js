@@ -66,10 +66,7 @@ export default class ErrorPage extends Component {
 
                 <h1>Página não encontrada</h1>
 
-                <h3>
-Não conseguimos encontra a página
-                    <span>{path}</span>
-                </h3>
+                <h3>Não conseguimos encontra a página <span>{path}</span></h3>
                 <ul>
                     <li>Tente alguma dessas</li>
                     {filteredPages.map(page => (

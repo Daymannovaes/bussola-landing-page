@@ -29,10 +29,7 @@ export default class AboutPage extends Component {
             `}
                 </style>
 
-                <ResponsiveTitle>
-Bussola
-                    <span className="hide-xs">.school</span>
-                </ResponsiveTitle>
+                <ResponsiveTitle>Bussola<span className="hide-xs">.school</span></ResponsiveTitle>
 
                 <MailChimp inputRef={this.inputRef} animate />
             </div>
