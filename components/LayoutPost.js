@@ -38,7 +38,7 @@ const LayoutPost = ({
                 font-size: 0.9em;
             }
 
-            section article :global(> *) {
+            article :global(> *) {
                 max-width: ${POST_WIDTH}px;
                 margin-left: auto;
                 margin-right: auto;
@@ -73,6 +73,11 @@ const LayoutPost = ({
 
             section :global(h3:hover), section :global(h4:hover) {
                 border-bottom: 4px dotted #00000050;
+            }
+
+            date {
+                font-size: 0.9em;
+                color: ${colors.lightblue};
             }
         `}
         </style>
