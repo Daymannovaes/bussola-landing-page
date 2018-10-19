@@ -2,11 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 
+import Disqus from './Disqus';
+
 import {
     colors, PADDING_UNIT, POST_SECTION_PADDING, POST_WIDTH, POST_ASSET_WIDTH,
 } from '../config/style-guide';
 
-const LayoutPost = ({ children, title }) => (
+const LayoutPost = ({
+    children,
+    title,
+    date,
+    id,
+}) => (
     <section>
         <Head>
             <title>{title} - Bussola.school</title>
@@ -55,10 +62,13 @@ const LayoutPost = ({ children, title }) => (
             }
 
             section :global(h3), section :global(h4) {
-                margin-bottom: -${3 * PADDING_UNIT}px;
                 padding: ${2 * PADDING_UNIT}px ${4 * PADDING_UNIT}px;
                 border-bottom: 4px dotted #00000020;
                 transition: 200ms all;
+            }
+
+            section acticle :global(h3), section article :global(h4) {
+                margin-bottom: -${3 * PADDING_UNIT}px;
             }
 
             section :global(h3:hover), section :global(h4:hover) {
@@ -68,14 +78,22 @@ const LayoutPost = ({ children, title }) => (
         </style>
 
         <article>
+            <h2>{title}</h2>
+
+            <date>{(new Date(date)).toDateString()}</date>
+
             {children}
         </article>
+
+        <Disqus id={id} title={title} />
     </section>
 );
 
 LayoutPost.propTypes = {
     children: PropTypes.node.isRequired,
     title: PropTypes.string.isRequired,
+    date: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
 };
 
 export default LayoutPost;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layoutPost.spec.js snapchot 1`] = `
+<section
+  className="jsx-228109686"
+>
+  <article
+    className="jsx-228109686"
+  >
+    <h2
+      className="jsx-228109686"
+    >
+      Layout Title
+    </h2>
+    <date
+      className="jsx-228109686"
+    >
+      Thu Oct 18 2018
+    </date>
+    This is a text
+  </article>
+  <div>
+    <h4>
+      Comentários
+    </h4>
+    <div
+      id="disqus_thread"
+    />
+  </div>
+</section>
+`;

@@ -8,9 +8,7 @@ import Tip from '../components/Tip';
 import Diagrama from '../components/texto-1-diagrama';
 
 export default () => (
-    <LayoutPost title="Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?">
-        <h2>Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?</h2>
-
+    <LayoutPost title="Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?" date={1539970091528} id="como-ter-motivacao-e-fazer-o-que-nos-propomos">
         <h3>Porque não temos motivação?</h3>
 
         <p>Existem muitas tarefas que nos motivam e nos dão muito prazer quando as fazemos, e quando pensamos nessas tarefas, dificilmente pensamos em <strong>faculdade</strong>.</p>
@@ -247,7 +245,7 @@ export default () => (
 
         <Tip>Quando você não souber o seu próximo passo, o seu passo atual é descobrir o próximo passo.</Tip>
 
-        <h3>O que eu faço agora?</h3>
+        <h3>E agora?</h3>
 
         <Diagrama src="/static/texto-1-diagrama-tarefas-6.svg" />
 
