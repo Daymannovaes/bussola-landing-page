@@ -15,8 +15,11 @@ export const colors = {
     deepblue: '#055170',
     lightblack: '#34464c',
 
+    strongblue: '#007edd',
+
     transparent: {
-        light: '#00000005'
+        light: '#00000005',
+        midlight: '#00000030',
     }
 };
 

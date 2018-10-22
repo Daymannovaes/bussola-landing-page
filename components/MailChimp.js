@@ -13,6 +13,7 @@ const MailChimp = ({
     id,
     buttonAnimationDelay,
     inputRef,
+    light,
 }) => (
     <div id={`form-${id}`}>
         <style jsx>
@@ -64,7 +65,7 @@ const MailChimp = ({
                     </AnimateForever>
 
                     <AnimateForever animateInterval={buttonAnimationDelay} delay={buttonAnimationDelay}>
-                        <Button defaultValue={buttonText} name="subscribe" id="mc-embedded-subscribe">{buttonText}</Button>
+                        <Button light={light} defaultValue={buttonText} name="subscribe" id="mc-embedded-subscribe">{buttonText}</Button>
                     </AnimateForever>
                 </div>
                 <div id="mce-responses" className="clear">
@@ -84,6 +85,7 @@ MailChimp.propTypes = {
     placeholder: PropTypes.string,
     id: PropTypes.string,
     buttonAnimationDelay: PropTypes.number,
+    light: PropTypes.bool,
     inputRef: PropTypes.object, // eslint-disable-line react/forbid-prop-types
 };
 
@@ -93,6 +95,7 @@ MailChimp.defaultProps = {
     placeholder: 'digite seu email aqui',
     id: 'signup',
     buttonAnimationDelay: 10000,
+    light: false,
     inputRef: React.createRef(),
 };
 

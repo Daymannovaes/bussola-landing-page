@@ -20,16 +20,19 @@ const LayoutMain = ({ children }) => (
                 font-family: 'Open Sans', sans-serif;
             }
 
-            main :global(h1), main :global(h2), main :global(h3), main :global(h4) {
-                text-shadow: 0px 4px #dedede;
+            main :global(h1), main :global(h2), main :global(h3) {
+                text-shadow: 0px 4px #0000001c;
 
                 margin: ${PADDING_UNIT}px 0;
             }
 
             main :global(h1), main :global(h2) {
-                text-transform: uppercase;
                 font-weight: 900;
                 color: ${colors.deepblue};
+            }
+
+            main :global(h1) {
+                text-transform: uppercase;
             }
 
             main :global(h3) {
