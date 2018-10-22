@@ -53,7 +53,11 @@ const LayoutPost = ({
                 margin-bottom: 0;
             }
 
-            section :global(h2), section :global(h3), section :global(h4) {
+            section article h1 {
+                font-size: 1.5em;
+            }
+
+            section :global(h1), section :global(h2), section :global(h3), section :global(h4) {
                 text-shadow: initial;
                 text-transform: initial;
                 max-width: ${POST_ASSET_WIDTH}px !important;
@@ -83,7 +87,7 @@ const LayoutPost = ({
         </style>
 
         <article>
-            <h2>{title}</h2>
+            <h1>{title}</h1>
 
             <date>{(new Date(date)).toDateString()}</date>
 

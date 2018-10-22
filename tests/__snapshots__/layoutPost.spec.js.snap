@@ -2,18 +2,18 @@
 
 exports[`layoutPost.spec.js snapchot 1`] = `
 <section
-  className="jsx-1452426124"
+  className="jsx-3372361866"
 >
   <article
-    className="jsx-1452426124"
+    className="jsx-3372361866"
   >
-    <h2
-      className="jsx-1452426124"
+    <h1
+      className="jsx-3372361866"
     >
       Layout Title
-    </h2>
+    </h1>
     <date
-      className="jsx-1452426124"
+      className="jsx-3372361866"
     >
       Thu Oct 18 2018
     </date>

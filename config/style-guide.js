@@ -10,9 +10,9 @@ export const MAIN_PADDING = 4 * PADDING_UNIT;
 export const colors = {
     gray: '#efefef',
     lightwhite: '#fafaff',
-    deepblue: '#055170',
-    midblue: '#09688f',
     lightblue: '#61828d',
+    midblue: '#09688f',
+    deepblue: '#055170',
     lightblack: '#34464c',
 
     transparent: {

@@ -20,7 +20,7 @@ const LayoutMain = ({ children }) => (
                 font-family: 'Open Sans', sans-serif;
             }
 
-            main :global(h1), main :global(h2), main :global(h3) {
+            main :global(h1), main :global(h2), main :global(h3), main :global(h4) {
                 text-shadow: 0px 4px #dedede;
 
                 margin: ${PADDING_UNIT}px 0;
