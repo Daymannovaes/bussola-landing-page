@@ -2,48 +2,79 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { colors, BORDER_RADIUS } from '../config/style-guide';
+import Link from './Link';
 
-const PostCard = ({ cover, children }) => (
+const PostCard = ({ cover, children, href }) => (
     <div className="postCard">
         <style jsx>{`
             .postCard {
-                color: white;
-                width: 300px;
+                max-width: 600px;
                 border-radius: ${BORDER_RADIUS}px;
+
+                margin: 0 auto;
+                cursor: pointer;
+
+                border: 2px solid transparent;
             }
 
             .head, .body {
-                height: 300px;
+                overflow: hidden;
+                color: white;
+
+                transition: 600ms all;
+            }
+
+            img, .head {
+                border-radius: ${BORDER_RADIUS}px ${BORDER_RADIUS}px 0 0;
             }
 
             img {
-                width: 100%;
-                border-radius: ${BORDER_RADIUS}px ${BORDER_RADIUS}px 0 0;
+                width: calc(100% - 60px);
+                margin: 0 auto;
                 display: block;
             }
 
+            .head {
+                height: 200px;
+                background: ${colors.transparent.midlight};
+            }
+
             .body {
-                border: 2px solid ${colors.lightblue};
-                background: ${colors.lightblue};
+                background: ${colors.deepblue};
                 border-top: none;
                 border-radius: 0 0 ${BORDER_RADIUS}px ${BORDER_RADIUS}px;
+
+                height: calc(200px - 40px);
+                padding: 20px;
+                font-size: 0.8em;
+            }
+
+            .postCard:hover .head {
+                background: ${colors.transparent.light};
+            }
+
+            .postCard:hover .body {
+                background: ${colors.strongblue};
             }
 
         `}
         </style>
-        <div className="head">
-            <img src={cover} alt={cover} />
-        </div>
+        <Link nostyle href={href}>
+            <div className="head">
+                <img src={cover} alt={cover} />
+            </div>
 
-        <div className="body">
-            {children}
-        </div>
+            <div className="body">
+                {children}
+            </div>
+        </Link>
     </div>
 );
 
 PostCard.propTypes = {
     cover: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired,
+    href: PropTypes.string.isRequired,
 };
 
 export default PostCard;

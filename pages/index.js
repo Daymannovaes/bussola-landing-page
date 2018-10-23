@@ -23,11 +23,6 @@ export default () => (
                 margin-top: ${5 * PADDING_UNIT}px;
             }
 
-            div :global(a) {
-                padding: 0 ${PADDING_UNIT}px;
-            }
-
-
             section {
                 width: calc(100vw - 60px);
                 padding: 30px;
@@ -50,6 +45,7 @@ export default () => (
 
             #post :global(a) {
                 text-transform: initial;
+                padding: 0 ${PADDING_UNIT}px;
             }
         `}
         </style>
@@ -78,9 +74,12 @@ export default () => (
                 Se ainda não está convencido, nós escrevemos um texto que pode te ajudar. Ele detalha um dos assuntos que dominamos:{' '}
                 <Link href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">como ter motivação e usar isso para encontrar o seu propósito!</Link>
             </p>
+
             <br />
-            <PostCard cover="/static/texto-1-cover.jpg">
-                Como ter motivação?
+            <br />
+
+            <PostCard cover="/static/texto-1-diagrama-tarefas-2.svg" href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">
+                Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?
             </PostCard>
         </section>
     </div>

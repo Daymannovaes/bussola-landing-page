@@ -44,8 +44,8 @@ Button.propTypes = {
     light: PropTypes.bool,
 };
 
-Button.defautProps = {
-    light: false
+Button.defaultProps = {
+    light: false,
 };
 
 export default Button;
