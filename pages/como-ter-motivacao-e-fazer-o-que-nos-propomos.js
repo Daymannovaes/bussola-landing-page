@@ -9,11 +9,11 @@ import Diagrama from '../components/texto-1-diagrama';
 
 export default () => (
     <LayoutPost title="Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?" date={1539970091528} id="como-ter-motivacao-e-fazer-o-que-nos-propomos">
-        <h3>Porque não temos motivação?</h3>
+        <h3>Por que não temos motivação?</h3>
 
         <p>Existem muitas tarefas que nos motivam e nos dão muito prazer quando as fazemos, e quando pensamos nessas tarefas, dificilmente pensamos em <strong>faculdade</strong>.</p>
 
-        <p>Esse desapontamento já é bem comum mesmo nos períodos inicias da faculdade, e se esse é o seu caso, acredito que você tenha dito a você mesmo que “nas matérias mais pra frente do curso deve ficar melhor”. Mas será que as pessoas que estão há mais tempo no curso compartilham dessa opinião?</p>
+        <p>Esse desapontamento já é bem comum mesmo nos períodos iniciais da faculdade, e se esse é o seu caso, acredito que você tenha dito a você mesmo que “nas matérias mais pra frente do curso deve ficar melhor”. Mas será que as pessoas que estão há mais tempo no curso compartilham dessa opinião?</p>
 
         <p>A faculdade é uma daquelas coisas que de alguma forma sentimos que precisamos fazer quando olhamos a longo prazo, mas que mesmo assim não nos sentimos felizes ao fazer no curto prazo, no dia a dia.</p>
 
@@ -33,9 +33,9 @@ export default () => (
 
         <h3>Como encontrar motivação?</h3>
 
-        <p>Para o nosso contexto aqui, existem <strong>duas</strong> coisas que influenciam o quão bem nos sentimos no presente ao executar alguma tarefa. A <strong>primeira</strong> é a sensação de que determinada tarefa nos leva em direção à um objetivo o qual queremos atingir.</p>
+        <p>Para o nosso contexto aqui, existem <strong>duas</strong> coisas que influenciam o quão bem nos sentimos no presente ao executar alguma tarefa. A <strong>primeira</strong> é a sensação de que determinada tarefa nos leva em direção a um objetivo o qual queremos atingir.</p>
 
-        <Tip>Faça a pergunta a si mesmo: essa tarefa que estou fazendo, esse estudo, contribui em algo para o que eu espero do futuro?</Tip>
+        <Tip>Faça a pergunta a si mesmo: essa tarefa que estou fazendo, esse estudo, contribui em algo para o que espero do futuro?</Tip>
 
         <p>Meio complexo e difícil refletir sobre isso né? A questão é que quando não temos certeza de onde queremos chegar, é difícil enxergar se as tarefas do dia a dia nos levam ou não para esse lugar.</p>
 
@@ -45,7 +45,7 @@ export default () => (
 
         <p>Mais fácil essa né? Bom, talvez não tão fácil, principalmente a parte de “descansar tranquilo”, mas com certeza essa sensação de <strong>conquista</strong> acontece mais facilmente do que a de "estou cumprindo meu <strong>propósito"</strong>.</p>
 
-        <p>Em um mundo ideal, gostaríamos de que tudo pudesse nos dar essas duas sensações. Porém elas acontecem pouco. Consigo pensar em alguns prováveis momentos em que você experimentou ambas:</p>
+        <p>Em um mundo ideal, gostaríamos que tudo pudesse nos dar essas duas sensações. Porém, elas acontecem pouco. Consigo pensar em alguns prováveis momentos em que você experimentou ambas:</p>
 
         <ul>
             <li>Quando viu seu nome na lista de aprovados da faculdade</li>
@@ -73,13 +73,13 @@ export default () => (
 
         <p>Obviamente, não queremos ter que lidar com as consequências negativas de não cumprir as nossas obrigações, e talvez essa possa ser a primeira coisa que pensamos ao refletir do <strong>porque</strong> fazê-la. Mas não vamos nos contentar com essa resposta, ok? Essa é uma razão muita externa, e queremos achar algo mais alinhado com o que acreditamos.</p>
 
-        <p>Antes de continuar refletindo sobre o porque das coisas, vamos falar um pouco sobre como podemos incluir mais progresso e mais conquistas no nosso dia a dia.</p>
+        <p>Antes de continuar refletindo sobre o porquê das coisas, vamos falar um pouco sobre como podemos incluir mais progresso e mais conquistas no nosso dia a dia.</p>
 
         <h4>Como progredir mais nas minhas tarefas do dia a dia?</h4>
 
         <p>Nós já conseguimos decompor a nossa motivação em dois componentes: propósito e progresso.</p>
 
-        <p>E agora, para nós aprofundar nosso entendimento em <strong>progresso </strong>vamos decompor novamente em mais duas coisas.</p>
+        <p>E agora, para aprofundarmos nosso entendimento em <strong>progresso </strong>vamos decompor novamente em mais duas coisas.</p>
 
         <p>A <strong>primeira</strong> coisa que precisamos entender com clareza é, justamente, a noção de <strong>decomposição</strong>.</p>
 
@@ -91,7 +91,7 @@ export default () => (
 
         <PostImg src="/static/texto-1-lista-de-tarefas.jpg" />
 
-        <p>E nós podemos continuar decompondo cada tarefa menor em tarefas ainda menores. Pegando agora uma tarefa um pouco mais complexa, como por exemplo “dar uma limpeza geral na casa”.</p>
+        <p>E podemos continuar decompondo cada tarefa menor em tarefas ainda menores. Pegando agora uma tarefa um pouco mais complexa, como por exemplo “dar uma limpeza geral na casa”.</p>
 
         <p>É uma tarefa que pode demorar quase o dia todo, e que quando pensamos dessa forma, quando formulamos a tarefa dessa forma na nossa cabeça, podemos ter preguiça de fazê-la, justamente por ser uma tarefa grande, na qual a sensação de progresso está longe.</p>
 
@@ -125,7 +125,7 @@ export default () => (
 
         <h4>Mas porque isso é tão importante?</h4>
 
-        <p>Quando estamos sentados no sofá, confortáveis e descansando logo após ter chegado cansado em casa, e nos lembramos de nossas responsabilidades, a primeira coisa que nós pensamos, geralmente é a tarefa que definimos para nós mesmos que devemos cumprir.</p>
+        <p>Quando estamos sentados no sofá, confortáveis e descansando logo após ter chegado cansado em casa, e nos lembramos de nossas responsabilidades, a primeira coisa que pensamos, geralmente é a tarefa que definimos para nós mesmos que devemos cumprir.</p>
 
         <PostImg src="/static/texto-1-pensativo-sofa-1.jpg" />
 
@@ -133,13 +133,13 @@ export default () => (
 
         <PostImg src="/static/texto-1-grafico-motivacao.jpg" />
 
-        <p>Quanto mais difícil a tarefa, mais motivação e força de vontade precisamos para realizá-la. É o que diz o gráfico acima, para conseguirmos agir nós podemos mexer no eixo vertical, ou seja, tentar aumentar nossa força de vontade, ou mexer no eixo horizontal, simplificando as tarefas. Qual eixo é mais fácil de mexer?</p>
+        <p>Quanto mais difícil a tarefa, mais motivação e força de vontade precisamos para realizá-la. É o que diz o gráfico acima, para conseguirmos agir podemos mexer no eixo vertical, ou seja, tentar aumentar nossa força de vontade, ou mexer no eixo horizontal, simplificando as tarefas. Qual eixo é mais fácil de mexer?</p>
 
         <h4>Aplicando o método das micro-tarefas em outros contextos da vida</h4>
 
         <p>Pensar em como podemos desconstruir nossas tarefas e simplificar a nossa vida é realmente muito útil, e podemos fazer isso com literalmente qualquer área de nossas vidas. Porém, depois que criamos esse hábito, justamente por trazer muitos benefícios a curto prazo, pode ser perigoso. Vou falar desse perigo na próxima parte.</p>
 
-        <p>Sabe aquele hábito saudável, como por exemplo "beber mais água", que você sempre quis ter mas nunca conseguiu desenvolver? Beber três litros de água, como recomendam por aí, parece muita coisa e difícil de cumprir, e três litros são seis (!!!) garrafinhas de água por dia! Difícil, né?</p>
+        <p>Sabe aquele hábito saudável, como por exemplo "beber mais água", que você sempre quis ter, mas nunca conseguiu desenvolver? Beber três litros de água, como recomendam por aí, parece muita coisa e difícil de cumprir, e três litros são seis (!!!) garrafinhas de água por dia! Difícil, né?</p>
 
         <p>Mas e duas garrafas por bloco de dia? Duas de manhã, duas de tarde, duas de noite. Um pouco mais fácil assim, né?</p>
 
@@ -153,15 +153,15 @@ export default () => (
 
         <Diagrama src="/static/texto-1-diagrama-tarefas-4.svg" />
 
-        <p>Agora vamos para o mais difícil, mas talvez o mais importante. Ainda não falei sobre a <strong>segunda</strong> coisa que precisamos saber para compreende melhor sobre <strong>progresso</strong>, mas vamos primeiro falar sobre como aproximar esse terceiro círculo dos outros dois.</p>
+        <p>Agora vamos para o mais difícil, mas talvez o mais importante. Ainda não falei sobre a <strong>segunda</strong> coisa que precisamos saber para compreender melhor sobre <strong>progresso</strong>, mas vamos primeiro falar sobre como aproximar esse terceiro círculo dos outros dois.</p>
 
         <h3>Como construir um caminho de vida</h3>
 
         <p>Como já mencionei, movimentar o círculo de “coisas que sei porque devo fazer e que quero fazer” a nosso favor é extremamente difícil. Porém, apesar de difícil não quer dizer que não conseguiremos progredir nisso aos poucos. A boa notícia, é que assim como fizemos anteriormente, podemos construir micro-tarefas para, pouco a pouco, construir nosso caminho de vida.</p>
 
-        <p>Lembra de quando você era criança e estava aprendendo as operações básicas de matemática? Faz muito tempo, mas eu pelo menos tenho memórias vívidas de momentos que eu estava muito frustado de ter que quebrar a cabeça com “aquelas coisas inúteis”. Essas "coisas inúteis” era aprender a multiplicar e dividir.</p>
+        <p>Lembra de quando você era criança e estava aprendendo as operações básicas de matemática? Faz muito tempo, mas eu pelo menos tenho memórias vívidas de momentos que eu estava muito frustrado de ter que quebrar a cabeça com “aquelas coisas inúteis”. Essas "coisas inúteis” era aprender a multiplicar e dividir.</p>
 
-        <p>Claro que é muito mais difícil mostrar para uma criança a importância do estudo (mais difícil mas não impossível). Mas não somos mais crianças, e continuamos sendo “obrigados” a aprender coisas na faculdade, a fazer coisas em nossos trabalhos, sem ter a plena consciência de porque essas coisas são importantes.</p>
+        <p>Claro que é muito mais difícil mostrar para uma criança a importância do estudo (mais difícil, mas não impossível). Mas não somos mais crianças, e continuamos sendo “obrigados” a aprender coisas na faculdade, a fazer coisas em nossos trabalhos, sem ter a plena consciência de porque essas coisas são importantes.</p>
 
         <p>Depois que a fase criança passou, aprendemos a importância de saber multiplicar e dividir. Mas será que precisamos deixar passar a fase em que estamos agora para, quem sabe no futuro, descobrirmos porque devemos continuar fazendo o que fazemos hoje?</p>
 
@@ -175,17 +175,17 @@ export default () => (
 
         <p>Percebe que não estamos falando mais de consequência negativa, mas sim de consequência positiva. Um pouco mais difícil, dependendo da tarefa, mas não tanto, certo? Agora vamos refletir com um pouco mais de profundidade.</p>
 
-        <Tip>2. Pegue a tarefa que você anotou no papel e pense: essa tarefa contribui de alguma forma, mesmo que pouco, para quem eu pretendo ser no futuro e/ou para o(s) caminho(s) que defini para mim? Se sim, anote o porquê.</Tip>
+        <Tip>2. Pegue a tarefa que você anotou no papel e pense: essa tarefa contribui de alguma forma, mesmo que pouco, para quem pretendo ser no futuro e/ou para o(s) caminho(s) que defini para mim? Se sim, anote o porquê.</Tip>
 
         <p>Não gaste muito tempo nisso. O objetivo aqui não é definir pra sempre aquele propósito de nossas vidas que tanto temos procurado. É apenas progredir um pouco. Como se fosse uma micro-tarefa.</p>
 
-        <p>Se tivermos um pouquinho mais de clareza de porque devemos fazer, ou porque não devemos fazer nossas obrigações, ficaremos mais motivados em continuar, no caso de concluírmos que devemos continuar. Ou ficaremos mais motivados em mudar de direção, no caso de concluírmos que não devemos continuar.</p>
+        <p>Se tivermos um pouquinho mais de clareza de porque devemos fazer, ou porque não devemos fazer nossas obrigações, ficaremos mais motivados em continuar, no caso de concluirmos que devemos continuar. Ou ficaremos mais motivados em mudar de direção, no caso de concluirmos que não devemos continuar.</p>
 
-        <p>Se você estiver completamente perdido, e não tiver nenhum caminho definido para sí próprio, nem souber quem você pretende ser, calma que é justamente sobre isso que falaremos a seguir.</p>
+        <p>Se você estiver completamente perdido, e não tiver nenhum caminho definido para si próprio, nem souber quem você pretende ser, calma que é justamente sobre isso que falaremos a seguir.</p>
 
         <Tip>3. Caso você tenha conseguido escrever o “porquê” no passo 2, reflita mais uma vez: Porque esse “porquê” é importante para você, ou para outras pessoas?</Tip>
 
-        <p>Sabe aquele criança chata, que talvez já fomos um dia, que não para de questionar o porquê das coisas até querer saber a origem do universo, e que os pais geralmente mandam ele parar de fazer pergunta besta ou dizem “porque eu disse e pronto!”?</p>
+        <p>Sabe aquela criança chata, que talvez já fomos um dia, que não para de questionar o porquê das coisas até querer saber a origem do universo, e que os pais geralmente mandam ele parar de fazer pergunta besta ou dizem “porque eu disse e pronto!”?</p>
 
         <p>Então, essa característica de questionar profundamente as coisas, por algum motivo nós perdemos. E seria interessante se, pouco a pouco, pudéssemos tentar aplicá-la no nosso dia a dia, para pouco a pouco chegarmos em um diagrama que gostaríamos de viver.</p>
 
@@ -195,7 +195,7 @@ export default () => (
 
         <h3>Como redefinir meu contexto atual de vida</h3>
 
-        <p>Sabe aquele raro momento em que estamos sendo super produtivos? Progredindo super rápido nas nossas tarefas? Até que chegamos naquela tarefa que agarra tudo. Ficamos horas ou até mesmo dia até conseguir passar dessa barreira que impede nosso progresso.</p>
+        <p>Sabe aquele raro momento em que estamos sendo super produtivos? Progredindo super rápido nas nossas tarefas? Até que chegamos naquela tarefa que agarra tudo. Ficamos horas ou até mesmo dias até conseguir passar dessa barreira que impede nosso progresso.</p>
 
         <p>Ficamos frustrados, ansiosos e sonhando com o momento que conseguiremos sentir aquela sensação boa de progresso novamente. Dependendo do tipo da atividade, algumas pessoas chamam isso de "bloqueio criativo". Tipo eu, quando demorei mais de 30 minutos para escrever esse único parágrafo.</p>
 
@@ -224,7 +224,7 @@ export default () => (
         <p>Num contexto de faculdade, quando você não sabe como progredir em uma matéria ou em um trabalho, redefina suas tarefas para algo como:</p>
 
         <ul>
-            <li>Pedir ajuda à três professores pessoalmente</li>
+            <li>Pedir ajuda a três professores pessoalmente</li>
             <li>Tentar marcar uma monitoria com aquele aluno inteligente da sala</li>
             <li>Abordar algum veterano, ou profissional da área, pedindo ajuda</li>
         </ul>
@@ -239,7 +239,7 @@ export default () => (
             <li>Ir na próxima feira ou evento da minha área, e conhecer pessoas lá</li>
         </ul>
 
-        <p>E assim por diante. Claro que, dependendo da dificuldade da tarefa, esse método pode se extender tanto que pode tornar a resolução muito demorada. Mas é melhor demorar para resolver, do que ficar parado sem saber o que fazer, certo?</p>
+        <p>E assim por diante. Claro que, dependendo da dificuldade da tarefa, esse método pode se estender tanto que pode tornar a resolução muito demorada. Mas é melhor demorar para resolver, do que ficar parado sem saber o que fazer, certo?</p>
 
         <p>E lembra do diagrama? Lembra que o círculo do propósito é o mais difícil de mover e de aproximar dos outros dois? Não deixe que a dificuldade te impeça de progredir nisso. Você pode sim encontrar um <strong>significado a mais</strong> em todas as áreas e obrigações da sua vida.</p>
 
