@@ -44,7 +44,7 @@ const PostCard = ({ cover, children, href }) => (
                 border-top: none;
                 border-radius: 0 0 ${BORDER_RADIUS}px ${BORDER_RADIUS}px;
 
-                height: calc(200px - 40px);
+                min-height: calc(200px - 40px);
                 padding: 20px;
                 font-size: 0.8em;
             }

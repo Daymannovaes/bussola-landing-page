@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Link from '../components/Link';
 import PostCard from '../components/PostCard';
@@ -79,7 +80,7 @@ export default () => (
             <br />
 
             <PostCard cover="/static/texto-1-diagrama-tarefas-2.svg" href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">
-                Como ter motivação na faculdade e sempre fazer o que nos propomos a fazer?
+                Como ter motivação? As vezes parece ser impossível manter a motivação necessária para conseguir fazer o tudo que queremos. Porém, quando descobrimos "do que é feito" a motivação, fica tudo incrivelmente mais simples e mais fácil.
             </PostCard>
         </section>
     </div>
