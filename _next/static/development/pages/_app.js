@@ -78,41 +78,41 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/component
 var LayoutMain = function LayoutMain(_ref) {
   var children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["715716684", [_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].gray, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["MAIN_PADDING"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1015969975", [_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].gray, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["MAIN_PADDING"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "715716684",
-    css: "main.__jsx-style-dynamic-selector{background:".concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].gray, ";font-size:1.5em;color:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, ";padding:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["MAIN_PADDING"], "px;text-align:center;font-family:'Open Sans',sans-serif;}main.__jsx-style-dynamic-selector h1,main.__jsx-style-dynamic-selector h2,main.__jsx-style-dynamic-selector h3{text-shadow:0px 4px #dedede;margin:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px 0;}main.__jsx-style-dynamic-selector h1,main.__jsx-style-dynamic-selector h2{text-transform:uppercase;font-weight:900;color:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, ";}main.__jsx-style-dynamic-selector h3{font-weight:100;color:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL2NvbXBvbmVudHMvTGF5b3V0TWFpbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZYSxBQUd5RCxBQVNaLEFBTUgsQUFNVCxnQkFDbUIsU0FObkIsR0FMd0IsWUFWeEIsQ0FnQm1CLFVBTXZDLEtBckJ1QyxZQVV2QyxRQU1BLGVBZjJDLHVDQUNyQixrQkFDa0IsbUNBQ3hDIiwiZmlsZSI6Ii9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL2NvbXBvbmVudHMvTGF5b3V0TWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xuaW1wb3J0IExvZ28gZnJvbSAnLi9Mb2dvJztcbmltcG9ydCBGbGV4IGZyb20gJy4vRmxleCc7XG5cbmltcG9ydCB7XG4gICAgY29sb3JzLCBQQURESU5HX1VOSVQsIE1BSU5fUEFERElORyxcbn0gZnJvbSAnLi4vY29uZmlnL3N0eWxlLWd1aWRlJztcblxuY29uc3QgTGF5b3V0TWFpbiA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgICA8bWFpbj5cbiAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICAgIHtgXG4gICAgICAgICAgICBtYWluIHtcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAke2NvbG9ycy5ncmF5fTtcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgICAgICAgICAgICAgIGNvbG9yOiAke2NvbG9ycy5saWdodGJsdWV9O1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6ICR7TUFJTl9QQURESU5HfXB4O1xuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICAgICAgICBmb250LWZhbWlseTogJ09wZW4gU2FucycsIHNhbnMtc2VyaWY7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIG1haW4gOmdsb2JhbChoMSksIG1haW4gOmdsb2JhbChoMiksIG1haW4gOmdsb2JhbChoMykge1xuICAgICAgICAgICAgICAgIHRleHQtc2hhZG93OiAwcHggNHB4ICNkZWRlZGU7XG5cbiAgICAgICAgICAgICAgICBtYXJnaW46ICR7UEFERElOR19VTklUfXB4IDA7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIG1haW4gOmdsb2JhbChoMSksIG1haW4gOmdsb2JhbChoMikge1xuICAgICAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDkwMDtcbiAgICAgICAgICAgICAgICBjb2xvcjogJHtjb2xvcnMuZGVlcGJsdWV9O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICBtYWluIDpnbG9iYWwoaDMpIHtcbiAgICAgICAgICAgICAgICBmb250LXdlaWdodDogMTAwO1xuICAgICAgICAgICAgICAgIGNvbG9yOiAke2NvbG9ycy5saWdodGJsdWV9O1xuICAgICAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuXG4gICAgICAgIDxGbGV4IGNvbnRhaW5lcj5cbiAgICAgICAgICAgIDxMb2dvIC8+XG5cbiAgICAgICAgICAgIDxGbGV4PlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyLWJvZHlcIj5cbiAgICAgICAgICAgICAgICAgICAge2NoaWxkcmVufVxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9GbGV4PlxuICAgICAgICA8L0ZsZXg+XG4gICAgPC9tYWluPlxuKTtcblxuTGF5b3V0TWFpbi5wcm9wVHlwZXMgPSB7XG4gICAgY2hpbGRyZW46IFByb3BUeXBlcy5ub2RlLmlzUmVxdWlyZWQsXG59O1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXRNYWluO1xuIl19 */\n/*@ sourceURL=/Users/daymannovaes/workspace/bussola-landing-page/components/LayoutMain.js */"),
+    styleId: "1015969975",
+    css: "main.__jsx-style-dynamic-selector{background:".concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].gray, ";font-size:1.5em;color:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, ";padding:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["MAIN_PADDING"], "px;text-align:center;font-family:'Open Sans',sans-serif;}main.__jsx-style-dynamic-selector h1,main.__jsx-style-dynamic-selector h2,main.__jsx-style-dynamic-selector h3{text-shadow:0px 4px #0000001c;margin:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px 0;}main.__jsx-style-dynamic-selector h1,main.__jsx-style-dynamic-selector h2{font-weight:900;color:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, ";}main.__jsx-style-dynamic-selector h1{text-transform:uppercase;}main.__jsx-style-dynamic-selector h3{font-weight:100;color:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL2NvbXBvbmVudHMvTGF5b3V0TWFpbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZYSxBQUd5RCxBQVNWLEFBTWQsQUFLUyxBQUlULGdCQVJtQixBQVNBLFNBSnZDLEtBVjRDLFVBVnhCLFdBZ0JwQixBQVNBLEtBeEJ1QyxjQVV2QyxxQkFUMkMsdUNBQ3JCLGtCQUNrQixtQ0FDeEMiLCJmaWxlIjoiL1VzZXJzL2RheW1hbm5vdmFlcy93b3Jrc3BhY2UvYnVzc29sYS1sYW5kaW5nLXBhZ2UvY29tcG9uZW50cy9MYXlvdXRNYWluLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgTG9nbyBmcm9tICcuL0xvZ28nO1xuaW1wb3J0IEZsZXggZnJvbSAnLi9GbGV4JztcblxuaW1wb3J0IHtcbiAgICBjb2xvcnMsIFBBRERJTkdfVU5JVCwgTUFJTl9QQURESU5HLFxufSBmcm9tICcuLi9jb25maWcvc3R5bGUtZ3VpZGUnO1xuXG5jb25zdCBMYXlvdXRNYWluID0gKHsgY2hpbGRyZW4gfSkgPT4gKFxuICAgIDxtYWluPlxuICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAge2BcbiAgICAgICAgICAgIG1haW4ge1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICR7Y29sb3JzLmdyYXl9O1xuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMS41ZW07XG4gICAgICAgICAgICAgICAgY29sb3I6ICR7Y29sb3JzLmxpZ2h0Ymx1ZX07XG4gICAgICAgICAgICAgICAgcGFkZGluZzogJHtNQUlOX1BBRERJTkd9cHg7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnT3BlbiBTYW5zJywgc2Fucy1zZXJpZjtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgbWFpbiA6Z2xvYmFsKGgxKSwgbWFpbiA6Z2xvYmFsKGgyKSwgbWFpbiA6Z2xvYmFsKGgzKSB7XG4gICAgICAgICAgICAgICAgdGV4dC1zaGFkb3c6IDBweCA0cHggIzAwMDAwMDFjO1xuXG4gICAgICAgICAgICAgICAgbWFyZ2luOiAke1BBRERJTkdfVU5JVH1weCAwO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICBtYWluIDpnbG9iYWwoaDEpLCBtYWluIDpnbG9iYWwoaDIpIHtcbiAgICAgICAgICAgICAgICBmb250LXdlaWdodDogOTAwO1xuICAgICAgICAgICAgICAgIGNvbG9yOiAke2NvbG9ycy5kZWVwYmx1ZX07XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIG1haW4gOmdsb2JhbChoMSkge1xuICAgICAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIG1haW4gOmdsb2JhbChoMykge1xuICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiAxMDA7XG4gICAgICAgICAgICAgICAgY29sb3I6ICR7Y29sb3JzLmxpZ2h0Ymx1ZX07XG4gICAgICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICAgIDwvc3R5bGU+XG5cbiAgICAgICAgPEZsZXggY29udGFpbmVyPlxuICAgICAgICAgICAgPExvZ28gLz5cblxuICAgICAgICAgICAgPEZsZXg+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXItYm9keVwiPlxuICAgICAgICAgICAgICAgICAgICB7Y2hpbGRyZW59XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L0ZsZXg+XG4gICAgICAgIDwvRmxleD5cbiAgICA8L21haW4+XG4pO1xuXG5MYXlvdXRNYWluLnByb3BUeXBlcyA9IHtcbiAgICBjaGlsZHJlbjogUHJvcFR5cGVzLm5vZGUuaXNSZXF1aXJlZCxcbn07XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dE1haW47XG4iXX0= */\n/*@ sourceURL=/Users/daymannovaes/workspace/bussola-landing-page/components/LayoutMain.js */"),
     dynamic: [_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].gray, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["MAIN_PADDING"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue],
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Flex__WEBPACK_IMPORTED_MODULE_4__["default"], {
     container: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Flex__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["715716684", [_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].gray, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["MAIN_PADDING"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue]]]) + " " + "container-body",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1015969975", [_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].gray, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["MAIN_PADDING"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].lightblue]]]) + " " + "container-body",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 49
     },
     __self: this
   }, children))));
@@ -282,12 +282,14 @@ var MAIN_PADDING = 4 * PADDING_UNIT;
 var colors = {
   gray: '#efefef',
   lightwhite: '#fafaff',
-  deepblue: '#055170',
-  midblue: '#09688f',
   lightblue: '#61828d',
+  midblue: '#09688f',
+  deepblue: '#055170',
   lightblack: '#34464c',
+  strongblue: '#007edd',
   transparent: {
-    light: '#00000005'
+    light: '#00000005',
+    midlight: '#00000030'
   }
 };
 
