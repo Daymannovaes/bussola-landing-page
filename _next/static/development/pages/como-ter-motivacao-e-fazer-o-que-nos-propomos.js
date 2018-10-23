@@ -16669,7 +16669,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 12
     },
     __self: this
-  }, "Porque n\xE3o temos motiva\xE7\xE3o?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Por que n\xE3o temos motiva\xE7\xE3o?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -16687,7 +16687,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 16
     },
     __self: this
-  }, "Esse desapontamento j\xE1 \xE9 bem comum mesmo nos per\xEDodos inicias da faculdade, e se esse \xE9 o seu caso, acredito que voc\xEA tenha dito a voc\xEA mesmo que \u201Cnas mat\xE9rias mais pra frente do curso deve ficar melhor\u201D. Mas ser\xE1 que as pessoas que est\xE3o h\xE1 mais tempo no curso compartilham dessa opini\xE3o?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Esse desapontamento j\xE1 \xE9 bem comum mesmo nos per\xEDodos iniciais da faculdade, e se esse \xE9 o seu caso, acredito que voc\xEA tenha dito a voc\xEA mesmo que \u201Cnas mat\xE9rias mais pra frente do curso deve ficar melhor\u201D. Mas ser\xE1 que as pessoas que est\xE3o h\xE1 mais tempo no curso compartilham dessa opini\xE3o?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -16760,13 +16760,13 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 36
     },
     __self: this
-  }, "primeira"), " \xE9 a sensa\xE7\xE3o de que determinada tarefa nos leva em dire\xE7\xE3o \xE0 um objetivo o qual queremos atingir."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Tip__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "primeira"), " \xE9 a sensa\xE7\xE3o de que determinada tarefa nos leva em dire\xE7\xE3o a um objetivo o qual queremos atingir."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Tip__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, "Fa\xE7a a pergunta a si mesmo: essa tarefa que estou fazendo, esse estudo, contribui em algo para o que eu espero do futuro?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Fa\xE7a a pergunta a si mesmo: essa tarefa que estou fazendo, esse estudo, contribui em algo para o que espero do futuro?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
@@ -16814,7 +16814,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 48
     },
     __self: this
-  }, "Em um mundo ideal, gostar\xEDamos de que tudo pudesse nos dar essas duas sensa\xE7\xF5es. Por\xE9m elas acontecem pouco. Consigo pensar em alguns prov\xE1veis momentos em que voc\xEA experimentou ambas:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "Em um mundo ideal, gostar\xEDamos que tudo pudesse nos dar essas duas sensa\xE7\xF5es. Por\xE9m, elas acontecem pouco. Consigo pensar em alguns prov\xE1veis momentos em que voc\xEA experimentou ambas:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
@@ -16924,7 +16924,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 76
     },
     __self: this
-  }, "Antes de continuar refletindo sobre o porque das coisas, vamos falar um pouco sobre como podemos incluir mais progresso e mais conquistas no nosso dia a dia."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+  }, "Antes de continuar refletindo sobre o porqu\xEA das coisas, vamos falar um pouco sobre como podemos incluir mais progresso e mais conquistas no nosso dia a dia."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78
@@ -16942,7 +16942,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 82
     },
     __self: this
-  }, "E agora, para n\xF3s aprofundar nosso entendimento em ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+  }, "E agora, para aprofundarmos nosso entendimento em ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 82
@@ -17003,7 +17003,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 94
     },
     __self: this
-  }, "E n\xF3s podemos continuar decompondo cada tarefa menor em tarefas ainda menores. Pegando agora uma tarefa um pouco mais complexa, como por exemplo \u201Cdar uma limpeza geral na casa\u201D."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "E podemos continuar decompondo cada tarefa menor em tarefas ainda menores. Pegando agora uma tarefa um pouco mais complexa, como por exemplo \u201Cdar uma limpeza geral na casa\u201D."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 96
@@ -17142,7 +17142,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 128
     },
     __self: this
-  }, "Quando estamos sentados no sof\xE1, confort\xE1veis e descansando logo ap\xF3s ter chegado cansado em casa, e nos lembramos de nossas responsabilidades, a primeira coisa que n\xF3s pensamos, geralmente \xE9 a tarefa que definimos para n\xF3s mesmos que devemos cumprir."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PostImg__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Quando estamos sentados no sof\xE1, confort\xE1veis e descansando logo ap\xF3s ter chegado cansado em casa, e nos lembramos de nossas responsabilidades, a primeira coisa que pensamos, geralmente \xE9 a tarefa que definimos para n\xF3s mesmos que devemos cumprir."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PostImg__WEBPACK_IMPORTED_MODULE_2__["default"], {
     src: "/static/texto-1-pensativo-sofa-1.jpg",
     __source: {
       fileName: _jsxFileName,
@@ -17168,7 +17168,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 136
     },
     __self: this
-  }, "Quanto mais dif\xEDcil a tarefa, mais motiva\xE7\xE3o e for\xE7a de vontade precisamos para realiz\xE1-la. \xC9 o que diz o gr\xE1fico acima, para conseguirmos agir n\xF3s podemos mexer no eixo vertical, ou seja, tentar aumentar nossa for\xE7a de vontade, ou mexer no eixo horizontal, simplificando as tarefas. Qual eixo \xE9 mais f\xE1cil de mexer?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+  }, "Quanto mais dif\xEDcil a tarefa, mais motiva\xE7\xE3o e for\xE7a de vontade precisamos para realiz\xE1-la. \xC9 o que diz o gr\xE1fico acima, para conseguirmos agir podemos mexer no eixo vertical, ou seja, tentar aumentar nossa for\xE7a de vontade, ou mexer no eixo horizontal, simplificando as tarefas. Qual eixo \xE9 mais f\xE1cil de mexer?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 138
@@ -17186,7 +17186,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 142
     },
     __self: this
-  }, "Sabe aquele h\xE1bito saud\xE1vel, como por exemplo \"beber mais \xE1gua\", que voc\xEA sempre quis ter mas nunca conseguiu desenvolver? Beber tr\xEAs litros de \xE1gua, como recomendam por a\xED, parece muita coisa e dif\xEDcil de cumprir, e tr\xEAs litros s\xE3o seis (!!!) garrafinhas de \xE1gua por dia! Dif\xEDcil, n\xE9?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Sabe aquele h\xE1bito saud\xE1vel, como por exemplo \"beber mais \xE1gua\", que voc\xEA sempre quis ter, mas nunca conseguiu desenvolver? Beber tr\xEAs litros de \xE1gua, como recomendam por a\xED, parece muita coisa e dif\xEDcil de cumprir, e tr\xEAs litros s\xE3o seis (!!!) garrafinhas de \xE1gua por dia! Dif\xEDcil, n\xE9?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 144
@@ -17235,7 +17235,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 156
     },
     __self: this
-  }, "segunda"), " coisa que precisamos saber para compreende melhor sobre ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+  }, "segunda"), " coisa que precisamos saber para compreender melhor sobre ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 156
@@ -17259,13 +17259,13 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 162
     },
     __self: this
-  }, "Lembra de quando voc\xEA era crian\xE7a e estava aprendendo as opera\xE7\xF5es b\xE1sicas de matem\xE1tica? Faz muito tempo, mas eu pelo menos tenho mem\xF3rias v\xEDvidas de momentos que eu estava muito frustado de ter que quebrar a cabe\xE7a com \u201Caquelas coisas in\xFAteis\u201D. Essas \"coisas in\xFAteis\u201D era aprender a multiplicar e dividir."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Lembra de quando voc\xEA era crian\xE7a e estava aprendendo as opera\xE7\xF5es b\xE1sicas de matem\xE1tica? Faz muito tempo, mas eu pelo menos tenho mem\xF3rias v\xEDvidas de momentos que eu estava muito frustrado de ter que quebrar a cabe\xE7a com \u201Caquelas coisas in\xFAteis\u201D. Essas \"coisas in\xFAteis\u201D era aprender a multiplicar e dividir."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 164
     },
     __self: this
-  }, "Claro que \xE9 muito mais dif\xEDcil mostrar para uma crian\xE7a a import\xE2ncia do estudo (mais dif\xEDcil mas n\xE3o imposs\xEDvel). Mas n\xE3o somos mais crian\xE7as, e continuamos sendo \u201Cobrigados\u201D a aprender coisas na faculdade, a fazer coisas em nossos trabalhos, sem ter a plena consci\xEAncia de porque essas coisas s\xE3o importantes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Claro que \xE9 muito mais dif\xEDcil mostrar para uma crian\xE7a a import\xE2ncia do estudo (mais dif\xEDcil, mas n\xE3o imposs\xEDvel). Mas n\xE3o somos mais crian\xE7as, e continuamos sendo \u201Cobrigados\u201D a aprender coisas na faculdade, a fazer coisas em nossos trabalhos, sem ter a plena consci\xEAncia de porque essas coisas s\xE3o importantes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 166
@@ -17307,7 +17307,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 178
     },
     __self: this
-  }, "2. Pegue a tarefa que voc\xEA anotou no papel e pense: essa tarefa contribui de alguma forma, mesmo que pouco, para quem eu pretendo ser no futuro e/ou para o(s) caminho(s) que defini para mim? Se sim, anote o porqu\xEA."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "2. Pegue a tarefa que voc\xEA anotou no papel e pense: essa tarefa contribui de alguma forma, mesmo que pouco, para quem pretendo ser no futuro e/ou para o(s) caminho(s) que defini para mim? Se sim, anote o porqu\xEA."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180
@@ -17319,13 +17319,13 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 182
     },
     __self: this
-  }, "Se tivermos um pouquinho mais de clareza de porque devemos fazer, ou porque n\xE3o devemos fazer nossas obriga\xE7\xF5es, ficaremos mais motivados em continuar, no caso de conclu\xEDrmos que devemos continuar. Ou ficaremos mais motivados em mudar de dire\xE7\xE3o, no caso de conclu\xEDrmos que n\xE3o devemos continuar."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Se tivermos um pouquinho mais de clareza de porque devemos fazer, ou porque n\xE3o devemos fazer nossas obriga\xE7\xF5es, ficaremos mais motivados em continuar, no caso de concluirmos que devemos continuar. Ou ficaremos mais motivados em mudar de dire\xE7\xE3o, no caso de concluirmos que n\xE3o devemos continuar."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 184
     },
     __self: this
-  }, "Se voc\xEA estiver completamente perdido, e n\xE3o tiver nenhum caminho definido para s\xED pr\xF3prio, nem souber quem voc\xEA pretende ser, calma que \xE9 justamente sobre isso que falaremos a seguir."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Tip__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Se voc\xEA estiver completamente perdido, e n\xE3o tiver nenhum caminho definido para si pr\xF3prio, nem souber quem voc\xEA pretende ser, calma que \xE9 justamente sobre isso que falaremos a seguir."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Tip__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 186
@@ -17337,7 +17337,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 188
     },
     __self: this
-  }, "Sabe aquele crian\xE7a chata, que talvez j\xE1 fomos um dia, que n\xE3o para de questionar o porqu\xEA das coisas at\xE9 querer saber a origem do universo, e que os pais geralmente mandam ele parar de fazer pergunta besta ou dizem \u201Cporque eu disse e pronto!\u201D?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Sabe aquela crian\xE7a chata, que talvez j\xE1 fomos um dia, que n\xE3o para de questionar o porqu\xEA das coisas at\xE9 querer saber a origem do universo, e que os pais geralmente mandam ele parar de fazer pergunta besta ou dizem \u201Cporque eu disse e pronto!\u201D?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 190
@@ -17380,7 +17380,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 198
     },
     __self: this
-  }, "Sabe aquele raro momento em que estamos sendo super produtivos? Progredindo super r\xE1pido nas nossas tarefas? At\xE9 que chegamos naquela tarefa que agarra tudo. Ficamos horas ou at\xE9 mesmo dia at\xE9 conseguir passar dessa barreira que impede nosso progresso."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Sabe aquele raro momento em que estamos sendo super produtivos? Progredindo super r\xE1pido nas nossas tarefas? At\xE9 que chegamos naquela tarefa que agarra tudo. Ficamos horas ou at\xE9 mesmo dias at\xE9 conseguir passar dessa barreira que impede nosso progresso."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 200
@@ -17500,7 +17500,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 227
     },
     __self: this
-  }, "Pedir ajuda \xE0 tr\xEAs professores pessoalmente"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Pedir ajuda a tr\xEAs professores pessoalmente"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 228
@@ -17554,7 +17554,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/com
       lineNumber: 242
     },
     __self: this
-  }, "E assim por diante. Claro que, dependendo da dificuldade da tarefa, esse m\xE9todo pode se extender tanto que pode tornar a resolu\xE7\xE3o muito demorada. Mas \xE9 melhor demorar para resolver, do que ficar parado sem saber o que fazer, certo?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "E assim por diante. Claro que, dependendo da dificuldade da tarefa, esse m\xE9todo pode se estender tanto que pode tornar a resolu\xE7\xE3o muito demorada. Mas \xE9 melhor demorar para resolver, do que ficar parado sem saber o que fazer, certo?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 244
