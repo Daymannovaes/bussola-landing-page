@@ -12,7 +12,8 @@
     "lint:components": "eslint components/",
     "build": "npm run build:next && npm run build:move",
     "build:next": "next build && next export -o dist",
-    "build:move": "cp CNAME dist/CNAME && cp .nojekyll dist/.nojekyll && cp dist/404/index.html dist/404.html",
+    "build:move": "cp config/CNAME dist/CNAME && cp config/.nojekyll dist/.nojekyll && npm run build:move:google && cp dist/404/index.html dist/404.html",
+    "build:move:google": "cp config/google322859e273469cbb.html dist/google322859e273469cbb.html",
     "serve": "serve -l 3000 dist",
     "predeploy": "npm run lint && npm run test && npm run build",
     "deploy": "gh-pages -d dist --dotfiles"
