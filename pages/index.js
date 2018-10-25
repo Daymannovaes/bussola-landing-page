@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import Head from 'next/head';
 import Link from '../components/Link';
 import PostCard from '../components/PostCard';
 import MailChimp from '../components/MailChimp';
@@ -8,6 +9,10 @@ import { PADDING_UNIT } from '../config/style-guide';
 
 export default () => (
     <div>
+        <Head>
+            <meta name="google-site-verification" content="aFUa4OCasgi_PmWe855lK7IlNCW2HuFS3jUWEyewnOU" />
+        </Head>
+
         <style jsx>
             {`
             @media only screen and (max-width: 270px) {
