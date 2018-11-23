@@ -72,7 +72,7 @@ export default () => (
                 Já pensou no que te impede de seguir seu propósito plenamente e de conquistar seus objetivos?
             </p>
 
-            <MailChimp text="Se esse assunto te interessa, coloca seu email abaixo para saber como podemos te ajudar nisso!" buttonText="cadastrar" light />
+            <MailChimp text="Se esse assunto te interessa, coloca seu email abaixo para saber como podemos te ajudar nisso!" buttonText="cadastrar" location="homepage" light />
         </section>
 
         <section id="post">
