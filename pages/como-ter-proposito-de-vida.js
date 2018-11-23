@@ -34,7 +34,7 @@ export default () => (
 
         <p>Portanto um propósito nos ajuda a guiar nossa vida no <strong>presente</strong>.</p>
 
-        <p>A partir de um propósito bem definido, nossas ações passam a ter mais <strong>coerência</strong> entre si, pois cada vez mais vamos tentando dar significado para cada contexto de nossas vidas, e passamos a viver uma vida mais <strong>autêntica</strong>.</p>
+        <p>A partir de um propósito bem definido, nossas ações passam a ter mais <strong>coerência</strong> entre si, pois cada vez mais vamos tentando dar significado para cada contexto de nossas vidas e passamos a viver uma vida mais <strong>autêntica</strong>.</p>
 
         <h3>O que é propósito de vida?</h3>
 
@@ -42,13 +42,13 @@ export default () => (
 
         <p>Na verdade, a maioria dos textos e discussões sobre o assunto começam da mesma forma. Porque? Porque todos nós já partimos do pressuposto que já sabemos “mais ou menos” o que é propósito.</p>
 
-        <p>Nunca foi-nos ensinado o hábito de refletir sobre esse tema. Inclusive, era comum sermos taxamos de loucos, chatos e inconvenientes se ficássemos a todo momento questionando o objetivo da vida e perguntando o “porque” de tudo.</p>
+        <p>Nunca foi-nos ensinado o hábito de refletir sobre esse tema. Inclusive, era comum sermos taxados de loucos, chatos e inconvenientes se ficássemos a todo momento questionando o objetivo da vida e perguntando o “porquê” de tudo.</p>
 
         <p>Bom, o fato é que não precisamos mesmo definir com exatidão matemática o significado das coisas para que possamos usá-las a nosso favor, e de fato todos nós já sabemos “mais ou menos” o que é propósito. Porém, um pequeno aprofundamento no tema vai tornar mais fácil quando chegarmos no assunto “como definir meu propósito de vida".</p>
 
         <p>Percebe que eu falei sobre “definir” propósito, e não “encontrar" propósito. Essa diferença é importante, pois nos mostra que as coisas não têm um propósito intrínseco que precisa ser encontrado. Um propósito de algo é sempre definido por alguém, ou seja, um observador, um sujeito, uma pessoa.</p>
 
-        <p>Uma pedra não tem razão de existir, porém você pode usá-la com diferentes propósitos: para segurar uma porta, para fazer fogo, para se proteger de alguém.</p>
+        <p>Uma pedra não tem razão de existir, porém você pode usá-la com diferentes propósitos: para segurar uma porta, para fazer fogo, para se proteger de um animal.</p>
 
         <p>Mesmo um machado, que tenha sido criado por alguém com um propósito específico, pode ser usado com outro objetivo por outra pessoa, como o de decoração, por exemplo. Portanto o propósito de algo também não depende de quem criou, apenas de quem usa.</p>
 
@@ -58,7 +58,7 @@ export default () => (
 
         <Tip>Por exemplo: se Deus, ou a minha religião, dizem que "tenho que ser bom”, como posso expressar isso no mundo atual? Como posso ter uma profissão que expresse isso?</Tip>
          
-        <p>Essa ideia de que nada tem um significado intrínseco nunca foi tema de grande discussão na filosofia nem na sociedade. Foi apenas em 1945, com o surgimento do <strong>existencialismo</strong>, que diz que cada indivíduo é responsável por dar o significado à sua vida, e viver baseado nisso, <strong>autenticamente</strong>.</p>
+        <p>Essa ideia de que nada tem um significado intrínseco nunca foi tema de grande discussão na filosofia nem na sociedade. Foi apenas em 1945, com o surgimento do <strong>existencialismo</strong>, que diz que cada indivíduo é responsável por dar o significado à sua vida e viver baseado nisso, <strong>autenticamente</strong>.</p>
 
         <Tip>“Existência precede essência” - Jean-Paul Sartre, precursor do Existencialismo</Tip>
          
@@ -125,7 +125,7 @@ export default () => (
 
         <Tip>2. Das atividades que citei, o que elas têm que me fazem gostar dela?</Tip>
 
-        <Tip>3. Para cada item listado, pense em uma situação real que aconteceu na sua vida, que tinha essa coisa</Tip>
+        <Tip>3. Para cada item listado anteriormente, pense em uma situação real de sua vida que tinha esse item</Tip>
 
         <p>Cada passo seguinte pode ajudar no passo anterior. E não tem problema não conseguir pensar em muitas, tente fazer essa reflexão ao longo da próxima semana, e anote sempre que pensar em algo novo.</p>
 
