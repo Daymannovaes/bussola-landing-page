@@ -273,22 +273,23 @@ var MailChimp = function MailChimp(_ref) {
       id = _ref.id,
       buttonAnimationDelay = _ref.buttonAnimationDelay,
       inputRef = _ref.inputRef,
-      light = _ref.light;
+      light = _ref.light,
+      location = _ref.location;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "form-".concat(id),
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "1426449588",
-    css: "input[type=\"email\"].__jsx-style-dynamic-selector{padding:0 ".concat(2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;margin:0 ").concat(2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;font-size:1rem;background-color:#fff;background-image:none;border-radius:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], "px;border:0;color:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, ";}.mc-field-group.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:").concat(2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px 0;}#form-").concat(id, ".__jsx-style-dynamic-selector{margin-top:").concat(7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;}.mc-field-group.__jsx-style-dynamic-selector input,.mc-field-group.__jsx-style-dynamic-selector button{padding:0 ").concat(2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;min-height:").concat(6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;}.mc-field-group.__jsx-style-dynamic-selector>*{margin-top:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;margin-bottom:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL2NvbXBvbmVudHMvTWFpbENoaW1wLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CYSxBQUcwRCxBQVc1QixBQVM2QixBQUlELEFBS0MseUNBNUJGLEFBd0JFLENBSjlDLEFBU2tELGdDQWxCM0IsT0FWSixFQXdCbkIsS0FLQSxRQTVCMEIsc0JBQ0Esc0JBQ3VCLEdBUTFCLDBDQVBWLFNBQzBCLG1DQUN2QyxPQU0yQixtR0FFaUIsd0NBQzVDIiwiZmlsZSI6Ii9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL2NvbXBvbmVudHMvTWFpbENoaW1wLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLyogZXNsaW50LWRpc2FibGUgbWF4LWxlbiAgKi9cblxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgQnV0dG9uIGZyb20gJy4vQnV0dG9uJztcbmltcG9ydCBBbmltYXRlRm9yZXZlciBmcm9tICcuL0FuaW1hdGVGb3JldmVyJztcbmltcG9ydCB7IGNvbG9ycywgUEFERElOR19VTklULCBCT1JERVJfUkFESVVTIH0gZnJvbSAnLi4vY29uZmlnL3N0eWxlLWd1aWRlJztcblxuY29uc3QgTWFpbENoaW1wID0gKHtcbiAgICB0ZXh0LFxuICAgIGJ1dHRvblRleHQsXG4gICAgcGxhY2Vob2xkZXIsXG4gICAgaWQsXG4gICAgYnV0dG9uQW5pbWF0aW9uRGVsYXksXG4gICAgaW5wdXRSZWYsXG4gICAgbGlnaHQsXG59KSA9PiAoXG4gICAgPGRpdiBpZD17YGZvcm0tJHtpZH1gfT5cbiAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICAgIHtgXG4gICAgICAgICAgICBpbnB1dFt0eXBlPVwiZW1haWxcIl0ge1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgJHsyICogUEFERElOR19VTklUfXB4O1xuICAgICAgICAgICAgICAgIG1hcmdpbjogMCAkezIgKiBQQURESU5HX1VOSVR9cHg7XG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxcmVtO1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogbm9uZTtcbiAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAke0JPUkRFUl9SQURJVVN9cHg7XG4gICAgICAgICAgICAgICAgYm9yZGVyOiAwO1xuICAgICAgICAgICAgICAgIGNvbG9yOiAke2NvbG9ycy5kZWVwYmx1ZX07XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5tYy1maWVsZC1ncm91cCB7XG4gICAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgICAgICBmbGV4LWZsb3c6IHJvdyB3cmFwO1xuICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG5cbiAgICAgICAgICAgICAgICBtYXJnaW46ICR7MiAqIFBBRERJTkdfVU5JVH1weCAwO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAjZm9ybS0ke2lkfSB7XG4gICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogJHs3ICogUEFERElOR19VTklUfXB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAubWMtZmllbGQtZ3JvdXAgIDpnbG9iYWwoaW5wdXQpLCAubWMtZmllbGQtZ3JvdXAgOmdsb2JhbChidXR0b24pIHtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwICR7MiAqIFBBRERJTkdfVU5JVH1weDtcbiAgICAgICAgICAgICAgICBtaW4taGVpZ2h0OiAkezYgKiBQQURESU5HX1VOSVR9cHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5tYy1maWVsZC1ncm91cCA+IDpnbG9iYWwoKikge1xuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6ICR7UEFERElOR19VTklUfXB4O1xuICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206ICR7UEFERElOR19VTklUfXB4O1xuICAgICAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgICAgICA8Zm9ybSBhY3Rpb249XCJodHRwczovL2RheW1hbi51czEyLmxpc3QtbWFuYWdlLmNvbS9zdWJzY3JpYmUvcG9zdD91PTUyZjZlN2EzM2IyZDU0NDc5YzVmYzU0ZWUmaWQ9YjNhY2NkMTlhZlwiIG1ldGhvZD1cInBvc3RcIiBpZD1cIm1jLWVtYmVkZGVkLXN1YnNjcmliZS1mb3JtXCIgbmFtZT1cIm1jLWVtYmVkZGVkLXN1YnNjcmliZS1mb3JtXCIgY2xhc3NOYW1lPVwidmFsaWRhdGVcIiB0YXJnZXQ9XCJfYmxhbmtcIiBub1ZhbGlkYXRlPlxuICAgICAgICAgICAgPGRpdiBpZD1cIm1jX2VtYmVkX3NpZ251cF9zY3JvbGxcIj5cbiAgICAgICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj1cIm1jZS1FTUFJTFwiPnt0ZXh0fTwvbGFiZWw+XG5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1jLWZpZWxkLWdyb3VwXCI+XG4gICAgICAgICAgICAgICAgICAgIDxBbmltYXRlRm9yZXZlciBkZWxheT17MTAwMH0gYW5pbWF0ZUludGVydmFsPXszICogYnV0dG9uQW5pbWF0aW9uRGVsYXl9PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgcmVmPXtpbnB1dFJlZn0gdHlwZT1cImVtYWlsXCIgbmFtZT1cIkVNQUlMXCIgY2xhc3NOYW1lPVwicmVxdWlyZWQgZW1haWxcIiBpZD1cIm1jZS1FTUFJTFwiIHBsYWNlaG9sZGVyPXtwbGFjZWhvbGRlcn0gLz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L0FuaW1hdGVGb3JldmVyPlxuXG4gICAgICAgICAgICAgICAgICAgIDxBbmltYXRlRm9yZXZlciBhbmltYXRlSW50ZXJ2YWw9e2J1dHRvbkFuaW1hdGlvbkRlbGF5fSBkZWxheT17YnV0dG9uQW5pbWF0aW9uRGVsYXl9PlxuICAgICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiBsaWdodD17bGlnaHR9IGRlZmF1bHRWYWx1ZT17YnV0dG9uVGV4dH0gbmFtZT1cInN1YnNjcmliZVwiIGlkPVwibWMtZW1iZWRkZWQtc3Vic2NyaWJlXCI+e2J1dHRvblRleHR9PC9CdXR0b24+XG4gICAgICAgICAgICAgICAgICAgIDwvQW5pbWF0ZUZvcmV2ZXI+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPGRpdiBpZD1cIm1jZS1yZXNwb25zZXNcIiBjbGFzc05hbWU9XCJjbGVhclwiPlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJlc3BvbnNlXCIgaWQ9XCJtY2UtZXJyb3ItcmVzcG9uc2VcIiBzdHlsZT17eyBkaXNwbGF5OiAnbm9uZScgfX0gLz5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyZXNwb25zZVwiIGlkPVwibWNlLXN1Y2Nlc3MtcmVzcG9uc2VcIiBzdHlsZT17eyBkaXNwbGF5OiAnbm9uZScgfX0gLz5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcG9zaXRpb246ICdhYnNvbHV0ZScsIGxlZnQ6ICctNTAwMHB4JyB9fSBhcmlhLWhpZGRlbj1cInRydWVcIj48aW5wdXQgdHlwZT1cInRleHRcIiBuYW1lPVwiYl81MmY2ZTdhMzNiMmQ1NDQ3OWM1ZmM1NGVlX2IzYWNjZDE5YWZcIiB0YWJJbmRleD17LTF9IC8+PC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9mb3JtPlxuICAgIDwvZGl2PlxuKTtcblxuTWFpbENoaW1wLnByb3BUeXBlcyA9IHtcbiAgICB0ZXh0OiBQcm9wVHlwZXMuc3RyaW5nLFxuICAgIGJ1dHRvblRleHQ6IFByb3BUeXBlcy5zdHJpbmcsXG4gICAgcGxhY2Vob2xkZXI6IFByb3BUeXBlcy5zdHJpbmcsXG4gICAgaWQ6IFByb3BUeXBlcy5zdHJpbmcsXG4gICAgYnV0dG9uQW5pbWF0aW9uRGVsYXk6IFByb3BUeXBlcy5udW1iZXIsXG4gICAgbGlnaHQ6IFByb3BUeXBlcy5ib29sLFxuICAgIGlucHV0UmVmOiBQcm9wVHlwZXMub2JqZWN0LCAvLyBlc2xpbnQtZGlzYWJsZS1saW5lIHJlYWN0L2ZvcmJpZC1wcm9wLXR5cGVzXG59O1xuXG5NYWlsQ2hpbXAuZGVmYXVsdFByb3BzID0ge1xuICAgIHRleHQ6ICdDYWRhc3RyZS1zZSBwYXJhIHJlY2ViZXIgbmEgw61udGVncmEgYXMgbm92aWRhZGVzIScsXG4gICAgYnV0dG9uVGV4dDogJ0luc2NyZXZlcicsXG4gICAgcGxhY2Vob2xkZXI6ICdkaWdpdGUgc2V1IGVtYWlsIGFxdWknLFxuICAgIGlkOiAnc2lnbnVwJyxcbiAgICBidXR0b25BbmltYXRpb25EZWxheTogMTAwMDAsXG4gICAgbGlnaHQ6IGZhbHNlLFxuICAgIGlucHV0UmVmOiBSZWFjdC5jcmVhdGVSZWYoKSxcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE1haWxDaGltcDtcbiJdfQ== */\n/*@ sourceURL=/Users/daymannovaes/workspace/bussola-landing-page/components/MailChimp.js */"),
+    css: "input[type=\"email\"].__jsx-style-dynamic-selector{padding:0 ".concat(2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;margin:0 ").concat(2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;font-size:1rem;background-color:#fff;background-image:none;border-radius:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], "px;border:0;color:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, ";}.mc-field-group.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:").concat(2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px 0;}#form-").concat(id, ".__jsx-style-dynamic-selector{margin-top:").concat(7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;}.mc-field-group.__jsx-style-dynamic-selector input,.mc-field-group.__jsx-style-dynamic-selector button{padding:0 ").concat(2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;min-height:").concat(6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;}.mc-field-group.__jsx-style-dynamic-selector>*{margin-top:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;margin-bottom:").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], "px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL2NvbXBvbmVudHMvTWFpbENoaW1wLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9CYSxBQUcwRCxBQVc1QixBQVM2QixBQUlELEFBS0MseUNBNUJGLEFBd0JFLENBSjlDLEFBU2tELGdDQWxCM0IsT0FWSixFQXdCbkIsS0FLQSxRQTVCMEIsc0JBQ0Esc0JBQ3VCLEdBUTFCLDBDQVBWLFNBQzBCLG1DQUN2QyxPQU0yQixtR0FFaUIsd0NBQzVDIiwiZmlsZSI6Ii9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL2NvbXBvbmVudHMvTWFpbENoaW1wLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLyogZXNsaW50LWRpc2FibGUgbWF4LWxlbiAgKi9cblxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgQnV0dG9uIGZyb20gJy4vQnV0dG9uJztcbmltcG9ydCBBbmltYXRlRm9yZXZlciBmcm9tICcuL0FuaW1hdGVGb3JldmVyJztcbmltcG9ydCB7IGNvbG9ycywgUEFERElOR19VTklULCBCT1JERVJfUkFESVVTIH0gZnJvbSAnLi4vY29uZmlnL3N0eWxlLWd1aWRlJztcblxuY29uc3QgTWFpbENoaW1wID0gKHtcbiAgICB0ZXh0LFxuICAgIGJ1dHRvblRleHQsXG4gICAgcGxhY2Vob2xkZXIsXG4gICAgaWQsXG4gICAgYnV0dG9uQW5pbWF0aW9uRGVsYXksXG4gICAgaW5wdXRSZWYsXG4gICAgbGlnaHQsXG4gICAgbG9jYXRpb24sXG59KSA9PiAoXG4gICAgPGRpdiBpZD17YGZvcm0tJHtpZH1gfT5cbiAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICAgIHtgXG4gICAgICAgICAgICBpbnB1dFt0eXBlPVwiZW1haWxcIl0ge1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgJHsyICogUEFERElOR19VTklUfXB4O1xuICAgICAgICAgICAgICAgIG1hcmdpbjogMCAkezIgKiBQQURESU5HX1VOSVR9cHg7XG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxcmVtO1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogbm9uZTtcbiAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAke0JPUkRFUl9SQURJVVN9cHg7XG4gICAgICAgICAgICAgICAgYm9yZGVyOiAwO1xuICAgICAgICAgICAgICAgIGNvbG9yOiAke2NvbG9ycy5kZWVwYmx1ZX07XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5tYy1maWVsZC1ncm91cCB7XG4gICAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgICAgICBmbGV4LWZsb3c6IHJvdyB3cmFwO1xuICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG5cbiAgICAgICAgICAgICAgICBtYXJnaW46ICR7MiAqIFBBRERJTkdfVU5JVH1weCAwO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAjZm9ybS0ke2lkfSB7XG4gICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogJHs3ICogUEFERElOR19VTklUfXB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAubWMtZmllbGQtZ3JvdXAgIDpnbG9iYWwoaW5wdXQpLCAubWMtZmllbGQtZ3JvdXAgOmdsb2JhbChidXR0b24pIHtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwICR7MiAqIFBBRERJTkdfVU5JVH1weDtcbiAgICAgICAgICAgICAgICBtaW4taGVpZ2h0OiAkezYgKiBQQURESU5HX1VOSVR9cHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5tYy1maWVsZC1ncm91cCA+IDpnbG9iYWwoKikge1xuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6ICR7UEFERElOR19VTklUfXB4O1xuICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206ICR7UEFERElOR19VTklUfXB4O1xuICAgICAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgICAgICA8Zm9ybSBhY3Rpb249e2BodHRwczovL2RheW1hbi51czEyLmxpc3QtbWFuYWdlLmNvbS9zdWJzY3JpYmUvcG9zdD91PTUyZjZlN2EzM2IyZDU0NDc5YzVmYzU0ZWUmaWQ9YjNhY2NkMTlhZiZTSUdOVVA9JHtsb2NhdGlvbn1gfSBtZXRob2Q9XCJwb3N0XCIgaWQ9XCJtYy1lbWJlZGRlZC1zdWJzY3JpYmUtZm9ybVwiIG5hbWU9XCJtYy1lbWJlZGRlZC1zdWJzY3JpYmUtZm9ybVwiIGNsYXNzTmFtZT1cInZhbGlkYXRlXCIgdGFyZ2V0PVwiX2JsYW5rXCIgbm9WYWxpZGF0ZT5cbiAgICAgICAgICAgIDxkaXYgaWQ9XCJtY19lbWJlZF9zaWdudXBfc2Nyb2xsXCI+XG4gICAgICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9XCJtY2UtRU1BSUxcIj57dGV4dH08L2xhYmVsPlxuXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYy1maWVsZC1ncm91cFwiPlxuICAgICAgICAgICAgICAgICAgICA8QW5pbWF0ZUZvcmV2ZXIgZGVsYXk9ezEwMDB9IGFuaW1hdGVJbnRlcnZhbD17MyAqIGJ1dHRvbkFuaW1hdGlvbkRlbGF5fT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0IHJlZj17aW5wdXRSZWZ9IHR5cGU9XCJlbWFpbFwiIG5hbWU9XCJFTUFJTFwiIGNsYXNzTmFtZT1cInJlcXVpcmVkIGVtYWlsXCIgaWQ9XCJtY2UtRU1BSUxcIiBwbGFjZWhvbGRlcj17cGxhY2Vob2xkZXJ9IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9BbmltYXRlRm9yZXZlcj5cblxuICAgICAgICAgICAgICAgICAgICA8QW5pbWF0ZUZvcmV2ZXIgYW5pbWF0ZUludGVydmFsPXtidXR0b25BbmltYXRpb25EZWxheX0gZGVsYXk9e2J1dHRvbkFuaW1hdGlvbkRlbGF5fT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxCdXR0b24gbGlnaHQ9e2xpZ2h0fSBkZWZhdWx0VmFsdWU9e2J1dHRvblRleHR9IG5hbWU9XCJzdWJzY3JpYmVcIiBpZD1cIm1jLWVtYmVkZGVkLXN1YnNjcmliZVwiPntidXR0b25UZXh0fTwvQnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICA8L0FuaW1hdGVGb3JldmVyPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDxkaXYgaWQ9XCJtY2UtcmVzcG9uc2VzXCIgY2xhc3NOYW1lPVwiY2xlYXJcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyZXNwb25zZVwiIGlkPVwibWNlLWVycm9yLXJlc3BvbnNlXCIgc3R5bGU9e3sgZGlzcGxheTogJ25vbmUnIH19IC8+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicmVzcG9uc2VcIiBpZD1cIm1jZS1zdWNjZXNzLXJlc3BvbnNlXCIgc3R5bGU9e3sgZGlzcGxheTogJ25vbmUnIH19IC8+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHBvc2l0aW9uOiAnYWJzb2x1dGUnLCBsZWZ0OiAnLTUwMDBweCcgfX0gYXJpYS1oaWRkZW49XCJ0cnVlXCI+PGlucHV0IHR5cGU9XCJ0ZXh0XCIgbmFtZT1cImJfNTJmNmU3YTMzYjJkNTQ0NzljNWZjNTRlZV9iM2FjY2QxOWFmXCIgdGFiSW5kZXg9ey0xfSAvPjwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZm9ybT5cbiAgICA8L2Rpdj5cbik7XG5cbk1haWxDaGltcC5wcm9wVHlwZXMgPSB7XG4gICAgdGV4dDogUHJvcFR5cGVzLnN0cmluZyxcbiAgICBidXR0b25UZXh0OiBQcm9wVHlwZXMuc3RyaW5nLFxuICAgIHBsYWNlaG9sZGVyOiBQcm9wVHlwZXMuc3RyaW5nLFxuICAgIGlkOiBQcm9wVHlwZXMuc3RyaW5nLFxuICAgIGJ1dHRvbkFuaW1hdGlvbkRlbGF5OiBQcm9wVHlwZXMubnVtYmVyLFxuICAgIGxpZ2h0OiBQcm9wVHlwZXMuYm9vbCxcbiAgICBsb2NhdGlvbjogUHJvcFR5cGVzLnN0cmluZyxcbiAgICBpbnB1dFJlZjogUHJvcFR5cGVzLm9iamVjdCwgLy8gZXNsaW50LWRpc2FibGUtbGluZSByZWFjdC9mb3JiaWQtcHJvcC10eXBlc1xufTtcblxuTWFpbENoaW1wLmRlZmF1bHRQcm9wcyA9IHtcbiAgICB0ZXh0OiAnQ2FkYXN0cmUtc2UgcGFyYSByZWNlYmVyIG5hIMOtbnRlZ3JhIGFzIG5vdmlkYWRlcyEnLFxuICAgIGJ1dHRvblRleHQ6ICdJbnNjcmV2ZXInLFxuICAgIHBsYWNlaG9sZGVyOiAnZGlnaXRlIHNldSBlbWFpbCBhcXVpJyxcbiAgICBpZDogJ3NpZ251cCcsXG4gICAgYnV0dG9uQW5pbWF0aW9uRGVsYXk6IDEwMDAwLFxuICAgIGxpZ2h0OiBmYWxzZSxcbiAgICBsb2NhdGlvbjogJ2VuZC1vZi1wb3N0JyxcbiAgICBpbnB1dFJlZjogUmVhY3QuY3JlYXRlUmVmKCksXG59O1xuXG5leHBvcnQgZGVmYXVsdCBNYWlsQ2hpbXA7XG4iXX0= */\n/*@ sourceURL=/Users/daymannovaes/workspace/bussola-landing-page/components/MailChimp.js */"),
     dynamic: [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]],
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
-    action: "https://dayman.us12.list-manage.com/subscribe/post?u=52f6e7a33b2d54479c5fc54ee&id=b3accd19af",
+    action: "https://dayman.us12.list-manage.com/subscribe/post?u=52f6e7a33b2d54479c5fc54ee&id=b3accd19af&SIGNUP=".concat(location),
     method: "post",
     id: "mc-embedded-subscribe-form",
     name: "mc-embedded-subscribe-form",
@@ -297,7 +298,7 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]) + " " + "validate",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -305,7 +306,7 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
@@ -313,14 +314,14 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 59
     },
     __self: this
   }, text), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]) + " " + "mc-field-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_AnimateForever__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -328,14 +329,14 @@ var MailChimp = function MailChimp(_ref) {
     animateInterval: 3 * buttonAnimationDelay,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -347,7 +348,7 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]) + " " + "required email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 64
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_AnimateForever__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -355,7 +356,7 @@ var MailChimp = function MailChimp(_ref) {
     delay: buttonAnimationDelay,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -365,7 +366,7 @@ var MailChimp = function MailChimp(_ref) {
     id: "mc-embedded-subscribe",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 69
     },
     __self: this
   }, buttonText))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -373,7 +374,7 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]) + " " + "clear",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -384,7 +385,7 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]) + " " + "response",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 73
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -395,7 +396,7 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]) + " " + "response",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -407,7 +408,7 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 77
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -417,7 +418,7 @@ var MailChimp = function MailChimp(_ref) {
     className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1426449588", [2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["BORDER_RADIUS"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["colors"].deepblue, 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], id, 7 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 2 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], 6 * _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_5__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 77
     },
     __self: this
   })))));
@@ -430,6 +431,7 @@ MailChimp.propTypes = {
   id: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   buttonAnimationDelay: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
   light: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
+  location: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
   inputRef: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object // eslint-disable-line react/forbid-prop-types
 
 };
@@ -440,6 +442,7 @@ MailChimp.defaultProps = {
   id: 'signup',
   buttonAnimationDelay: 10000,
   light: false,
+  location: 'end-of-post',
   inputRef: react__WEBPACK_IMPORTED_MODULE_1___default.a.createRef()
 };
 /* harmony default export */ __webpack_exports__["default"] = (MailChimp);
@@ -620,6 +623,17 @@ var colors = {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/array/from */ "./node_modules/core-js/library/fn/array/from.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js ***!
@@ -639,6 +653,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/array/is-array */ ".
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/get-iterator */ "./node_modules/core-js/library/fn/get-iterator.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./node_modules/core-js/library/fn/is-iterable.js");
 
 /***/ }),
 
@@ -810,6 +835,29 @@ function _arrayWithHoles(arr) {
 }
 
 module.exports = _arrayWithHoles;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Array$isArray = __webpack_require__(/*! ../core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js");
+
+function _arrayWithoutHoles(arr) {
+  if (_Array$isArray(arr)) {
+    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }
+
+    return arr2;
+  }
+}
+
+module.exports = _arrayWithoutHoles;
 
 /***/ }),
 
@@ -1110,6 +1158,25 @@ module.exports = _interopRequireWildcard;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Array$from = __webpack_require__(/*! ../core-js/array/from */ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js");
+
+var _isIterable = __webpack_require__(/*! ../core-js/is-iterable */ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js");
+
+function _iterableToArray(iter) {
+  if (_isIterable(Object(iter)) || Object.prototype.toString.call(iter) === "[object Arguments]") return _Array$from(iter);
+}
+
+module.exports = _iterableToArray;
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/iterableToArrayLimit.js":
 /*!*****************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/iterableToArrayLimit.js ***!
@@ -1161,6 +1228,21 @@ function _nonIterableRest() {
 }
 
 module.exports = _nonIterableRest;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+
+module.exports = _nonIterableSpread;
 
 /***/ }),
 
@@ -1266,6 +1348,27 @@ function _slicedToArray(arr, i) {
 }
 
 module.exports = _slicedToArray;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js");
+
+var iterableToArray = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js");
+
+var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js");
+
+function _toConsumableArray(arr) {
+  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
+}
+
+module.exports = _toConsumableArray;
 
 /***/ }),
 
@@ -2092,6 +2195,20 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/array/from.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/library/fn/array/from.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
+__webpack_require__(/*! ../../modules/es6.array.from */ "./node_modules/core-js/library/modules/es6.array.from.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Array.from;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/array/is-array.js":
 /*!***********************************************************!*\
   !*** ./node_modules/core-js/library/fn/array/is-array.js ***!
@@ -2115,6 +2232,20 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 __webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
 __webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
 module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ "./node_modules/core-js/library/modules/core.get-iterator.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/is-iterable.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/is-iterable.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
+__webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
+module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_modules/core-js/library/modules/core.is-iterable.js");
 
 
 /***/ }),
@@ -2881,6 +3012,26 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 
 var core = module.exports = { version: '2.5.7' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_create-property.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_create-property.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $defineProperty = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
+var createDesc = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
+
+module.exports = function (object, index, value) {
+  if (index in object) $defineProperty.f(object, index, createDesc(0, value));
+  else object[index] = value;
+};
 
 
 /***/ }),
@@ -4679,6 +4830,76 @@ module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/libr
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/core.is-iterable.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/core.is-iterable.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var classof = __webpack_require__(/*! ./_classof */ "./node_modules/core-js/library/modules/_classof.js");
+var ITERATOR = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator');
+var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
+module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js").isIterable = function (it) {
+  var O = Object(it);
+  return O[ITERATOR] !== undefined
+    || '@@iterator' in O
+    // eslint-disable-next-line no-prototype-builtins
+    || Iterators.hasOwnProperty(classof(O));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.array.from.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.array.from.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js");
+var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js");
+var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js");
+var createProperty = __webpack_require__(/*! ./_create-property */ "./node_modules/core-js/library/modules/_create-property.js");
+var getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js");
+
+$export($export.S + $export.F * !__webpack_require__(/*! ./_iter-detect */ "./node_modules/core-js/library/modules/_iter-detect.js")(function (iter) { Array.from(iter); }), 'Array', {
+  // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
+  from: function from(arrayLike /* , mapfn = undefined, thisArg = undefined */) {
+    var O = toObject(arrayLike);
+    var C = typeof this == 'function' ? this : Array;
+    var aLen = arguments.length;
+    var mapfn = aLen > 1 ? arguments[1] : undefined;
+    var mapping = mapfn !== undefined;
+    var index = 0;
+    var iterFn = getIterFn(O);
+    var length, result, step, iterator;
+    if (mapping) mapfn = ctx(mapfn, aLen > 2 ? arguments[2] : undefined, 2);
+    // if object isn't iterable or it's array with default iterator - use simple case
+    if (iterFn != undefined && !(C == Array && isArrayIter(iterFn))) {
+      for (iterator = iterFn.call(O), result = new C(); !(step = iterator.next()).done; index++) {
+        createProperty(result, index, mapping ? call(iterator, mapfn, [step.value, index], true) : step.value);
+      }
+    } else {
+      length = toLength(O.length);
+      for (result = new C(length); length > index; index++) {
+        createProperty(result, index, mapping ? mapfn(O[index], index) : O[index]);
+      }
+    }
+    result.length = index;
+    return result;
+  }
+});
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es6.array.is-array.js":
 /*!********************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es6.array.is-array.js ***!
@@ -6056,6 +6277,164 @@ function () {
 }();
 
 exports.default = EventEmitter;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/lib/head.js":
+/*!********************************************!*\
+  !*** ./node_modules/next/dist/lib/head.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.defaultHead = defaultHead;
+exports.default = void 0;
+
+var _set = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js"));
+
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js"));
+
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js"));
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/defineProperty.js"));
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _sideEffect = _interopRequireDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next/dist/lib/side-effect.js"));
+
+var Head =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(Head, _React$Component);
+
+  function Head() {
+    (0, _classCallCheck2.default)(this, Head);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Head).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(Head, [{
+    key: "render",
+    value: function render() {
+      return null;
+    }
+  }]);
+  return Head;
+}(_react.default.Component);
+
+(0, _defineProperty2.default)(Head, "contextTypes", {
+  headManager: _propTypes.default.object
+});
+var NEXT_HEAD_IDENTIFIER = 'next-head';
+
+function defaultHead() {
+  var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : NEXT_HEAD_IDENTIFIER;
+  return [_react.default.createElement("meta", {
+    key: "charSet",
+    charSet: "utf-8",
+    className: className
+  })];
+}
+
+function reduceComponents(components) {
+  return components.map(function (component) {
+    return _react.default.Children.toArray(component.props.children);
+  }).reduce(function (a, b) {
+    return a.concat(b);
+  }, []).reduce(function (a, b) {
+    if (_react.default.Fragment && b.type === _react.default.Fragment) {
+      return a.concat(_react.default.Children.toArray(b.props.children));
+    }
+
+    return a.concat(b);
+  }, []).reverse().concat(defaultHead('')).filter(Boolean).filter(unique()).reverse().map(function (c, i) {
+    var className = (c.props && c.props.className ? c.props.className + ' ' : '') + NEXT_HEAD_IDENTIFIER;
+    var key = c.key || i;
+    return _react.default.cloneElement(c, {
+      key: key,
+      className: className
+    });
+  });
+}
+
+function mapOnServer(head) {
+  return head;
+}
+
+function onStateChange(head) {
+  if (this.context && this.context.headManager) {
+    this.context.headManager.updateHead(head);
+  }
+}
+
+var METATYPES = ['name', 'httpEquiv', 'charSet', 'itemProp', 'property'];
+var ALLOWED_DUPLICATES = ['article:tag', 'og:image', 'og:image:alt', 'og:image:width', 'og:image:height', 'og:image:type', 'og:image:secure_url', 'og:image:url'];
+/*
+ returns a function for filtering head child elements
+ which shouldn't be duplicated, like <title/>,
+ except we explicit allow it in ALLOWED_DUPLICATES array
+*/
+
+function unique() {
+  var keys = new _set.default();
+  var tags = new _set.default();
+  var metaTypes = new _set.default();
+  var metaCategories = {};
+  return function (h) {
+    if (h.key && h.key.indexOf('.$') === 0) {
+      if (keys.has(h.key)) return false;
+      keys.add(h.key);
+    }
+
+    switch (h.type) {
+      case 'title':
+      case 'base':
+        if (tags.has(h.type)) return false;
+        tags.add(h.type);
+        break;
+
+      case 'meta':
+        for (var i = 0, len = METATYPES.length; i < len; i++) {
+          var metatype = METATYPES[i];
+          if (!h.props.hasOwnProperty(metatype)) continue;
+
+          if (metatype === 'charSet') {
+            if (metaTypes.has(metatype)) return false;
+            metaTypes.add(metatype);
+          } else {
+            var category = h.props[metatype];
+            var categories = metaCategories[metatype] || new _set.default();
+            if (categories.has(category) && ALLOWED_DUPLICATES.indexOf(category) === -1) return false;
+            categories.add(category);
+            metaCategories[metatype] = categories;
+          }
+        }
+
+        break;
+    }
+
+    return true;
+  };
+}
+
+var _default = (0, _sideEffect.default)(reduceComponents, onStateChange, mapOnServer)(Head);
+
+exports.default = _default;
 
 /***/ }),
 
@@ -7605,6 +7984,152 @@ function shallowEquals(a, b) {
 
 /***/ }),
 
+/***/ "./node_modules/next/dist/lib/side-effect.js":
+/*!***************************************************!*\
+  !*** ./node_modules/next/dist/lib/side-effect.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = withSideEffect;
+
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js"));
+
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js"));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js"));
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/defineProperty.js"));
+
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js"));
+
+var _set = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js"));
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/next/dist/lib/utils.js");
+
+function withSideEffect(reduceComponentsToState, handleStateChangeOnClient, mapStateOnServer) {
+  if (typeof reduceComponentsToState !== 'function') {
+    throw new Error('Expected reduceComponentsToState to be a function.');
+  }
+
+  if (typeof handleStateChangeOnClient !== 'function') {
+    throw new Error('Expected handleStateChangeOnClient to be a function.');
+  }
+
+  if (typeof mapStateOnServer !== 'undefined' && typeof mapStateOnServer !== 'function') {
+    throw new Error('Expected mapStateOnServer to either be undefined or a function.');
+  }
+
+  return function wrap(WrappedComponent) {
+    if (typeof WrappedComponent !== 'function') {
+      throw new Error('Expected WrappedComponent to be a React component.');
+    }
+
+    var mountedInstances = new _set.default();
+    var state;
+
+    function emitChange(component) {
+      state = reduceComponentsToState((0, _toConsumableArray2.default)(mountedInstances));
+
+      if (SideEffect.canUseDOM) {
+        handleStateChangeOnClient.call(component, state);
+      } else if (mapStateOnServer) {
+        state = mapStateOnServer(state);
+      }
+    }
+
+    var SideEffect =
+    /*#__PURE__*/
+    function (_Component) {
+      (0, _inherits2.default)(SideEffect, _Component);
+      (0, _createClass2.default)(SideEffect, null, [{
+        key: "peek",
+        // Expose canUseDOM so tests can monkeypatch it
+        // Try to use displayName of wrapped component
+        value: function peek() {
+          return state;
+        }
+      }, {
+        key: "rewind",
+        value: function rewind() {
+          if (SideEffect.canUseDOM) {
+            throw new Error('You may only call rewind() on the server. Call peek() to read the current state.');
+          }
+
+          var recordedState = state;
+          state = undefined;
+          mountedInstances.clear();
+          return recordedState;
+        }
+      }]);
+
+      function SideEffect(props) {
+        var _this;
+
+        (0, _classCallCheck2.default)(this, SideEffect);
+        _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SideEffect).call(this, props));
+
+        if (!SideEffect.canUseDOM) {
+          mountedInstances.add((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
+          emitChange((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
+        }
+
+        return _this;
+      }
+
+      (0, _createClass2.default)(SideEffect, [{
+        key: "componentDidMount",
+        value: function componentDidMount() {
+          mountedInstances.add(this);
+          emitChange(this);
+        }
+      }, {
+        key: "componentDidUpdate",
+        value: function componentDidUpdate() {
+          emitChange(this);
+        }
+      }, {
+        key: "componentWillUnmount",
+        value: function componentWillUnmount() {
+          mountedInstances.delete(this);
+          emitChange(this);
+        }
+      }, {
+        key: "render",
+        value: function render() {
+          return _react.default.createElement(WrappedComponent, null, this.props.children);
+        }
+      }]);
+      return SideEffect;
+    }(_react.Component);
+
+    (0, _defineProperty2.default)(SideEffect, "canUseDOM", typeof window !== 'undefined');
+    (0, _defineProperty2.default)(SideEffect, "contextTypes", WrappedComponent.contextTypes);
+    (0, _defineProperty2.default)(SideEffect, "displayName", "SideEffect(".concat((0, _utils.getDisplayName)(WrappedComponent), ")"));
+    return SideEffect;
+  };
+}
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/lib/utils.js":
 /*!*********************************************!*\
   !*** ./node_modules/next/dist/lib/utils.js ***!
@@ -7743,6 +8268,18 @@ function getURL() {
   var origin = getLocationOrigin();
   return href.substring(origin.length);
 }
+
+/***/ }),
+
+/***/ "./node_modules/next/head.js":
+/*!***********************************!*\
+  !*** ./node_modules/next/head.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next/dist/lib/head.js")
+
 
 /***/ }),
 
@@ -11521,11 +12058,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Link */ "./components/Link.js");
-/* harmony import */ var _components_PostCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PostCard */ "./components/PostCard.js");
-/* harmony import */ var _components_MailChimp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/MailChimp */ "./components/MailChimp.js");
-/* harmony import */ var _components_ResponsiveTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ResponsiveTitle */ "./components/ResponsiveTitle.js");
-/* harmony import */ var _config_style_guide__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../config/style-guide */ "./config/style-guide.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Link */ "./components/Link.js");
+/* harmony import */ var _components_PostCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/PostCard */ "./components/PostCard.js");
+/* harmony import */ var _components_MailChimp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/MailChimp */ "./components/MailChimp.js");
+/* harmony import */ var _components_ResponsiveTitle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/ResponsiveTitle */ "./components/ResponsiveTitle.js");
+/* harmony import */ var _config_style_guide__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../config/style-guide */ "./config/style-guide.js");
 var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/index.js";
 
 
@@ -11536,119 +12075,136 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/ind
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+    name: "google-site-verification",
+    content: "aFUa4OCasgi_PmWe855lK7IlNCW2HuFS3jUWEyewnOU",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "2289979208",
-    css: "@media only screen and (max-width:270px){h3.__jsx-style-dynamic-selector{font-size:0.7em;}}header.__jsx-style-dynamic-selector{margin-bottom:3em;}div.__jsx-style-dynamic-selector h3.__jsx-style-dynamic-selector{margin-top:".concat(5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], "px;}section.__jsx-style-dynamic-selector{width:calc(100vw - 60px);padding:30px;}#form.__jsx-style-dynamic-selector{background:#277ed6;color:#e5f2ff;width:calc(100vw - 60px);padding:30px;margin:").concat(10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], "px 0;}div.__jsx-style-dynamic-selector>.__jsx-style-dynamic-selector:not(section),section.__jsx-style-dynamic-selector > *{max-width:740px;margin:0 auto;}#post.__jsx-style-dynamic-selector a{text-transform:initial;padding:0 ").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], "px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL3BhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVdhLEFBSXFDLEFBS0YsQUFJd0IsQUFJakIsQUFLTixBQVVILEFBS08sZ0JBaEN2QixBQTRCYyxFQXZCbEIsQ0Fha0IsSUFlMkIsRUFwQjVCLEtBZ0JqQixHQVQ2QixLQU43QixJQUxBLGdCQVlpQixNQWFqQixPQVg0Qyx3Q0FDNUMiLCJmaWxlIjoiL1VzZXJzL2RheW1hbm5vdmFlcy93b3Jrc3BhY2UvYnVzc29sYS1sYW5kaW5nLXBhZ2UvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBlc2xpbnQtZGlzYWJsZSByZWFjdC9uby11bmVzY2FwZWQtZW50aXRpZXMgKi9cbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTGluayBmcm9tICcuLi9jb21wb25lbnRzL0xpbmsnO1xuaW1wb3J0IFBvc3RDYXJkIGZyb20gJy4uL2NvbXBvbmVudHMvUG9zdENhcmQnO1xuaW1wb3J0IE1haWxDaGltcCBmcm9tICcuLi9jb21wb25lbnRzL01haWxDaGltcCc7XG5pbXBvcnQgUmVzcG9uc2l2ZVRpdGxlIGZyb20gJy4uL2NvbXBvbmVudHMvUmVzcG9uc2l2ZVRpdGxlJztcbmltcG9ydCB7IFBBRERJTkdfVU5JVCB9IGZyb20gJy4uL2NvbmZpZy9zdHlsZS1ndWlkZSc7XG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAge2BcbiAgICAgICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogMjcwcHgpIHtcbiAgICAgICAgICAgICAgICBoMyB7XG4gICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMC43ZW07XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICBoZWFkZXIge1xuICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDNlbTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgZGl2IGgzIHtcbiAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAkezUgKiBQQURESU5HX1VOSVR9cHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIHNlY3Rpb24ge1xuICAgICAgICAgICAgICAgIHdpZHRoOiBjYWxjKDEwMHZ3IC0gNjBweCk7XG4gICAgICAgICAgICAgICAgcGFkZGluZzogMzBweDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgI2Zvcm0ge1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICMyNzdlZDY7XG4gICAgICAgICAgICAgICAgY29sb3I6ICNlNWYyZmY7XG5cbiAgICAgICAgICAgICAgICB3aWR0aDogY2FsYygxMDB2dyAtIDYwcHgpO1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDMwcHg7XG5cbiAgICAgICAgICAgICAgICBtYXJnaW46ICR7MTAgKiBQQURESU5HX1VOSVR9cHggMDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgZGl2ID4gOm5vdChzZWN0aW9uKSwgc2VjdGlvbiA6Z2xvYmFsKD4gKikge1xuICAgICAgICAgICAgICAgIG1heC13aWR0aDogNzQwcHg7XG4gICAgICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICNwb3N0IDpnbG9iYWwoYSkge1xuICAgICAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiBpbml0aWFsO1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgJHtQQURESU5HX1VOSVR9cHg7XG4gICAgICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICAgIDwvc3R5bGU+XG4gICAgICAgIDxoZWFkZXI+XG4gICAgICAgICAgICA8UmVzcG9uc2l2ZVRpdGxlPkJ1c3NvbGE8c3BhbiBjbGFzc05hbWU9XCJoaWRlLXhzXCI+LnNjaG9vbDwvc3Bhbj48L1Jlc3BvbnNpdmVUaXRsZT5cblxuICAgICAgICAgICAgPGgyPlxuICAgICAgICAgICAgICAgIEVzY29sYSBkZSBkZXNlbnZvbHZpbWVudG8gcGVzc29hbFxuICAgICAgICAgICAgPC9oMj5cblxuICAgICAgICAgICAgPGgzPlxuICAgICAgICAgICAgICAgIE7Ds3MgZ3VpYW1vcyBwZXNzb2FzIGF0w6kgYXRpbmdpcmVtIHNldXMgb2JqZXRpdm9zLlxuICAgICAgICAgICAgPC9oMz5cbiAgICAgICAgPC9oZWFkZXI+XG5cbiAgICAgICAgPHNlY3Rpb24gaWQ9XCJmb3JtXCI+XG4gICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgICBKw6EgcGVuc291IG5vIHF1ZSB0ZSBpbXBlZGUgZGUgc2VndWlyIHNldSBwcm9ww7NzaXRvIHBsZW5hbWVudGUgZSBkZSBjb25xdWlzdGFyIHNldXMgb2JqZXRpdm9zP1xuICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICA8TWFpbENoaW1wIHRleHQ9XCJTZSBlc3NlIGFzc3VudG8gdGUgaW50ZXJlc3NhLCBjb2xvY2Egc2V1IGVtYWlsIGFiYWl4byBwYXJhIHNhYmVyIGNvbW8gcG9kZW1vcyB0ZSBhanVkYXIgbmlzc28hXCIgYnV0dG9uVGV4dD1cImNhZGFzdHJhclwiIGxpZ2h0IC8+XG4gICAgICAgIDwvc2VjdGlvbj5cblxuICAgICAgICA8c2VjdGlvbiBpZD1cInBvc3RcIj5cbiAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgICAgIFNlIGFpbmRhIG7Do28gZXN0w6EgY29udmVuY2lkbywgbsOzcyBlc2NyZXZlbW9zIHVtIHRleHRvIHF1ZSBwb2RlIHRlIGFqdWRhci4gRWxlIGRldGFsaGEgdW0gZG9zIGFzc3VudG9zIHF1ZSBkb21pbmFtb3M6eycgJ31cbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2NvbW8tdGVyLW1vdGl2YWNhby1lLWZhemVyLW8tcXVlLW5vcy1wcm9wb21vc1wiPmNvbW8gdGVyIG1vdGl2YcOnw6NvIGUgdXNhciBpc3NvIHBhcmEgZW5jb250cmFyIG8gc2V1IHByb3DDs3NpdG8hPC9MaW5rPlxuICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICA8YnIgLz5cbiAgICAgICAgICAgIDxiciAvPlxuXG4gICAgICAgICAgICA8UG9zdENhcmQgY292ZXI9XCIvc3RhdGljL3RleHRvLTEtZGlhZ3JhbWEtdGFyZWZhcy0yLnN2Z1wiIGhyZWY9XCIvY29tby10ZXItbW90aXZhY2FvLWUtZmF6ZXItby1xdWUtbm9zLXByb3BvbW9zXCI+XG4gICAgICAgICAgICAgICAgQ29tbyB0ZXIgbW90aXZhw6fDo28/IEFzIHZlemVzIHBhcmVjZSBzZXIgaW1wb3Nzw612ZWwgbWFudGVyIGEgbW90aXZhw6fDo28gbmVjZXNzw6FyaWEgcGFyYSBjb25zZWd1aXIgZmF6ZXIgbyB0dWRvIHF1ZSBxdWVyZW1vcy4gUG9yw6ltLCBxdWFuZG8gZGVzY29icmltb3MgXCJkbyBxdWUgw6kgZmVpdG9cIiBhIG1vdGl2YcOnw6NvLCBmaWNhIHR1ZG8gaW5jcml2ZWxtZW50ZSBtYWlzIHNpbXBsZXMgZSBtYWlzIGbDoWNpbC5cbiAgICAgICAgICAgIDwvUG9zdENhcmQ+XG4gICAgICAgIDwvc2VjdGlvbj5cbiAgICA8L2Rpdj5cbik7XG4iXX0= */\n/*@ sourceURL=/Users/daymannovaes/workspace/bussola-landing-page/pages/index.js */"),
-    dynamic: [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]],
+    css: "@media only screen and (max-width:270px){h3.__jsx-style-dynamic-selector{font-size:0.7em;}}header.__jsx-style-dynamic-selector{margin-bottom:3em;}div.__jsx-style-dynamic-selector h3.__jsx-style-dynamic-selector{margin-top:".concat(5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], "px;}section.__jsx-style-dynamic-selector{width:calc(100vw - 60px);padding:30px;}#form.__jsx-style-dynamic-selector{background:#277ed6;color:#e5f2ff;width:calc(100vw - 60px);padding:30px;margin:").concat(10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], "px 0;}div.__jsx-style-dynamic-selector>.__jsx-style-dynamic-selector:not(section),section.__jsx-style-dynamic-selector > *{max-width:740px;margin:0 auto;}#post.__jsx-style-dynamic-selector a{text-transform:initial;padding:0 ").concat(_config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], "px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL3BhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCYSxBQUlxQyxBQUtGLEFBSXdCLEFBSWpCLEFBS04sQUFVSCxBQUtPLGdCQWhDdkIsQUE0QmMsRUF2QmxCLENBYWtCLElBZTJCLEVBcEI1QixLQWdCakIsR0FUNkIsS0FON0IsSUFMQSxnQkFZaUIsTUFhakIsT0FYNEMsd0NBQzVDIiwiZmlsZSI6Ii9Vc2Vycy9kYXltYW5ub3ZhZXMvd29ya3NwYWNlL2J1c3NvbGEtbGFuZGluZy1wYWdlL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiLyogZXNsaW50LWRpc2FibGUgcmVhY3Qvbm8tdW5lc2NhcGVkLWVudGl0aWVzICovXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBMaW5rIGZyb20gJy4uL2NvbXBvbmVudHMvTGluayc7XG5pbXBvcnQgUG9zdENhcmQgZnJvbSAnLi4vY29tcG9uZW50cy9Qb3N0Q2FyZCc7XG5pbXBvcnQgTWFpbENoaW1wIGZyb20gJy4uL2NvbXBvbmVudHMvTWFpbENoaW1wJztcbmltcG9ydCBSZXNwb25zaXZlVGl0bGUgZnJvbSAnLi4vY29tcG9uZW50cy9SZXNwb25zaXZlVGl0bGUnO1xuaW1wb3J0IHsgUEFERElOR19VTklUIH0gZnJvbSAnLi4vY29uZmlnL3N0eWxlLWd1aWRlJztcblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxuICAgIDxkaXY+XG4gICAgICAgIDxIZWFkPlxuICAgICAgICAgICAgPG1ldGEgbmFtZT1cImdvb2dsZS1zaXRlLXZlcmlmaWNhdGlvblwiIGNvbnRlbnQ9XCJhRlVhNE9DYXNnaV9QbVdlODU1bEs3SWxOQ1cySHVGUzNqVVdFeWV3bk9VXCIgLz5cbiAgICAgICAgPC9IZWFkPlxuXG4gICAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgICAgICB7YFxuICAgICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAyNzBweCkge1xuICAgICAgICAgICAgICAgIGgzIHtcbiAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAwLjdlbTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIGhlYWRlciB7XG4gICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogM2VtO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICBkaXYgaDMge1xuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6ICR7NSAqIFBBRERJTkdfVU5JVH1weDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgc2VjdGlvbiB7XG4gICAgICAgICAgICAgICAgd2lkdGg6IGNhbGMoMTAwdncgLSA2MHB4KTtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAzMHB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAjZm9ybSB7XG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZDogIzI3N2VkNjtcbiAgICAgICAgICAgICAgICBjb2xvcjogI2U1ZjJmZjtcblxuICAgICAgICAgICAgICAgIHdpZHRoOiBjYWxjKDEwMHZ3IC0gNjBweCk7XG4gICAgICAgICAgICAgICAgcGFkZGluZzogMzBweDtcblxuICAgICAgICAgICAgICAgIG1hcmdpbjogJHsxMCAqIFBBRERJTkdfVU5JVH1weCAwO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICBkaXYgPiA6bm90KHNlY3Rpb24pLCBzZWN0aW9uIDpnbG9iYWwoPiAqKSB7XG4gICAgICAgICAgICAgICAgbWF4LXdpZHRoOiA3NDBweDtcbiAgICAgICAgICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgI3Bvc3QgOmdsb2JhbChhKSB7XG4gICAgICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IGluaXRpYWw7XG4gICAgICAgICAgICAgICAgcGFkZGluZzogMCAke1BBRERJTkdfVU5JVH1weDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgYH1cbiAgICAgICAgPC9zdHlsZT5cbiAgICAgICAgPGhlYWRlcj5cbiAgICAgICAgICAgIDxSZXNwb25zaXZlVGl0bGU+QnVzc29sYTxzcGFuIGNsYXNzTmFtZT1cImhpZGUteHNcIj4uc2Nob29sPC9zcGFuPjwvUmVzcG9uc2l2ZVRpdGxlPlxuXG4gICAgICAgICAgICA8aDI+XG4gICAgICAgICAgICAgICAgRXNjb2xhIGRlIGRlc2Vudm9sdmltZW50byBwZXNzb2FsXG4gICAgICAgICAgICA8L2gyPlxuXG4gICAgICAgICAgICA8aDM+XG4gICAgICAgICAgICAgICAgTsOzcyBndWlhbW9zIHBlc3NvYXMgYXTDqSBhdGluZ2lyZW0gc2V1cyBvYmpldGl2b3MuXG4gICAgICAgICAgICA8L2gzPlxuICAgICAgICA8L2hlYWRlcj5cblxuICAgICAgICA8c2VjdGlvbiBpZD1cImZvcm1cIj5cbiAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgICAgIErDoSBwZW5zb3Ugbm8gcXVlIHRlIGltcGVkZSBkZSBzZWd1aXIgc2V1IHByb3DDs3NpdG8gcGxlbmFtZW50ZSBlIGRlIGNvbnF1aXN0YXIgc2V1cyBvYmpldGl2b3M/XG4gICAgICAgICAgICA8L3A+XG5cbiAgICAgICAgICAgIDxNYWlsQ2hpbXAgdGV4dD1cIlNlIGVzc2UgYXNzdW50byB0ZSBpbnRlcmVzc2EsIGNvbG9jYSBzZXUgZW1haWwgYWJhaXhvIHBhcmEgc2FiZXIgY29tbyBwb2RlbW9zIHRlIGFqdWRhciBuaXNzbyFcIiBidXR0b25UZXh0PVwiY2FkYXN0cmFyXCIgbG9jYXRpb249XCJob21lcGFnZVwiIGxpZ2h0IC8+XG4gICAgICAgIDwvc2VjdGlvbj5cblxuICAgICAgICA8c2VjdGlvbiBpZD1cInBvc3RcIj5cbiAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgICAgIFNlIGFpbmRhIG7Do28gZXN0w6EgY29udmVuY2lkbywgbsOzcyBlc2NyZXZlbW9zIHVtIHRleHRvIHF1ZSBwb2RlIHRlIGFqdWRhci4gRWxlIGRldGFsaGEgdW0gZG9zIGFzc3VudG9zIHF1ZSBkb21pbmFtb3M6eycgJ31cbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2NvbW8tdGVyLW1vdGl2YWNhby1lLWZhemVyLW8tcXVlLW5vcy1wcm9wb21vc1wiPmNvbW8gdGVyIG1vdGl2YcOnw6NvIGUgdXNhciBpc3NvIHBhcmEgZW5jb250cmFyIG8gc2V1IHByb3DDs3NpdG8hPC9MaW5rPlxuICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICA8YnIgLz5cbiAgICAgICAgICAgIDxiciAvPlxuXG4gICAgICAgICAgICA8UG9zdENhcmQgY292ZXI9XCIvc3RhdGljL3RleHRvLTEtZGlhZ3JhbWEtdGFyZWZhcy0yLnN2Z1wiIGhyZWY9XCIvY29tby10ZXItbW90aXZhY2FvLWUtZmF6ZXItby1xdWUtbm9zLXByb3BvbW9zXCI+XG4gICAgICAgICAgICAgICAgQ29tbyB0ZXIgbW90aXZhw6fDo28/IEFzIHZlemVzIHBhcmVjZSBzZXIgaW1wb3Nzw612ZWwgbWFudGVyIGEgbW90aXZhw6fDo28gbmVjZXNzw6FyaWEgcGFyYSBjb25zZWd1aXIgZmF6ZXIgbyB0dWRvIHF1ZSBxdWVyZW1vcy4gUG9yw6ltLCBxdWFuZG8gZGVzY29icmltb3MgXCJkbyBxdWUgw6kgZmVpdG9cIiBhIG1vdGl2YcOnw6NvLCBmaWNhIHR1ZG8gaW5jcml2ZWxtZW50ZSBtYWlzIHNpbXBsZXMgZSBtYWlzIGbDoWNpbC5cbiAgICAgICAgICAgIDwvUG9zdENhcmQ+XG4gICAgICAgIDwvc2VjdGlvbj5cbiAgICA8L2Rpdj5cbik7XG4iXX0= */\n/*@ sourceURL=/Users/daymannovaes/workspace/bussola-landing-page/pages/index.js */"),
+    dynamic: [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]],
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("header", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 58
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_ResponsiveTitle__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_ResponsiveTitle__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 59
     },
     __self: this
   }, "Bussola", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]) + " " + "hide-xs",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]) + " " + "hide-xs",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 59
     },
     __self: this
   }, ".school")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 61
     },
     __self: this
   }, "Escola de desenvolvimento pessoal"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "N\xF3s guiamos pessoas at\xE9 atingirem seus objetivos.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    id: "form",
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, "J\xE1 pensou no que te impede de seguir seu prop\xF3sito plenamente e de conquistar seus objetivos?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MailChimp__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    text: "Se esse assunto te interessa, coloca seu email abaixo para saber como podemos te ajudar nisso!",
-    buttonText: "cadastrar",
-    light: true,
+  }, "N\xF3s guiamos pessoas at\xE9 atingirem seus objetivos.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+    id: "form",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    id: "post",
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 71
+    },
+    __self: this
+  }, "J\xE1 pensou no que te impede de seguir seu prop\xF3sito plenamente e de conquistar seus objetivos?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MailChimp__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    text: "Se esse assunto te interessa, coloca seu email abaixo para saber como podemos te ajudar nisso!",
+    buttonText: "cadastrar",
+    location: "homepage",
+    light: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+    id: "post",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, "Se ainda n\xE3o est\xE1 convencido, n\xF3s escrevemos um texto que pode te ajudar. Ele detalha um dos assuntos que dominamos:", ' ', react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "/como-ter-motivacao-e-fazer-o-que-nos-propomos",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }, "como ter motiva\xE7\xE3o e usar isso para encontrar o seu prop\xF3sito!")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_6__["PADDING_UNIT"]]]]),
+  }, "Se ainda n\xE3o est\xE1 convencido, n\xF3s escrevemos um texto que pode te ajudar. Ele detalha um dos assuntos que dominamos:", ' ', react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    href: "/como-ter-motivacao-e-fazer-o-que-nos-propomos",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 81
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_PostCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "como ter motiva\xE7\xE3o e usar isso para encontrar o seu prop\xF3sito!")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2289979208", [5 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], 10 * _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"], _config_style_guide__WEBPACK_IMPORTED_MODULE_7__["PADDING_UNIT"]]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_PostCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
     cover: "/static/texto-1-diagrama-tarefas-2.svg",
     href: "/como-ter-motivacao-e-fazer-o-que-nos-propomos",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 87
     },
     __self: this
   }, "Como ter motiva\xE7\xE3o? As vezes parece ser imposs\xEDvel manter a motiva\xE7\xE3o necess\xE1ria para conseguir fazer o tudo que queremos. Por\xE9m, quando descobrimos \"do que \xE9 feito\" a motiva\xE7\xE3o, fica tudo incrivelmente mais simples e mais f\xE1cil.")));
@@ -11675,7 +12231,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/ind
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -11700,5 +12256,5 @@ module.exports = dll_cc9c930292bbff5e67f3;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
