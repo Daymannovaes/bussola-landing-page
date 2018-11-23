@@ -14,6 +14,7 @@ const MailChimp = ({
     buttonAnimationDelay,
     inputRef,
     light,
+    location,
 }) => (
     <div id={`form-${id}`}>
         <style jsx>
@@ -53,7 +54,7 @@ const MailChimp = ({
             }
         `}
         </style>
-        <form action="https://dayman.us12.list-manage.com/subscribe/post?u=52f6e7a33b2d54479c5fc54ee&id=b3accd19af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+        <form action={`https://dayman.us12.list-manage.com/subscribe/post?u=52f6e7a33b2d54479c5fc54ee&id=b3accd19af&SIGNUP=${location}`} method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
             <div id="mc_embed_signup_scroll">
                 <label htmlFor="mce-EMAIL">{text}</label>
 
@@ -86,6 +87,7 @@ MailChimp.propTypes = {
     id: PropTypes.string,
     buttonAnimationDelay: PropTypes.number,
     light: PropTypes.bool,
+    location: PropTypes.string,
     inputRef: PropTypes.object, // eslint-disable-line react/forbid-prop-types
 };
 
@@ -96,6 +98,7 @@ MailChimp.defaultProps = {
     id: 'signup',
     buttonAnimationDelay: 10000,
     light: false,
+    location: 'end-of-post',
     inputRef: React.createRef(),
 };
 
