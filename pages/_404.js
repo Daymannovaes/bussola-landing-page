@@ -72,8 +72,7 @@ export default class ErrorPage extends Component {
                     {filteredPages.map(page => (
                         <li key={page.url}>
                             <Link href={page.url}>
-/
-                                {page.title}
+                                /{page.title}
                             </Link>
                         </li>
                     ))}
