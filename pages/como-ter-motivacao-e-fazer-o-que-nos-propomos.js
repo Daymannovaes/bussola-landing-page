@@ -23,7 +23,7 @@ export default () => (
 
         <Diagrama src="/static/texto-1-diagrama-tarefas-6.svg" />
 
-        <p>A coisa é muito mais simples do que você pode imaginar. Pra ler o texto completo, é só deixar seu email aí, que eu te envio!</p>
+        <p>A coisa é muito mais simples do que você pode imaginar. Pra ler o texto completo, é só deixar seu email aqui, que eu te envio!</p>
 
         <MailChimp text="" location="texto-1-want-more" buttonText="quero ter motivação!" />
 

@@ -77,12 +77,16 @@ export default () => (
 
         <section id="post">
             <p>
-                Se ainda não está convencido, nós escrevemos um texto que pode te ajudar. Ele detalha um dos assuntos que dominamos:{' '}
-                <Link href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">como ter motivação e usar isso para encontrar o seu propósito!</Link>
+                Se ainda não está convencido, nós escrevemos dois textos que podem te ajudar. Eles detalham um dos assuntos que dominamos:{' '}
+                <Link href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">como ter motivação</Link> e usar isso para <Link href="/como-ter-proposito-de-vida">encontrar o seu propósito!</Link>
             </p>
 
             <br />
             <br />
+
+            <PostCard cover="/static/texto-2-cover.jpg" href="/como-ter-proposito-de-vida">
+                Um propósito de vida é uma referência de futuro, que nos ajuda a tomar decisões no presente, e a ter uma vida mais completa. Como podemos usar o nosso passado e quem somos hoje, para moldar, a nosso favor, o curso de nossas vidas?
+            </PostCard>
 
             <PostCard cover="/static/texto-1-diagrama-tarefas-2.svg" href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">
                 Como ter motivação? As vezes parece ser impossível manter a motivação necessária para conseguir fazer o tudo que queremos. Porém, quando descobrimos "do que é feito" a motivação, fica tudo incrivelmente mais simples e mais fácil.

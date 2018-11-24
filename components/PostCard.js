@@ -8,10 +8,11 @@ const PostCard = ({ cover, children, href }) => (
     <div className="postCard">
         <style jsx>{`
             .postCard {
-                max-width: 600px;
+                max-width: 500px;
+                display: inline-block;
                 border-radius: ${BORDER_RADIUS}px;
 
-                margin: 0 auto;
+                margin: 0 36px;
                 cursor: pointer;
 
                 border: 2px solid transparent;
@@ -29,7 +30,7 @@ const PostCard = ({ cover, children, href }) => (
             }
 
             img {
-                width: calc(100% - 60px);
+                width: calc(100%);
                 margin: 0 auto;
                 display: block;
             }
@@ -59,7 +60,7 @@ const PostCard = ({ cover, children, href }) => (
 
         `}
         </style>
-        <Link nostyle href={href}>
+        <Link nostyle href={`${href}?from=postcard`}>
             <div className="head">
                 <img src={cover} alt={cover} />
             </div>

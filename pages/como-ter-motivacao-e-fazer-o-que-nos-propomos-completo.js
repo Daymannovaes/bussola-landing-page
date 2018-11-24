@@ -36,7 +36,7 @@ export default () => (
 
         <p>Para o nosso contexto aqui, existem <strong>duas</strong> coisas que influenciam o quão bem nos sentimos no presente ao executar alguma tarefa. A <strong>primeira</strong> é a sensação de que determinada tarefa nos leva em direção a um objetivo o qual queremos atingir.</p>
 
-        <p>É aquela famosa ideia de <Link href="https://bussola.school/como-ter-proposito-de-vida/">propósito</Link></p>
+        <p>É aquela famosa ideia de <Link href="https://bussola.school/como-ter-proposito-de-vida/">propósito</Link>.</p>
 
         <Tip>Faça a pergunta a si mesmo: essa tarefa que estou fazendo, esse estudo, contribui em algo para o que espero do futuro?</Tip>
 
