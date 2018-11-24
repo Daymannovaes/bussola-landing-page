@@ -81,7 +81,7 @@ export default () => (
 
         <h3>Como defenir um propósito a partir de mim mesmo?</h3>
 
-        <p>No <Link nostyle href="https://bussola.school/como-ter-motivacao-e-fazer-o-que-nos-propomos/">texto sobre como ter motivação</Link> explico da dificuldade de se criar um propósito. É, de fato, uma das coisas mais difíceis de se fazer.</p>
+        <p>No texto sobre <Link href="https://bussola.school/como-ter-motivacao-e-fazer-o-que-nos-propomos/">como ter motivação</Link>, explico da dificuldade de se criar um propósito. É, de fato, uma das coisas mais difíceis de se fazer.</p>
 
         <p>E é claro que é difícil, se fosse fácil todo mundo já teria feito, e esse texto nem precisaria existir.</p>
 
