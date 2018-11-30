@@ -69,13 +69,13 @@ export default () => (
 
         <p>E por mais que as principais igrejas ainda tenham grande presença na vida das pessoas, é notável a diferença de hoje para 50 anos atrás ou para 100 anos atrás. E ao longo do tempo, essa centralização foi se diluindo em cada vez mais correntes religiosas, espirituais e filosóficas.</p>
 
-        <p>A faculdade também sempre foi uma referência acadêmica e sinônimo de conhecimento em toda a sociedade. Com o avanço da tecnologia e da internet, essa referência está se perdendo e se tornando cada vez mais descentralizada.</p>
+        <p>A universidade também sempre foi uma referência acadêmica e sinônimo de conhecimento em toda a sociedade. Com o avanço da tecnologia e da internet, essa referência está se perdendo e se tornando cada vez mais descentralizada.</p>
 
         <p>Essas instituições eram referências externas que nos guiavam e definiam o propósito da nossa vida.</p>
 
         <p>Também o casamento, o conceito de família, as organizações políticas e até mesmo a economia e os meios de produção estão ou se descentralizando ou perdendo força.</p>
 
-        <p>Com o enfraquecimento das referências externas, surge a necessidade do inpíduo de ser capaz de guiar a sua vida, definindo, à partir de si próprio, uma referência a ser seguida.</p>
+        <p>Com o enfraquecimento das referências externas, surge a necessidade do indivíduo ser capaz de guiar a sua vida, definindo, à partir de si próprio, uma referência a ser seguida.</p>
 
         <p><strong>Damos a essa referência interna o nome de propósito.</strong></p>
 
@@ -94,7 +94,7 @@ export default () => (
         <p>Quando te pergunto “quem você é?” Há duas respostas possíveis:</p>
 
         <ol>
-          <li>Um ser pensante, consciente de si próprio (e portanto, que te diferencia de pedras, plantas e animais).</li>
+          <li>Um ser pensante, consciente de si próprio (o que, portanto, te diferencia de pedras, plantas e animais).</li>
           <li>Um conjunto de características, como: nome, idade, profissão, gênero, nacionalidade, opiniões políticas, etc.</li>
         </ol>
         
@@ -119,7 +119,7 @@ export default () => (
           <li>Ter clareza do que queremos conquistar (que surgem espontaneamente dos nossos valores)</li>
         </ol>
 
-        <p>Esse é um processo longo, que precisamos constantemente atualizá-lo, e eu te <strong>aconselho fortemente</strong> de escrever suas conclusões. Pode ser em papel físico, ou em qualquer aplicativo de sua preferência, contando que seja um lugar que você sempre tenha acesso.</p>
+        <p>Esse é um processo longo, que precisamos constantemente atualizá-lo, e eu te <strong>aconselho fortemente</strong> a escrever suas conclusões. Pode ser em papel físico, ou em qualquer aplicativo de sua preferência, contando que seja um lugar que você sempre tenha acesso.</p>
 
         <Tip>1. Pense e anote, quais são as atividades que mais gosto de fazer?</Tip>
 
