@@ -79,7 +79,7 @@ export default () => (
 
         <p><strong>Damos a essa referência interna o nome de propósito.</strong></p>
 
-        <h3>Como defenir um propósito a partir de mim mesmo?</h3>
+        <h3>Como definir um propósito a partir de mim mesmo?</h3>
 
         <p>No texto sobre <Link href="https://bussola.school/como-ter-motivacao-e-fazer-o-que-nos-propomos/">como ter motivação</Link>, explico da dificuldade de se criar um propósito. É, de fato, uma das coisas mais difíceis de se fazer.</p>
 

@@ -91,6 +91,10 @@ export default () => (
             <PostCard cover="/static/texto-1-diagrama-tarefas-2.svg" href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">
                 Como ter motivação? As vezes parece ser impossível manter a motivação necessária para conseguir fazer o tudo que queremos. Porém, quando descobrimos "do que é feito" a motivação, fica tudo incrivelmente mais simples e mais fácil.
             </PostCard>
+
+            <PostCard cover="/static/texto-3-estrelas.jpg" href="/como-uma-referencia-temporal-pode-mudar-sua-vida">
+                Meio sensacionalista o título né? A outra alternativa era “como fazer as coisas certas pode te levar até à lua”, mas achei que ficaria ainda mais sensacionalista. Calma, eu explico o que uma referência temporal tem a ver com a lua e o que isso tem a ver com a sua vida.
+            </PostCard>
         </section>
     </div>
 );
