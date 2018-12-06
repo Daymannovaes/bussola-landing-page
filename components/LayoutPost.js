@@ -27,6 +27,10 @@ const LayoutPost = ({
             <meta property="og:description" content={`${title} - Bussola.school`} />
             <meta property="og:site_name" content="Bussola.school" />
             <meta property="og:image" content={`${SITE_URL}/static/${image}`} />
+
+            <meta property="og:type" content="article" />
+            <meta property="article:author" content="Dayman Novaes" />
+            <meta property="article:published_time" content={date} />
         </Head>
 
         <style jsx>
