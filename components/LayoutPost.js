@@ -8,15 +8,25 @@ import {
     colors, PADDING_UNIT, POST_SECTION_PADDING, POST_WIDTH, POST_ASSET_WIDTH,
 } from '../config/style-guide';
 
+import { SITE_URL } from '../config/globals';
+
 const LayoutPost = ({
     children,
     title,
+    image,
     date,
     id,
 }) => (
     <section>
         <Head>
             <title>{title} - Bussola.school</title>
+
+            <meta property="fb:app_id" content="1968620513446457" />
+            <meta property="og:url" content={`${SITE_URL}/${id}`} />
+            <meta property="og:title" content={`${title} - Bussola.school`} />
+            <meta property="og:description" content={`${title} - Bussola.school`} />
+            <meta property="og:site_name" content="Bussola.school" />
+            <meta property="og:image" content={`${SITE_URL}/static/${image}`} />
         </Head>
 
         <style jsx>
@@ -103,6 +113,11 @@ LayoutPost.propTypes = {
     title: PropTypes.string.isRequired,
     date: PropTypes.number.isRequired,
     id: PropTypes.string.isRequired,
+    image: PropTypes.string,
+};
+
+LayoutPost.defaultProps = {
+    image: 'logo.png',
 };
 
 export default LayoutPost;

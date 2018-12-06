@@ -8,7 +8,7 @@ import Tip from '../components/Tip';
 import Link from '../components/Link';
 
 export default () => (
-    <LayoutPost title="Como uma referência temporal pode mudar a sua vida" date={1544099560766} id="como-uma-referencia-temporal-pode-mudar-sua-vida">
+    <LayoutPost title="Como uma referência temporal pode mudar a sua vida" date={1544099560766} id="como-uma-referencia-temporal-pode-mudar-sua-vida" image="texto-3-estrelas.jpg">
         <p>Meio sensacionalista o título né?</p>
 
         <p>A outra alternativa era "como fazer as coisas certas pode te levar até à lua", mas achei que ficaria ainda mais sensacionalista.</p>
