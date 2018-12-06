@@ -8,7 +8,7 @@ import Tip from '../components/Tip';
 import Diagrama from '../components/texto-1-diagrama';
 
 export default () => (
-    <LayoutPost title="Como ter motivação e sempre fazer o que nos propomos?" date={1539970091528} id="como-ter-motivacao-e-fazer-o-que-nos-propomos">
+    <LayoutPost title="Como ter motivação e sempre fazer o que nos propomos?" date={1539970091528} id="como-ter-motivacao-e-fazer-o-que-nos-propomos" image="texto-1-diagrama-tarefas-2.svg">
         <h3>Por que não temos motivação?</h3>
 
         <p>Poucas coisas na vida nos dão muita motivação. E para piorar, raramente são as mesmas coisas que temos obrigação de fazer.</p>

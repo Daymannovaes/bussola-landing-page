@@ -8,7 +8,7 @@ import Tip from '../components/Tip';
 import Link from '../components/Link';
 
 export default () => (
-    <LayoutPost title="Como ter um propósito de vida?" date={1542941498357} id="como-ter-proposito-de-vida">
+    <LayoutPost title="Como ter um propósito de vida?" date={1542941498357} id="como-ter-proposito-de-vida" image="texto-2-cover.jpg">
         <p>Esse é um assunto que está em alta. Tanto é que estou escrevendo sobre ele, tanto é que você se interessou pelo título e está aqui lendo.</p>
 
         <p>O motivo pelo qual esse tema tem aparecido com frequência é extremamente relevante para compreendermos como podemos realizar essa jornada de "propósito", porém falarei disso mais para frente.</p>
