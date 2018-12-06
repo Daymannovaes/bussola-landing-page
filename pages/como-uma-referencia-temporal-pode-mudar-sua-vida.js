@@ -67,13 +67,13 @@ export default () => (
 
         <p>O exemplo dos dominós nos conta como isso pode ser feito no espaço, porém, assim como o mapa, a lógica no tempo é a mesma: alinhe corretamente os eventos temporais da sua vida, e um após o outro, você conquistará coisas cada vez mais extraordinárias.</p>
 
-        <p>Sabe aquelas palestras motivacionais que o palestrante fala "você é capaz!"? Então, se você souber para onde está indo, e seguir o caminho que leva até esse caminho, sim, você capaz de conquistar aquilo que você já se convenceu que não seria capaz.</p>
+        <p>Sabe aquelas palestras motivacionais que o palestrante fala "você é capaz!"? Então, se você souber para onde está indo, e seguir o caminho que leva até esse caminho, sim, você é capaz de conquistar aquilo que você já se convenceu que não seria capaz.</p>
 
         <h3>Como construir um mapa temporal?</h3>
 
         <p>Nós não enxergamos o tempo, não conseguimos tocar nem sentir o tempo, não conhecemos o futuro e o passado talvez nem exista. Tudo que conhecemos é o presente. Como então, definir um mapa nessa dimensão tão complicada?</p>
 
-        <p>Essa tarefa complicada é que estamos tentando resolver. Independente de qual seja a solução, qual seja o caminho para encontrar a resposta, nós acreditamos que essa é uma das perguntas mais fundamentais que podemos responder.</p>
+        <p>Essa tarefa complicada é que estamos tentando resolver. Independente de qual seja a solução, qual seja o caminho para encontrar a resposta, nós acreditamos que essa é uma das perguntas mais fundamentais que podemos te ajudar a responder.</p>
 
         <p>Enquanto não existir uma "bússola temporal" para apontar o norte de sua vida, você pode fornecer seu email para a bussola.school e teremos o maior prazer de encontrar essa resposta junto com você.</p>
 
