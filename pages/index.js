@@ -2,7 +2,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from '../components/Link';
-import PostCard from '../components/PostCard';
+import PostImg from '../components/PostImg';
 import MailChimp from '../components/MailChimp';
 import ResponsiveTitle from '../components/ResponsiveTitle';
 import { PADDING_UNIT } from '../config/style-guide';
@@ -30,23 +30,31 @@ export default () => (
             }
 
             section {
-                width: calc(100vw - 60px);
-                padding: 30px;
+                width: calc(100vw - 120px);
+                padding: 60px;
             }
 
-            #form {
+            #form, #proposito-4 {
                 background: #277ed6;
                 color: #e5f2ff;
-
-                width: calc(100vw - 60px);
-                padding: 30px;
-
-                margin: ${10 * PADDING_UNIT}px 0;
             }
 
             div > :not(section), section :global(> *) {
                 max-width: 740px;
                 margin: 0 auto;
+                display: block;
+            }
+
+            #proposito-1 p, #proposito-2 p, #proposito-3 p {
+                margin: 2em auto;
+            }
+
+            #proposito-2 {
+                background: #e0e0e0;
+            }
+
+            section img {
+                max-width: 100%;
             }
 
             #post :global(a) {
@@ -75,26 +83,47 @@ export default () => (
             <MailChimp text="Se esse assunto te interessa, coloca seu email abaixo para saber como podemos te ajudar nisso!" buttonText="cadastrar" location="homepage" light />
         </section>
 
-        <section id="post">
+        <section id="proposito-1">
+            <p>Você tem um propósito de vida? Sabe como encontrar?</p>
+
+            <p>Um propósito de vida é uma referência de futuro, como se fosse uma bússola temporal, algo que te ajuda a guiar sua vida.</p>
+
+            <p>Quer saber como você pode usar seu passado e seu presente para definir seu futuro?</p>
+
+            <p>O texto <Link href="/como-uma-referencia-temporal-pode-mudar-sua-vida">como uma bússola pode mudar a sua vida</Link> pode te ajudar.</p>
+
+            <MailChimp text="Também podemos te ajudar pessoalmente, é só deixar seu email:" buttonText="quero ajuda!" location="homepage-2" placeholder="seu melhor email" />
+        </section>
+
+        <section id="proposito-2">
+            <p>Se você já tem um propósito mas não sabe como fazer para conquistá-lo, talvez te falte mais clareza dos passos necessários para chegar lá.</p>
+
+            <p>Talvez lhe falte motivação?</p>
+
+            <p>Nós sabemos como pode ser difícil manter a motivação alta. Por isso escrevemos um texto <strong>descrevendo</strong> do que a motivação é composta</p>
+
+            <Link nostyle href="/como-ter-motivacao-e-fazer-o-que-nos-propomos"><img src="/static/texto-1-diagrama-tarefas-2.svg" alt="Do que motivação é composta?" /></Link>
+
+            <p>Basta clicar na imagem acima ou <Link href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">clicar neste link.</Link></p>
+
+            <MailChimp text="Receba conteúdo grátis com dicas para melhorar sua motivação:" buttonText="Quero receber!" location="homepage-3" />
+        </section>
+
+        <section id="proposito-3">
             <p>
-                Se ainda não está convencido, nós escrevemos dois textos que podem te ajudar. Eles detalham um dos assuntos que dominamos:{' '}
-                <Link href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">como ter motivação</Link> e usar isso para <Link href="/como-ter-proposito-de-vida">encontrar o seu propósito!</Link>
+                Se não estiver plenamente convencido, esperamos ter pelo menos plantado a semente do propósito.
             </p>
 
-            <br />
-            <br />
+            <Link nostyle href="/como-ter-proposito-de-vida"><PostImg src="/static/texto-2-cover.jpg" alt="Do que motivação é composta?" /></Link>
 
-            <PostCard cover="/static/texto-2-cover.jpg" href="/como-ter-proposito-de-vida">
-                Um propósito de vida é uma referência de futuro, que nos ajuda a tomar decisões no presente, e a ter uma vida mais completa. Como podemos usar o nosso passado e quem somos hoje, para moldar, a nosso favor, o curso de nossas vidas?
-            </PostCard>
+            <p>Pois como diria Nietzsche, aquele que tem um <strong>porquê</strong> supera qualquer <strong>como</strong>.</p>
 
-            <PostCard cover="/static/texto-1-diagrama-tarefas-2.svg" href="/como-ter-motivacao-e-fazer-o-que-nos-propomos">
-                Como ter motivação? As vezes parece ser impossível manter a motivação necessária para conseguir fazer o tudo que queremos. Porém, quando descobrimos "do que é feito" a motivação, fica tudo incrivelmente mais simples e mais fácil.
-            </PostCard>
+            <p>O nosso texto mais completo sobre <Link href="/como-ter-proposito-de-vida">como desenvolver propósito de vida</Link> pode ser de grande ajuda também!</p>
+        </section>
 
-            <PostCard cover="/static/texto-3-estrelas.jpg" href="/como-uma-referencia-temporal-pode-mudar-sua-vida">
-                Meio sensacionalista o título né? A outra alternativa era “como fazer as coisas certas pode te levar até à lua”, mas achei que ficaria ainda mais sensacionalista. Calma, eu explico o que uma referência temporal tem a ver com a lua e o que isso tem a ver com a sua vida.
-            </PostCard>
+
+        <section id="proposito-4">
+            <MailChimp text="Pra conversar pessoalmente com a gente sobre isso, é só deixar seu email!" buttonText="Quero conversar sobre propósito!" location="homepage-4" light />
         </section>
     </div>
 );
