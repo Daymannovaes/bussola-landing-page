@@ -3,6 +3,7 @@ import React from 'react';
 
 import LayoutPost from '../components/LayoutPost';
 import PostImg from '../components/PostImg';
+import PostImgColored from '../components/PostImgColored';
 import MailChimp from '../components/MailChimp';
 import Tip from '../components/Tip';
 import Link from '../components/Link';
@@ -13,7 +14,7 @@ export default () => (
 
         <p>Viver com propósito é buscar, <b>a todo momento</b>, expressar essa essência. Como se fosse uma cachoeira, que <b>a todo momento </b>flui, e é o próprio ato de fluir pela pedra que cria o caminho pelo qual a cachoeira pode seguir.</p>
 
-        <PostImg src="/static/texto-4-cachoeira-1.jpg" />
+        <PostImgColored bgColor={[154, 187, 218]} src="/static/texto-4-cachoeira-1.jpg" />
 
         <p>Você diria que vive esse estilo de vida?</p>
 
@@ -87,7 +88,7 @@ export default () => (
             </li>
         </ul>
 
-        <PostImg src="/static/texto-4-bushido.jpg" />
+        <PostImgColored bgColor={[202, 224, 206]} src="/static/texto-4-bushido.jpg" />
 
         <p>Eu gosto de fazer o contraste com outra cultura para ficar ainda mais claro que são valores intrínsecos do ser humano, pois o mesmo código de conduta também existe nas religiões ocidentais.</p>
 
@@ -126,7 +127,7 @@ export default () => (
 
         <p>São todos personagens inteligentes, com um pensamento extremamente analítico e que, em algum grau, são incompreendidos na maioria das vezes.</p>
 
-        <PostImg src="/static/texto-4-sherlock.jpg" />
+        <PostImgColored bgColor={[230, 208, 190]} src="/static/texto-4-sherlock.jpg" />
 
         <p>Isso quer dizer que sou inteligente e analítico? Não. Apenas que são características que valorizo. E mesmo sem perceber, acabo buscando essas coisas ao me relacionar com o mundo.</p>
 
@@ -193,7 +194,7 @@ export default () => (
 
         <p>Repita intensamente esse processo. Busque intensamente esse fluir dentro de você. Como uma Bússola guiando uma Cachoeira.</p>
 
-        <PostImg src="/static/texto-4-cachoeira-2.jpg" />
+        <PostImgColored bgColor={[210, 169, 135]} src="/static/texto-4-cachoeira-2.jpg" />
 
         <p>Essa Bússola é a verdadeira Escola.</p>
 
