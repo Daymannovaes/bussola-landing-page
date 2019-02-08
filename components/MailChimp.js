@@ -55,7 +55,7 @@ const MailChimp = ({
                 margin-left: -${MAIN_PADDING}px;
                 margin-right: -${MAIN_PADDING}px;
 
-                padding: ${4 * PADDING_UNIT}px 0;
+                padding: ${4 * PADDING_UNIT}px;
             }
 
             .colored-bg > form {
