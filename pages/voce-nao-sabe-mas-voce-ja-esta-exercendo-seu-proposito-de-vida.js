@@ -198,10 +198,6 @@ export default () => (
 
         <p>Essa Bússola é a verdadeira Escola.</p>
 
-        <br />
-        <hr />
-
-        <p>A Escola da Bússola ajuda as pessoas a se encontrar no mundo e expressar seus valores cada vez mais.</p>
-        <p>Clique para saber mais.</p>
+        <MailChimp text="A Escola da Bússola ajuda as pessoas a se encontrar no mundo e expressar seus valores com mais intensidade. Deixe seu email para saber mais:" coloredBg="#09678f" light lightText />
     </LayoutPost>
 );

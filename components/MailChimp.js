@@ -4,7 +4,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 import AnimateForever from './AnimateForever';
-import { colors, PADDING_UNIT, BORDER_RADIUS } from '../config/style-guide';
+import {
+    colors, PADDING_UNIT, POST_WIDTH, MAIN_PADDING, BORDER_RADIUS,
+} from '../config/style-guide';
 
 const MailChimp = ({
     text,
@@ -14,9 +16,11 @@ const MailChimp = ({
     buttonAnimationDelay,
     inputRef,
     light,
+    lightText,
     location,
+    coloredBg,
 }) => (
-    <div id={`form-${id}`}>
+    <div id={`form-${id}`} className={coloredBg ? 'colored-bg' : ''}>
         <style jsx>
             {`
             input[type="email"] {
@@ -40,7 +44,23 @@ const MailChimp = ({
             }
 
             #form-${id} {
+                color: ${lightText ? '#e5f2ff' : colors.deepblue};
                 margin-top: ${7 * PADDING_UNIT}px;
+            }
+
+            .colored-bg {
+                background: ${coloredBg};
+
+                max-width: none;
+                margin-left: -${MAIN_PADDING}px;
+                margin-right: -${MAIN_PADDING}px;
+
+                padding: ${4 * PADDING_UNIT}px 0;
+            }
+
+            .colored-bg > form {
+                margin: 0 auto;
+                max-width: ${POST_WIDTH}px;
             }
 
             .mc-field-group  :global(input), .mc-field-group :global(button) {
@@ -87,7 +107,9 @@ MailChimp.propTypes = {
     id: PropTypes.string,
     buttonAnimationDelay: PropTypes.number,
     light: PropTypes.bool,
+    lightText: PropTypes.bool,
     location: PropTypes.string,
+    coloredBg: PropTypes.bool,
     inputRef: PropTypes.object, // eslint-disable-line react/forbid-prop-types
 };
 
@@ -98,7 +120,9 @@ MailChimp.defaultProps = {
     id: 'signup',
     buttonAnimationDelay: 10000,
     light: false,
+    lightText: false,
     location: 'end-of-post',
+    coloredBg: false,
     inputRef: React.createRef(),
 };
 
