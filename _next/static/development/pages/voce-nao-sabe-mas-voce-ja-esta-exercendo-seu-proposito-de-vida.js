@@ -890,7 +890,7 @@ function (_Component) {
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "getDistanceFromMidPercentage", function (height) {
       var dist = Math.abs(_this.midPercentage - height);
-      var percentDiff = 1 - dist / _this.halfRange;
+      var percentDiff = 1 - Math.pow(dist, _this.speed) / Math.pow(_this.halfRange, _this.speed);
       return Math.max(0, percentDiff);
     });
 
@@ -902,6 +902,7 @@ function (_Component) {
     _this.halfRange = _this.range / 2;
     _this.ticking = false;
     _this.didChange = false;
+    _this.speed = 2;
     return _this;
   }
 
@@ -928,7 +929,7 @@ function (_Component) {
         ref: this.ref,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127
+          lineNumber: 129
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PostImg__WEBPACK_IMPORTED_MODULE_2__["default"], _extends({
@@ -936,7 +937,7 @@ function (_Component) {
       }, props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128
+          lineNumber: 130
         },
         __self: this
       })));
