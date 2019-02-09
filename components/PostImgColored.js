@@ -48,6 +48,8 @@ export default class PostImgColored extends Component {
 
         this.ticking = false;
         this.didChange = false;
+
+        this.speed = 2;
     }
 
     componentDidMount() {
@@ -114,7 +116,7 @@ export default class PostImgColored extends Component {
 
     getDistanceFromMidPercentage = (height) => {
         const dist = Math.abs(this.midPercentage - height);
-        const percentDiff = 1 - (dist / this.halfRange);
+        const percentDiff = 1 - ((dist ** this.speed) / (this.halfRange ** this.speed));
 
         return Math.max(0, percentDiff);
     };
