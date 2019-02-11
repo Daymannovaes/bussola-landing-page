@@ -16797,7 +16797,7 @@ var _jsxFileName = "/Users/daymannovaes/workspace/bussola-landing-page/pages/voc
     title: "Voc\xEA n\xE3o sabe, mas voc\xEA j\xE1 est\xE1 exercendo seu prop\xF3sito de vida",
     date: 1549647726046,
     id: "voce-nao-sabe-mas-voce-ja-esta-exercendo-seu-proposito-de-vida",
-    image: "texto-4-bushido.jpg",
+    image: "texto-4-bushido-cover.jpg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
