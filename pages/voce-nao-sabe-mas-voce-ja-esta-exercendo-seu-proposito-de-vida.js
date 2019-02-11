@@ -9,7 +9,7 @@ import Tip from '../components/Tip';
 import Link from '../components/Link';
 
 export default () => (
-    <LayoutPost title="Você não sabe, mas você já está exercendo seu propósito de vida" date={1549647726046} id="voce-nao-sabe-mas-voce-ja-esta-exercendo-seu-proposito-de-vida" image="texto-2-cover.jpg">
+    <LayoutPost title="Você não sabe, mas você já está exercendo seu propósito de vida" date={1549647726046} id="voce-nao-sabe-mas-voce-ja-esta-exercendo-seu-proposito-de-vida" image="texto-4-bushido-cover.jpg">
         <p>Um propósito de vida é aquilo que ressoa com seu ser, que ressoa com aquilo que você valoriza na sua essência mais profunda.</p>
 
         <p>Viver com propósito é buscar, <b>a todo momento</b>, expressar essa essência. Como se fosse uma cachoeira, que <b>a todo momento </b>flui, e é o próprio ato de fluir pela pedra que cria o caminho pelo qual a cachoeira pode seguir.</p>
