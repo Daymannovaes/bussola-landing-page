@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from '../components/Button';
-import Link from '../components/Link';
+import Button from '../../components/Button';
+import Link from '../../components/Link';
 
 export default () => (
     <div>
