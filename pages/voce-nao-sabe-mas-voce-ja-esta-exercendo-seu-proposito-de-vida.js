@@ -184,6 +184,17 @@ export default () => (
             <li>
                 Busque expressar esses valores cada vez mais em todos os contextos de vida
             </li>
+            <ol>
+                <li>
+                    Como você pode expressar mais esses valores na sua profissão?
+                </li>
+                <li>
+                    Onde você pode encontrar pessoas que fazem coisas parecidas? (e vai lá falar com essas pessoas!)
+                </li>
+                <li>
+                    Como aproveitar mais seus hobbies para que eles expressem esses valores? (filmes, viagens, esportes, etc.)
+                </li>
+            </ol>
             <li>
                 Se encontrar alguma incoerência entre valores, tenha coragem de abandoná-los ou transformá-los
             </li>
