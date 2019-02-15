@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import ResponsiveTitle from '../components/ResponsiveTitle';
 import MailChimp from '../components/MailChimp';
 import Video from '../components/Video';
@@ -6,6 +7,13 @@ import { PADDING_UNIT, BORDER_RADIUS } from '../config/style-guide';
 
 export default () => (
     <div>
+        <Head>
+            <meta property="og:video" content="https://www.youtube.com/v/ovFOiN_RWsc" />
+            <meta property="og:image" content="https://img.youtube.com/vi/ovFOiN_RWsc/maxresdefault.jpg" />
+            <meta property="og:type" content="video" />
+            <meta property="og:description" content="O que é a Bussola.school?" />
+        </Head>
+
         <style jsx>{`
         iframe {
             position: absolute;
