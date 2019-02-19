@@ -10,6 +10,12 @@ import Link from '../components/Link';
 
 export default () => (
     <LayoutPost title="Você não sabe, mas você já está exercendo seu propósito de vida" date={1549647726046} id="voce-nao-sabe-mas-voce-ja-esta-exercendo-seu-proposito-de-vida" image="texto-4-bushido-cover.jpg">
+        <style jsx>
+        {`
+            .list-nostyle, .list-nostyle ul {
+                list-style: none;
+            }
+        `}</style>
         <p>Um propósito de vida é aquilo que ressoa com seu ser, que ressoa com aquilo que você valoriza na sua essência mais profunda.</p>
 
         <p>Viver com propósito é buscar, <b>a todo momento</b>, expressar essa essência. Como se fosse uma cachoeira, que <b>a todo momento </b>flui, e é o próprio ato de fluir pela pedra que cria o caminho pelo qual a cachoeira pode seguir.</p>
@@ -163,45 +169,45 @@ export default () => (
 
         <p>Então resumindo,</p>
 
-        <ol>
+        <ul className="list-nostyle">
             <li>
-                Descubra os seus valores mais essenciais
+                1. Descubra os seus valores mais essenciais
             </li>
-            <ol>
+            <ul>
                 <li>
-                    Olhe para dentro de si
+                    1.1. Olhe para dentro de si
                 </li>
                 <li>
-                    Olhe para seu passado, para os momentos mais marcantes e mais importantes que te moldaram
+                    1.2. Olhe para seu passado, para os momentos mais marcantes e mais importantes que te moldaram
                 </li>
                 <li>
-                    Quais as coisas que você valoriza nas suas relações pessoais?
+                    1.3. Quais as coisas que você valoriza nas suas relações pessoais?
                 </li>
                 <li>
-                    Pergunte a seus amigos como eles te enxergam como pessoa
+                    1.4. Pergunte a seus amigos como eles te enxergam como pessoa
                 </li>
-            </ol>
+            </ul>
             <li>
-                Busque expressar esses valores cada vez mais em todos os contextos de vida
+                2. Busque expressar esses valores cada vez mais em todos os contextos de vida
             </li>
-            <ol>
+            <ul>
                 <li>
-                    Como você pode expressar mais esses valores na sua profissão?
+                    2.1. Como você pode expressar mais esses valores na sua profissão?
                 </li>
                 <li>
-                    Onde você pode encontrar pessoas que fazem coisas parecidas? (e vai lá falar com essas pessoas!)
+                    2.2. Onde você pode encontrar pessoas que fazem coisas parecidas? (e vai lá falar com essas pessoas!)
                 </li>
                 <li>
-                    Como aproveitar mais seus hobbies para que eles expressem esses valores? (filmes, viagens, esportes, etc.)
+                    2.3. Como aproveitar mais seus hobbies para que eles expressem esses valores? (filmes, viagens, esportes, etc.)
                 </li>
-            </ol>
+            </ul>
             <li>
-                Se encontrar alguma incoerência entre valores, tenha coragem de abandoná-los ou transformá-los
+                3. Se encontrar alguma incoerência entre valores, tenha coragem de abandoná-los ou transformá-los
             </li>
             <li>
-                Repita o processo, constantemente
+                4. Repita o processo, constantemente
             </li>
-        </ol>
+        </ul>
 
         <p>Repita intensamente esse processo. Busque intensamente esse fluir dentro de você. Como uma Bússola guiando uma Cachoeira.</p>
 
