@@ -26,16 +26,20 @@ export default () => (
             }
 
             div h3 {
-                margin-top: ${5 * PADDING_UNIT}px;
+                margin: ${5 * PADDING_UNIT}px 0;
             }
 
             section {
                 width: calc(100vw - 120px);
-                padding: 60px;
+                padding: 120px 60px;
             }
 
             #form, #proposito-4 {
                 background: #277ed6;
+                color: #e5f2ff;
+            }
+
+            #form :global(label), #proposito-4 :global(label) {
                 color: #e5f2ff;
             }
 
@@ -45,7 +49,7 @@ export default () => (
                 display: block;
             }
 
-            #proposito-1 p, #proposito-2 p, #proposito-3 p {
+            section p {
                 margin: 2em auto;
             }
 
@@ -61,30 +65,79 @@ export default () => (
                 text-transform: initial;
                 padding: 0 ${PADDING_UNIT}px;
             }
+
+            #title {
+                position: relative;
+                display: inline-block;
+                margin-bottom: ${7 * PADDING_UNIT}px;
+            }
+
+            #title h1 {
+                display: inline-block;
+            }
+
+            #title h2 {
+                position: absolute;
+                right: 0;
+                font-size: 0.8em;
+                margin-top: -15px;
+                font-weight: 100;
+                color: #58838e;
+                text-align: right;
+                text-shadow: none;
+            }
+
+            .bg1 {
+                background: #e0e0e0;
+            }
         `}
         </style>
         <header>
-            <ResponsiveTitle>Bussola<span className="hide-xs">.school</span></ResponsiveTitle>
+            <div id="title">
+                <ResponsiveTitle>Bussola<span className="hide-xs">.school</span></ResponsiveTitle>
 
-            <h2>
-                Escola de desenvolvimento pessoal
-            </h2>
+                <h2>
+                    Escola de desenvolvimento pessoal
+                </h2>
+            </div>
 
             <h3>
-                Nós guiamos pessoas até atingirem seus objetivos.
+                Nós te ajudamos a descobrir qual a melhor decisão de vida, <i>a cada instante</i>.
             </h3>
         </header>
 
-        <section id="form">
+        <section className="bg1">
             <p>
-                Já pensou no que te impede de seguir seu propósito plenamente e de conquistar seus objetivos?
+                Você gosta do seu trabalho? Sente que as vezes está andando sem direção na vida e não consegue perceber progresso?
             </p>
 
-            <MailChimp text="Se esse assunto te interessa, coloca seu email abaixo para saber como podemos te ajudar nisso!" buttonText="cadastrar" location="homepage" light />
+            <p>
+                Nós da Bussola acreditamos que é tudo uma questão de perspectiva, você só precisa encontrar a sua Bussola interna.
+            </p>
+
+            <p>
+                Parece muito abstrato?
+            </p>
+
+            <p>
+                Mas não poderia ser mais real! Na verdade, você já está seguindo sua Bussola nesse exato instante!
+            </p>
+
+            <p>
+                <Link href="/voce-nao-sabe-mas-voce-ja-esta-exercendo-seu-proposito-de-vida">veja o texto que escrevemos sobre isso.</Link>
+            </p>
+        </section>
+
+        <section id="form">
+            <p>
+                Já pensou no que te impede de viver uma vida que vale a pena ser vivida?
+            </p>
+
+            <MailChimp text="Se esse assunto te interessa, coloca seu email abaixo para saber como podemos te ajudar nisso!" buttonText="quero!" location="homepage" light />
         </section>
 
         <section id="proposito-1">
-            <p>Você tem um propósito de vida? Sabe como encontrar?</p>
+            <p>Mas o que é um propósito de vida? Para que ele serve? Como posso encontrar o meu?</p>
 
             <p>Um propósito de vida é uma referência de futuro, como se fosse uma bússola temporal, algo que te ajuda a guiar sua vida.</p>
 
