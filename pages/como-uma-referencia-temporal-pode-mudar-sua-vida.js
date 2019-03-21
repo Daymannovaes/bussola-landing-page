@@ -3,6 +3,7 @@ import React from 'react';
 
 import LayoutPost from '../components/LayoutPost';
 import PostImg from '../components/PostImg';
+import PostImgColored from '../components/PostImgColored';
 import MailChimp from '../components/MailChimp';
 import Tip from '../components/Tip';
 import Link from '../components/Link';
@@ -21,7 +22,7 @@ export default () => (
 
         <p>As vezes esse mapa está apenas dentro de nossas cabeças (você sabe onde ficam os cômodos da sua casa, certo?), as vezes em papel ou as vezes no celular, com o auxílio do GPS.</p>
 
-        <PostImg src="/static/texto-3-mapa.jpg" />
+        <PostImgColored bgColor={[241, 185, 95]} src="/static/texto-3-mapa.jpg" />
 
         <p><i>Você tá explicando coisa óbvia, foi pra isso que cliquei no seu título sensacionalista?</i> - Talvez vocês me perguntem, um pouco indignados. Calma! Essa explicação é apenas para entendermos algo mais complexo, em termos de coisas que todos já conhecemos bem. Uma metáfora.</p>
 
@@ -37,7 +38,7 @@ export default () => (
 
         <p>A dimensão é outra, mas a lógica é a mesma: precisamos conhecer o nosso redor para saber navegar bem, precisamos de um <strong>mapa temporal</strong>.</p>
 
-        <PostImg src="/static/texto-3-estrelas.jpg" />
+        <PostImgColored bgColor={[26, 24, 30]} textColor={[225, 225, 225]} src="/static/texto-3-estrelas.jpg" />
 
         <p>No espaço estamos <strong>aqui</strong>. No tempo estamos no <strong>agora</strong>. O <strong>entorno</strong> do presente é o passado e o futuro.</p>
 
@@ -51,7 +52,7 @@ export default () => (
 
         <h3>O que a lua tem a ver com isso?</h3>
 
-        <PostImg src="/static/texto-3-lua.jpg" />
+        <PostImgColored bgColor={[104, 150, 140]} src="/static/texto-3-lua.jpg" />
 
         <p>O livro The ONE Thing nos conta que, No Dia do Dominó, em 13 de novembro de 2009, a Weijers Domino Productions quebrou o recorde mundial de queda de dominó, alinhando mais de quatro milhões de peças. Nesse evento, uma única peça colocou em movimento uma queda que acumulou 94.000 joules de energia.</p>
 
@@ -61,7 +62,7 @@ export default () => (
 
         <p>Começando com um pequeno dominó de 5 centímetros, lá pelo 18º, você veria uma peça quase do tamanho da Torre de Pisa. O 23º dominó seria bem maior que a Torre Eiffel, e o 31º, quase mil metros mais alto que o Monte Everest. <strong>O 57º cobriria, praticamente, a distância entre a Terra e a Lua!</strong></p>
 
-        <PostImg src="/static/texto-3-dominos.jpg" />
+        <PostImgColored bgColor={[255, 255, 255]} src="/static/texto-3-dominos.jpg" />
 
         <p>Você entende que quando alinhamos as coisas corretas, cada movimento acaba ajudando a produzir o próximo, produzindo resultados extraordinários?</p>
 
@@ -79,7 +80,7 @@ export default () => (
 
         <MailChimp text="" buttonText="quero ajuda!" placeholder="email da sua vida" />
 
-        <PostImg src="/static/texto-3-bussola.jpg" />
+        <PostImgColored bgColor={[42, 40, 33]} textColor={[225, 225, 225]} src="/static/texto-3-bussola.jpg" />
 
         <p>É dessa forma que uma referência temporal pode mudar a sua vida, é dessa forma que fazendo as coisas certas você pode chegar até à lua.</p>
 
