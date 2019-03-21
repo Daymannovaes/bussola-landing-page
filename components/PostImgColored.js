@@ -54,10 +54,14 @@ export default class PostImgColored extends Component {
 
     componentDidMount() {
         this.mainElement = window.document.querySelector('main');
+        this.sectionElement = window.document.querySelector('main section');
 
         this.initialRGB = getColorFromElement(this.mainElement);
 
-        const { bgColor: finalRGB } = this.props;
+        const {
+            bgColor: finalRGB,
+        } = this.props;
+
         this.diffRGB = [
             finalRGB[0] - this.initialRGB[0],
             finalRGB[1] - this.initialRGB[1],
@@ -76,13 +80,21 @@ export default class PostImgColored extends Component {
             this.ticking = true;
 
             const percentage = this.getDistanceFromMidPercentage(this.getPercentageHeight());
+            const {
+                textColor,
+                percentageToChangeText = 0.46,
+            } = this.props;
 
             if (percentage === 0) {
                 this.ticking = false;
                 if (!this.didChange) return null;
 
                 this.didChange = false;
-                return this.mainElement.removeAttribute('style');
+                this.didChangeText = false;
+                this.mainElement.removeAttribute('style');
+                this.sectionElement.removeAttribute('style');
+
+                return null;
             }
 
             this.didChange = true;
@@ -96,12 +108,21 @@ export default class PostImgColored extends Component {
 
                 this.mainElement.setAttribute('style', `background-color: rgb(${finalRGB[0]}, ${finalRGB[1]}, ${finalRGB[2]}) !important;`);
 
+                this.didChangeText = this.didChangeText && (percentage < percentageToChangeText);
+                if (textColor && !this.didChangeText && percentage > percentageToChangeText) {
+                    this.didChangeText = true;
+                    this.sectionElement.setAttribute('style', `color: rgb(${textColor[0]}, ${textColor[1]}, ${textColor[2]}) !important;`);
+                } else if (percentage < percentageToChangeText) {
+                    this.sectionElement.removeAttribute('style');
+                }
+
                 this.ticking = false;
             });
         }
 
         return null;
     };
+
 
     getPercentageHeight = () => {
         const viewport = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
@@ -135,5 +156,12 @@ export default class PostImgColored extends Component {
 
 PostImgColored.propTypes = {
     src: PropTypes.string.isRequired,
-    bgColor: PropTypes.string.isRequired,
+    bgColor: PropTypes.arrayOf(PropTypes.number).isRequired,
+    textColor: PropTypes.arrayOf(PropTypes.number),
+    percentageToChangeText: PropTypes.number,
+};
+
+PostImgColored.defaultProps = {
+    percentageToChangeText: null,
+    textColor: null,
 };
