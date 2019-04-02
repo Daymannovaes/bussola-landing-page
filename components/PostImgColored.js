@@ -148,6 +148,14 @@ export default class PostImgColored extends Component {
 
         return (
             <div ref={this.ref}>
+                <style jsx>
+                    {`
+                        div {
+                            max-width: none;
+                        }
+                    `}
+                </style>
+
                 <PostImg src={src} {...props} />
             </div>
         );

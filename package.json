@@ -4,6 +4,7 @@
   "description": "Landing Page for the Bussola School",
   "main": "index.js",
   "scripts": {
+    "start": "npm run dev",
     "dev": "next",
     "test": "NODE_ENV=test jest",
     "test:watch": "NODE_ENV=test jest --watch",
