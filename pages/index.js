@@ -90,6 +90,43 @@ export default () => (
             .bg1 {
                 background: #e0e0e0;
             }
+
+            .bad {
+                color: #c74242;
+            }
+
+            .good {
+                color: #4949d9;
+            }
+
+
+            #thunder {
+                margin: -320px -60px -290px -60px;
+                max-width: initial;
+                width: calc(100% + 120px);
+                opacity: 0.1;
+            }
+
+            @media only screen and (max-width: 1200px) {
+                #thunder {
+                    margin: -240px -60px;
+                }
+            }
+            @media only screen and (max-width: 900px) {
+                #thunder {
+                    margin: -160px -60px;
+                }
+            }
+            @media only screen and (max-width: 600px) {
+                #thunder {
+                    margin: -120px -60px;
+                }
+            }
+            @media only screen and (max-width: 270px) {
+                #thunder {
+                    margin: -80px -60px;
+                }
+            }
         `}
         </style>
         <header>
@@ -102,29 +139,33 @@ export default () => (
             </div>
 
             <h3>
-                Nós te ajudamos a descobrir qual a melhor decisão de vida, <i>a cada instante</i>.
+                Na busca por despertar o potencial da consciência humana e integrar a humanidade.
             </h3>
         </header>
 
         <section className="bg1">
             <p>
-                Você gosta do seu trabalho? Sente que as vezes está andando sem direção na vida e não consegue perceber progresso?
+                O mundo está seguindo uma tendência exponencial e você encontrará dois tipos de visões: a pessimista e a otimista.
             </p>
 
             <p>
-                Nós da Bussola acreditamos que é tudo uma questão de perspectiva, você só precisa encontrar a sua Bussola interna.
+                Nós sabemos que essas duas forças lutam entre si, e a tendência é que a polarização aumente: um futuro <strong className="bad">cada vez pior</strong> ou um futuro <strong className="good">cada vez melhor</strong>.
+            </p>
+
+            <img src="/static/thunder.png" id="thunder" alt="thunder" />
+
+            <p>
+                Sabemos também que podemos <strong>contribuir ativamente</strong> para construir uma das duas realidades.
             </p>
 
             <p>
-                Parece muito abstrato?
+                É por isso que a <strong className="good">Bussola</strong> está trabalhando para despertar o potencial das pessoas, desenvolvê-las e integrar a humanidade no <strong className="good">melhor futuro que conseguirmos criar.</strong>
             </p>
 
-            <p>
-                Mas não poderia ser mais real! Na verdade, você já está seguindo sua Bussola nesse exato instante!
-            </p>
+            <br />
 
             <p>
-                <Link href="/voce-nao-sabe-mas-voce-ja-esta-exercendo-seu-proposito-de-vida">veja o texto que escrevemos sobre isso.</Link>
+                <Link href="/voce-nao-sabe-mas-voce-ja-esta-exercendo-seu-proposito-de-vida">Mesmo sem saber, você já está contribuindo para esse futuro.</Link>
             </p>
         </section>
 
@@ -137,7 +178,7 @@ export default () => (
         </section>
 
         <section id="proposito-1">
-            <p>Mas o que é um propósito de vida? Para que ele serve? Como posso encontrar o meu?</p>
+            <p>O que é um propósito de vida? Para que ele serve? Como posso construir o meu?</p>
 
             <p>Um propósito de vida é uma referência de futuro, como se fosse uma bússola temporal, algo que te ajuda a guiar sua vida.</p>
 
