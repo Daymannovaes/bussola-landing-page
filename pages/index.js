@@ -107,6 +107,13 @@ export default () => (
                     margin-top: -65px;
                 }
 
+                @media only screen and (max-width: 610px) {
+                    header :global(.logo) {
+                        top: -30px;
+                        margin-top: -30px;
+                    }
+                }
+
                 #form {
                     padding-top: 80px;
                     padding-bottom: 80px;
@@ -132,7 +139,7 @@ export default () => (
             </section>
 
             <section id="proposito-1">
-                <p>Nós somos uma escola, uma comunidade, um grupo de pessoas com o objetivo de descobrir de construir uma vida que faça sentido.</p>
+                <p>Nós somos uma escola, uma comunidade, um grupo de pessoas com o objetivo de construir uma vida que faça sentido.</p>
 
                 <p>Nosso propósito é te ajudar a <strong>progredir consistentemente</strong> nos seus objetivos pessoais.</p>
 
@@ -140,7 +147,7 @@ export default () => (
 
                 <p>Mas não somos uma "escola de produtividade".</p>
 
-                <p>Progresso consistente não é sobre produtividade. É sobre como construir objetivos alinhados com seus valores.</p>
+                <p>Progresso consistente não é sobre produtividade. É sobre saber construir objetivos alinhados com seus valores.</p>
 
                 <p>Não é sobre atingir metas. É sobre como definir as metas.</p>
 
