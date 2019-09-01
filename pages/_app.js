@@ -6,8 +6,6 @@ import Head from 'next/head';
 import withGA from 'next-ga';
 import nprogress from 'nprogress';
 
-import LayoutMain from '../components/LayoutMain';
-
 class MyApp extends App {
     constructor(props) {
         super(props);
@@ -52,9 +50,7 @@ class MyApp extends App {
                     </style>
                 </Head>
 
-                <LayoutMain>
-                    <Component {...pageProps} />
-                </LayoutMain>
+                <Component {...pageProps} />
             </Container>
         );
     }

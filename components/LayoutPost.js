@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 
+import LayoutMain from './LayoutMain';
 import Disqus from './Disqus';
 
 import {
@@ -17,99 +18,101 @@ const LayoutPost = ({
     date,
     id,
 }) => (
-    <section>
-        <Head>
-            <title>{title} - Bussola.school</title>
+    <LayoutMain>
+        <section>
+            <Head>
+                <title>{title} - Bussola.school</title>
 
-            <meta property="fb:app_id" content="1968620513446457" />
-            <meta property="og:url" content={`${SITE_URL}/${id}`} />
-            <meta property="og:title" content={`${title} - Bussola.school`} />
-            <meta property="og:description" content={`${title} - Bussola.school`} />
-            <meta property="og:site_name" content="Bussola.school" />
-            <meta property="og:image" content={`${SITE_URL}/static/${image}`} />
+                <meta property="fb:app_id" content="1968620513446457" />
+                <meta property="og:url" content={`${SITE_URL}/${id}`} />
+                <meta property="og:title" content={`${title} - Bussola.school`} />
+                <meta property="og:description" content={`${title} - Bussola.school`} />
+                <meta property="og:site_name" content="Bussola.school" />
+                <meta property="og:image" content={`${SITE_URL}/static/${image}`} />
 
-            <meta property="og:type" content="article" />
-            <meta property="article:author" content="Dayman Novaes" />
-            <meta property="article:published_time" content={date} />
-        </Head>
+                <meta property="og:type" content="article" />
+                <meta property="article:author" content="Dayman Novaes" />
+                <meta property="article:published_time" content={date} />
+            </Head>
 
-        <style jsx>
-            {`
-            :global(main) {
-                background: ${colors.lightwhite} !important;
-            }
+            <style jsx>
+                {`
+                :global(main) {
+                    background: ${colors.lightwhite} !important;
+                }
 
-            section {
-                color: ${colors.lightblack};
-                text-align: left;
-                line-height: 1.6;
-                letter-spacing: -.004em;
+                section {
+                    color: ${colors.lightblack};
+                    text-align: left;
+                    line-height: 1.6;
+                    letter-spacing: -.004em;
 
-                margin: 0 auto;
-                padding-left: ${POST_SECTION_PADDING}px
-                padding-right: ${POST_SECTION_PADDING}px;
+                    margin: 0 auto;
+                    padding-left: ${POST_SECTION_PADDING}px
+                    padding-right: ${POST_SECTION_PADDING}px;
 
-                font-size: 0.9em;
-            }
+                    font-size: 0.9em;
+                }
 
-            article :global(> *) {
-                max-width: ${POST_WIDTH}px;
-                margin-left: auto;
-                margin-right: auto;
-            }
+                article :global(> *) {
+                    max-width: ${POST_WIDTH}px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
 
-            section :global(ul.LayoutPost-clear) {
-                list-style: none;
-            }
+                section :global(ul.LayoutPost-clear) {
+                    list-style: none;
+                }
 
-            section :global(p) {
-                margin-top: ${6 * PADDING_UNIT}px;
-                margin-bottom: 0;
-            }
+                section :global(p) {
+                    margin-top: ${6 * PADDING_UNIT}px;
+                    margin-bottom: 0;
+                }
 
-            section article h1 {
-                font-size: 1.5em;
-            }
+                section article h1 {
+                    font-size: 1.5em;
+                }
 
-            section :global(h1), section :global(h2), section :global(h3), section :global(h4) {
-                text-shadow: initial;
-                text-transform: initial;
-                max-width: ${POST_ASSET_WIDTH}px !important;
-                font-weight: 900;
-                margin-top: ${6 * PADDING_UNIT}px;
-            }
+                section :global(h1), section :global(h2), section :global(h3), section :global(h4) {
+                    text-shadow: initial;
+                    text-transform: initial;
+                    max-width: ${POST_ASSET_WIDTH}px !important;
+                    font-weight: 900;
+                    margin-top: ${6 * PADDING_UNIT}px;
+                }
 
-            section :global(h3), section :global(h4) {
-                padding: ${2 * PADDING_UNIT}px ${4 * PADDING_UNIT}px;
-                border-bottom: 4px dotted #00000020;
-                transition: 200ms all;
-            }
+                section :global(h3), section :global(h4) {
+                    padding: ${2 * PADDING_UNIT}px ${4 * PADDING_UNIT}px;
+                    border-bottom: 4px dotted #00000020;
+                    transition: 200ms all;
+                }
 
-            section acticle :global(h3), section article :global(h4) {
-                margin-bottom: -${3 * PADDING_UNIT}px;
-            }
+                section acticle :global(h3), section article :global(h4) {
+                    margin-bottom: -${3 * PADDING_UNIT}px;
+                }
 
-            section :global(h3:hover), section :global(h4:hover) {
-                border-bottom: 4px dotted #00000050;
-            }
+                section :global(h3:hover), section :global(h4:hover) {
+                    border-bottom: 4px dotted #00000050;
+                }
 
-            date {
-                font-size: 0.9em;
-                color: ${colors.lightblue};
-            }
-        `}
-        </style>
+                date {
+                    font-size: 0.9em;
+                    color: ${colors.lightblue};
+                }
+            `}
+            </style>
 
-        <article>
-            <h1>{title}</h1>
+            <article>
+                <h1>{title}</h1>
 
-            <date>{(new Date(date)).toDateString()}</date>
+                <date>{(new Date(date)).toDateString()}</date>
 
-            {children}
-        </article>
+                {children}
+            </article>
 
-        <Disqus id={id} title={title} />
-    </section>
+            <Disqus id={id} title={title} />
+        </section>
+    </LayoutMain>
 );
 
 LayoutPost.propTypes = {

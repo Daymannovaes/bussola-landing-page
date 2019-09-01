@@ -7,7 +7,7 @@ import {
     colors, PADDING_UNIT, MAIN_PADDING,
 } from '../config/style-guide';
 
-const LayoutMain = ({ children }) => (
+const LayoutMain = ({ hideLogo, children }) => (
     <main>
         <style jsx>
             {`
@@ -39,16 +39,18 @@ const LayoutMain = ({ children }) => (
                 font-weight: 100;
                 color: ${colors.lightblue};
             }
+
+            .hide {
+                display: none;
+            }
         `}
         </style>
 
         <Flex container>
-            <Logo />
+            {hideLogo ? <React.Fragment></React.Fragment> : <Logo />}
 
             <Flex>
-                <div className="container-body">
-                    {children}
-                </div>
+                {children}
             </Flex>
         </Flex>
     </main>
@@ -56,6 +58,11 @@ const LayoutMain = ({ children }) => (
 
 LayoutMain.propTypes = {
     children: PropTypes.node.isRequired,
+    hideLogo: PropTypes.bool,
+};
+
+LayoutMain.defaultProps = {
+    hideLogo: false,
 };
 
 export default LayoutMain;
