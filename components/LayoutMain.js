@@ -7,7 +7,7 @@ import {
     colors, PADDING_UNIT, MAIN_PADDING,
 } from '../config/style-guide';
 
-const LayoutMain = ({ hideLogo, children }) => (
+const LayoutMain = ({ hideLogo, hidePadding, children }) => (
     <main>
         <style jsx>
             {`
@@ -15,7 +15,7 @@ const LayoutMain = ({ hideLogo, children }) => (
                 background: ${colors.gray};
                 font-size: 1.5em;
                 color: ${colors.lightblue};
-                padding: ${MAIN_PADDING}px;
+                padding: ${hidePadding ? 'initial' : `${MAIN_PADDING}px`};
                 text-align: center;
                 font-family: 'Open Sans', sans-serif;
             }
@@ -59,10 +59,12 @@ const LayoutMain = ({ hideLogo, children }) => (
 LayoutMain.propTypes = {
     children: PropTypes.node.isRequired,
     hideLogo: PropTypes.bool,
+    hidePadding: PropTypes.bool,
 };
 
 LayoutMain.defaultProps = {
     hideLogo: false,
+    hidePadding: false,
 };
 
 export default LayoutMain;

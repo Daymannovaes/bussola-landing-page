@@ -12,12 +12,15 @@ const ResponsiveTitle = ({ children }) => (
             }
 
             @media only screen and (max-width: 420px) {
+                h1 {
+                    font-size: 1.4em;
+                }
                 h1 > :global(.hide-xs) {
                     display: none;
                 }
             }
 
-            @media only screen and (max-width: 270px) {
+            @media only screen and (max-width: 305px) {
                 h1 {
                     font-size: 1em;
                 }
