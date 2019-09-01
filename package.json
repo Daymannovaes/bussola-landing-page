@@ -46,7 +46,7 @@
     "jest": "^23.6.0",
     "pre-commit": "^1.2.2",
     "react-test-renderer": "^16.5.2",
-    "serve": "^10.0.1"
+    "serve": "^10.1.2"
   },
   "dependencies": {
     "@babel/core": "^7.1.2",
