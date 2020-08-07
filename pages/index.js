@@ -89,7 +89,6 @@ export default () => (
 
                 header :global(h1) {
                     color: white;
-                    text-shadow: 0px 6px 1px #0000003d;
                 }
 
                 header :global(h3) {
@@ -98,7 +97,6 @@ export default () => (
                     max-width: 740px;
                     font-weight: bold;
                     color: #ffffff;
-                    text-shadow: 0px 6px 1px #0000003d;
                 }
 
                 header :global(.logo) {
